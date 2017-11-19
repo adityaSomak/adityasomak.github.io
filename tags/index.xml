@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Somak Aditya</copyright>
+    <copyright>&amp;copy; 2017 Somak Aditya</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/" rel="self" type="application/rss+xml" />
     
@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>Deep Learning</title>
+      <link>https://somakaditya.github.io/tags/deep-learning/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://somakaditya.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Demo</title>
       <link>https://somakaditya.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/tags/demo/</guid>
       <description></description>
@@ -44,6 +53,15 @@
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soft Logic</title>
+      <link>https://somakaditya.github.io/tags/soft-logic/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://somakaditya.github.io/tags/soft-logic/</guid>
       <description></description>
     </item>
     

@@ -6,47 +6,143 @@
     <description>Recent content in Publications on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Somak Aditya</copyright>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Somak Aditya</copyright>
+    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Explicit Reasoning over End-to-End Neural Architectures</title>
+      <link>https://somakaditya.github.io/publication/pslvqa/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://somakaditya.github.io/publication/pslvqa/</guid>
+      <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language pro-
+cessing. Here we adopt Visual Question Answering (VQA) as an example task, where a system is expected to answer a
+question in natural language about an image. Current state-of-the-art systems attempted to solve the task using deep neural
+architectures and achieved promising performance. However, the resulting systems are generally opaque and they struggle
+in understanding questions for which extra knowledge is required. In this paper, we present an explicit reasoning layer on
+top of a set of penultimate neural network based systems. The reasoning layer enables reasoning and answering questions
+where additional knowledge is required, and at the same time provides an interpretable interface to the end users. Specif-
+ically, the reasoning layer adopts a Probabilistic Soft Logic (PSL) based engine to reason over a basket of inputs: visual
+relations, semantic parse of the question, and background ontological knowledge from word2vec and ConceptNet.
+Experimental analysis of the answers and the key evidential predicates generated on the VQA dataset validate our approach.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Answering Image Riddles using Vision and Reasoning through Probabilistic Soft Logic</title>
       <link>https://somakaditya.github.io/publication/riddles/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/publication/riddles/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
+Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
+knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
+a groundtruth answer. The annotations are validated using crowd-sourced evaluation. We also define an automatic evaluation
+metric to track future progress. Our task bears similarity with the commonly known IQ tasks such as analogy solving,
+sequence filling that are often used to test intelligence.&lt;/p&gt;
+
+&lt;p&gt;We develop a Probabilistic Reasoning-based approach that utilizes probabilistic commonsense knowledge to answer these
+riddles with a reasonable accuracy. We demonstrate the results of our approach using both automatic and human evaluations.
+Our approach achieves some promising results ($12\%$ improvement over baseline) for these riddles and provides a strong baseline for future attempts. We make
+the entire dataset and related materials publicly available to the community.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>DeepIU: An Architecture for Image Understanding</title>
       <link>https://somakaditya.github.io/publication/deepiu/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/publication/deepiu/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;Image Understanding is fundamental to systems that need to extract contents and infer concepts
+from images. In this paper, we develop an architecture for understanding images, through which a
+system can recognize the content and the underlying concepts of an image and, reason and answer
+questions about both using a visual module, a reasoning module, and a commonsense knowledge
+base. In this architecture, visual data combines with background knowledge and; iterates through
+visual and reasoning modules to answer questions about an image or to generate a textual description
+of an image. We first provide motivations of such a Deep Image Understanding architecture
+and then, we describe the necessary components it should include. We also introduce our own
+preliminary implementation of this architecture and empirically show how this more generic implementation
+compares with a recent end-to-end Neural approach on specific applications. We
+address the knowledge-representation challenge in such an architecture by representing an image
+using a directed labeled graph (called Scene Description Graph). Our implementation uses generic
+visual recognition techniques and commonsense reasoning to extract such graphs from images.
+Our experiments show that the extracted graphs capture the syntactic and semantic content of an
+image with reasonable accuracy.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
       <link>https://somakaditya.github.io/publication/sdg/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/publication/sdg/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;In this paper we propose the construction of linguistic
+descriptions of images. This is achieved through the extraction
+of scene description graphs (SDGs) from visual scenes
+using an automatically constructed knowledge base. SDGs
+are constructed using both vision and reasoning. Specifically,
+commonsense reasoning1
+is applied on (a) detections
+obtained from existing perception methods on given
+images, (b) a “commonsense” knowledge base constructed
+using natural language processing of image annotations
+and &amp;copy; lexical ontological knowledge from resources such
+as WordNet. Amazon Mechanical Turk(AMT)-based evaluations
+on Flickr8k, Flickr30k and MS-COCO datasets show
+that in most cases, sentences auto-constructed from SDGs
+obtained by our method give a more relevant and thorough
+description of an image than a recent state-of-the-art image
+caption based approach. Our Image-Sentence Alignment
+Evaluation results are also comparable to that of the recent
+state-of-the art approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
+      <link>https://somakaditya.github.io/publication/kparser/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://somakaditya.github.io/publication/kparser/</guid>
+      <description>&lt;p&gt;Concerned about the Turing test’s ability to correctly
+evaluate if a system exhibits human-like intelligence,
+the Winograd Schema Challenge (WSC)
+has been proposed as an alternative. A Winograd
+Schema consists of a sentence and a question. The
+answers to the questions are intuitive for humans
+but are designed to be difficult for machines, as
+they require various forms of commonsense knowledge
+about the sentence. In this paper we demonstrate
+our progress towards addressing the WSC.
+We present an approach that identifies the knowledge
+needed to answer a challenge question, hunts
+down that knowledge from text repositories, and
+then reasons with them to come up with the answer.
+In the process we develop a semantic parser
+(&lt;a href=&#34;www.kparser.org&#34; target=&#34;_blank&#34;&gt;www.kparser.org&lt;/a&gt;). We show that our approach
+works well with respect to a subset of Winograd
+schemas.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</title>
       <link>https://somakaditya.github.io/publication/common-sense/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/publication/common-sense/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;In this paper we explore the use of visual commonsense
+knowledge and other kinds of knowledge (such as
+domain knowledge, background knowledge, linguistic
+knowledge) for scene understanding. In particular, we
+combine visual processing with techniques from natural
+language understanding (especially semantic parsing),
+common-sense reasoning and knowledge representation
+and reasoning to improve visual perception to reason
+about finer aspects of activities&lt;/p&gt;
 </description>
     </item>
     

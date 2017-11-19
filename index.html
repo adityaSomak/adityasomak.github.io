@@ -30,6 +30,8 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
   <link rel="stylesheet" href="/css/hugo-academic.css">
   
+  <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
+  
 
   
 
@@ -133,6 +135,18 @@
         
 
         <li class="nav-item">
+          <a href="/#affiliations" data-target="#affiliations">
+            
+            <span>Affiliations</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
           <a href="/#contact" data-target="#contact">
             
             <span>Contact</span>
@@ -168,8 +182,8 @@
     <div id="profile">
 
       
-      <div class="portrait" style="background-image: url('https://somakaditya.github.io/img/portrait.jpg');"></div>
-      <meta itemprop="image" content="https://somakaditya.github.io/img/portrait.jpg">
+      <div class="portrait" style="background-image: url('https://somakaditya.github.io/img/profilepic.jpg');"></div>
+      <meta itemprop="image" content="https://somakaditya.github.io/img/profilepic.jpg">
       
 
       <div class="portrait-title">
@@ -187,6 +201,13 @@
       <link itemprop="url" href="https://somakaditya.github.io/">
 
       <ul class="social-icon" aria-hidden="true">
+        
+        
+        <li>
+          <a itemprop="sameAs" href="pdf/somakaditya-latestcv.pdf" target="_blank">
+            <i class="fa fa-download big-icon"></i>
+          </a>
+        </li>
         
         
         <li>
@@ -219,9 +240,9 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>I am currently pursuing PhD in Computer Science in CIDSE, Arizona State University. I am working on Image Understanding using a combination of Deep Learning, Commonsense Reasoning and Knowledge Representation Techniques under the supervision of Prof. Chitta Baral. I am also being jointly mentored by Dr. Yezhou Yang (Assistant Professor, ASU).</p>
+<p>I am currently pursuing PhD in Computer Science in <a href="http://cidse.engineering.asu.edu/" target="_blank">CIDSE, Arizona State University</a>. I am working on Image Understanding using a combination of Deep Learning, Commonsense Reasoning and Knowledge Representation Techniques under the supervision of <a href="http://www.public.asu.edu/~cbaral/" target="_blank">Prof. Chitta Baral</a> (President of KR.inc, 2016-Present). I am also being jointly mentored by <a href="http://yezhouyang.engineering.asu.edu/" target="_blank">Dr. Yezhou Yang</a> (Assistant Professor, ASU).</p>
 
-<p>I have completed my Masters (ME) in Computer Science from the Department of CSA in Indian Institute of Science, Bangalore in 2011 with a concentration in Machine Learning under the supervision of Prof. M Narasimha Murty (author of Data Clustering: A Review which has close to 10000 citations). I have done my Bachelors in CS from Jadavpur University in 2009. After a brief stint at Yahoo, I joined Strand Life Sciences where I worked in the NGS team for nearly two and half years before joining ASU to pursue PhD.</p>
+<p>I have completed my Masters (ME) in Computer Science from the <a href="http://www.csa.iisc.ernet.in/" target="_blank">Department of CSA in Indian Institute of Science, Bangalore</a> in 2011 with a concentration in Machine Learning under the supervision of <a href="http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;hl=en" target="_blank">Prof. M Narasimha Murty</a> (Dean, Faculty of Engineering, IISc and author of Data Clustering: A Review which has more than 13,000 citations). I have done my Bachelors in CS from Jadavpur University in 2009. After a brief stint at Yahoo, I joined Strand Life Sciences where I worked in the NGS team for nearly two and half years before joining ASU to pursue PhD.</p>
 
 
     <div class="row">
@@ -237,7 +258,7 @@
           
           <li>Knowledge Representation and Reasoning</li>
           
-          <li>Probabilistic Graphical Modeling</li>
+          <li>Probabilistic Logical Reasoning</li>
           
         </ul>
       </div>
@@ -251,7 +272,7 @@
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD Candidate in NLP/CV/AI, 2014</p>
+              <p class="course">PhD Candidate in Computer Science, 2017</p>
               <p class="institution">Arizona State University</p>
             </div>
           </li>
@@ -259,7 +280,7 @@
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">MEng in Computer Science, 2011</p>
+              <p class="course">ME in Computer Science, 2011</p>
               <p class="institution">Indian Institute of Science, Bangalore</p>
             </div>
           </li>
@@ -267,7 +288,7 @@
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BEng in Computer Science, 2009</p>
+              <p class="course">BE in Computer Science, 2009</p>
               <p class="institution">Jadavpur University, Kolkata</p>
             </div>
           </li>
@@ -296,14 +317,35 @@
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <ul>
-<li>[July 2017]  !!! NEW !!! Work on Image Riddles accepted as Extended Abstract on Vision Meets Cognition Workshop, CVPR 2017.</li>
-<li>[May 2017]  !!! NEW !!! Thesis proposal accepted, and officially advanced to candidacy.</li>
-<li>[May 2017]  !!! NEW !!! Joined JDE, Verisk Analytics as Cognitive Analytics and Machine Learning Research Intern, under Dr. Maneesh Singh, Director, JDE, Cognitive Analytics.</li>
-<li>[May 2017]  Unofficially a Ph.D. Candidate, after successfully defending my proposal on &ldquo;Knowledge and Reasoning in Image Understanding&rdquo;.</li>
-<li>[May 2017] Invited as a review-assistant for IJCAI 2017.</li>
-<li>[March 2017]   Awarded University Graduate Fellowship for Spring 2017 from ASU, for the third time.</li>
-</ul>
+    <script>
+    (function($){
+        $(window).on("load",function(){
+            $("body").mCustomScrollbar({
+                theme:"inset-dark",
+                mouseWheel:{enable:true}
+            });
+        });
+    })(jQuery);
+</script>
+
+<div class="mCustomScrollbar" data-mcs-theme="inset-dark" style="height:640px;width:750px;font:25px/30px;font-face: Inherit; overflow:auto;">
+⭐️ <span style="font-weight: bold;">[Nov 2017]</span>  <span style="color:red;"> !NEW! ♨️ ♨️</span> Our Work on Explicit Reasoning over End-To-End Neural Architectures has been accepted in <b>AAAI 2018 (Acceptance Rate: 24.5%)</b>.
+<br/><br/>
+  ⭐️ <span style="font-weight: bold;">[July 2017]</span>  <span style="color:red;"> !NEW! ♨️ ♨️</span> Work on Image Riddles accepted as Extended Abstract on <a href="http://www.visionmeetscognition.org/schedule.html">Vision Meets Cognition Workshop, CVPR 2017</a>.
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[May 2017]</span>  Thesis proposal accepted, and officially advanced to candidacy.
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[May 2017]</span>  Joined JDE, Verisk Analytics as Cognitive Analytics and Machine Learning Research Intern, under Dr. Maneesh Singh, Director, JDE, Cognitive Analytics.
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[May 2017]</span> Unofficially a Ph.D. Candidate, after successfully defending my proposal on "Knowledge and Reasoning in Image Understanding".
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[May 2017]</span> Invited as a <a href="https://ijcai-17.org/program-committee.html">review-assistant for IJCAI 2017</a>.
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[March 2017]</span>   Awarded University Graduate Fellowship for Spring 2017 from ASU, for the third time.
+<br/><br/>
+⭐️ <span style="font-weight: bold;">[Feb 2017]</span>  Attended AAAI-2017 (DC and the main Conference). Great to know that people are interested in Vision and Reasoning approaches. Here is the <a href="https://sites.google.com/site/somakaditya86/IJCAI_poster_vertical.pdf">poster</a> I presented at the main conference.
+<br/>
+</div>
 
   </div>
 </div>
@@ -328,6 +370,74 @@
     
 
     
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://somakaditya.github.io/publication/pslvqa/">
+        <img src="/img/headers/VQAFigure.png" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://somakaditya.github.io/publication/pslvqa/" itemprop="url">Explicit Reasoning over End-to-End Neural Architectures</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Somak Aditya, Yezhou Yang, Chitta Baral
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>AAAI 2018</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/publication/pslvqa/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.public.asu.edu/~cbaral/papers/2018-aaai-psl.pdf">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://visionandreasoning.wordpress.com">
+  Project
+</a>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
     
     <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
   <div class="row">
@@ -380,10 +490,6 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
-  Slides
-</a>
-
 
 
 
@@ -392,10 +498,6 @@
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 
       </div>
@@ -456,7 +558,7 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/pdf/DeepIU.pdf">
   Slides
 </a>
 
@@ -468,10 +570,6 @@
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 
       </div>
@@ -532,10 +630,6 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
-  Slides
-</a>
-
 
 
 
@@ -545,9 +639,73 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://somakaditya.github.io/publication/kparser/">
+        <img src="/img/headers/kp.png" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://somakaditya.github.io/publication/kparser/" itemprop="url">Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        Arpit Sharma, Nguyen Ha Vo, Somak Aditya, Chitta Baral
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>IJCAI, 2015</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/publication/kparser/">
+  Details
 </a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11096/10846">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/kparser.org">
+  Project
+</a>
+
 
 
       </div>
@@ -608,7 +766,7 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/pdf/commonsense15.pdf">
   Slides
 </a>
 
@@ -616,14 +774,10 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/project/deep-learning/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 
       </div>
@@ -653,7 +807,7 @@
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
     <h1>Recent Publications</h1>
-    
+    <p><a href="https://scholar.google.com/citations?user=2shiHpwAAAAJ&amp;hl=en" target="_blank">Search Publications</a></p>
     
   </div>
   <div class="col-xs-12 col-md-8">
@@ -661,6 +815,36 @@
 
     
     <ul class="fa-ul">
+      
+      <li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">Explicit Reasoning over End-to-End Neural Architectures</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/publication/pslvqa/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.public.asu.edu/~cbaral/papers/2018-aaai-psl.pdf">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://visionandreasoning.wordpress.com">
+  Project
+</a>
+
+
+</p>
+</li>
+
       
       <li itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
@@ -679,10 +863,6 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
-  Slides
-</a>
-
 
 
 
@@ -691,10 +871,6 @@
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 </p>
 </li>
@@ -717,7 +893,7 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/pdf/DeepIU.pdf">
   Slides
 </a>
 
@@ -729,10 +905,6 @@
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 </p>
 </li>
@@ -755,10 +927,6 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
-  Slides
-</a>
-
 
 
 
@@ -768,9 +936,35 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
+</p>
+</li>
+
+      
+      <li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/publication/kparser/">
+  Details
 </a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/11096/10846">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/kparser.org">
+  Project
+</a>
+
 
 </p>
 </li>
@@ -793,7 +987,7 @@
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/pdf/commonsense15.pdf">
   Slides
 </a>
 
@@ -801,14 +995,10 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/project/deep-learning/">
+<a class="btn btn-primary btn-outline btn-xs" href="https://somakaditya.github.io/">
   Project
 </a>
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
-  Custom Link
-</a>
 
 </p>
 </li>
@@ -848,6 +1038,8 @@
           
             <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
           
+            <a href="#" data-filter=".soft-logic" class="btn btn-primary btn-large">Probabilistic Soft Logic</a>
+          
             <a href="#" data-filter=".demo" class="btn btn-primary btn-large">Other</a>
           
           </div>
@@ -859,6 +1051,52 @@
 
     <div id="container-projects" class="row isotope">
 
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning soft-logic">
+        <div class="card">
+          
+          <a href="visionandreasoning.wordpress.com" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/headers/VQAFigure.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="visionandreasoning.wordpress.com" target="_blank">Solving Visual QA using Reasoning and Deep Learning</a></h4>
+            <div class="card-desription">
+              <p>In this work, we propose an exlicit reasoning layer over Deep Neural Architectures to solve VQA. <code>external_link</code>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning soft-logic">
+        <div class="card">
+          
+          <a href="https://imageriddle.wordpress.com/imageriddle/" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/headers/fall_h.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://imageriddle.wordpress.com/imageriddle/" target="_blank">Solving Image Puzzles</a></h4>
+            <div class="card-desription">
+              <p>In this work, we propose image puzzles that require background knowledge to solve. This project is also aimed to advocates logically interpretable systems. <code>external_link</code>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       
       
       
@@ -906,29 +1144,6 @@
         </div>
       </div>
       
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item demo">
-        <div class="card">
-          
-          <a href="https://imageriddle.wordpress.com/imageriddle/" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/img/headers/fall_h.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://imageriddle.wordpress.com/imageriddle/" target="_blank">Solving Image Puzzles</a></h4>
-            <div class="card-desription">
-              <p>In this work, we propose image puzzles that require background knowledge to solve. This project is also aimed to advocates logically interpretable systems. <code>external_link</code>.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
 
     </div>
 
@@ -949,17 +1164,102 @@
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Teaching</h1>
+    <h1>Teaching and Mentoring</h1>
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>I am a teaching instructor for the following courses at Arizona State University:</p>
+    <p>I have served as a teaching assistant for the following courses at Arizona State University:</p>
 
 <ul>
-<li>CSE-576 Natural Language Processing, Fall 2015 and 2016</li>
+<li>CSE-576 Natural Language Processing, Fall 2015 and Fall 2016
+
+<ul>
+<li>Responsibilities included: Creating Homework assignments, proposing class projects, and mentoring
+multiple groups.</li>
+</ul></li>
 <li>CSE-471 Introduction To Artificial Intelligence, Spring 2016</li>
 <li>CSE-310 Data Structures and ALgorithms, Spring 2015</li>
 </ul>
+
+<p>I mentored and collaborated with the following Masters Students:</p>
+
+<ul>
+<li>Rudra Saha (2017&ndash;Present), MS Student, Computer Science, ASU</li>
+<li>Divyanshu Bandil (2016&ndash;Present), MS Student, Computer Engineering
+
+<ul>
+<li>Visual Question Categorization.</li>
+<li>Visual Question Answering in Dynamic Environments</li>
+</ul></li>
+<li>Trideep Rath (2015 &ndash; 2017), Graduated, MS, Computer Science, ASU Currently Data Scientist, Kayak
+
+<ul>
+<li>Thesis: <a href="https://repository.asu.edu/attachments/186590/content/Rath_asu_0010N_17130.pdf" target="_blank">Word and Relation Embedding for Sentence Representation</a></li>
+</ul></li>
+</ul>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="affiliations" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Affiliations</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <p>Research &amp; Development groups</p>
+
+<ul>
+<li>BioAI lab, Arizona State University</li>
+<li><a href="http://yezhouyang.engineering.asu.edu/research-group/" target="_blank">Active Perception Group</a>, Arizona State University (Closely Affiliated with)</li>
+<li>Computer Vision Lab, UMIACS, University of Maryland, College Park (closely collaborated with Prof. Yiannis Aloimonos, Dr. Cornelia Fermuller on several projects)</li>
+</ul>
+
+<p>Industrial Organizations</p>
+
+<ul>
+<li>Cognitive Analytics and Machine Learning Research Intern, JDE, Verisk Analytics
+under <a href="https://www.linkedin.com/in/maneesh-singh-phd-3523ab9/" target="_blank">Dr. Maneesh Singh</a>, Director, Cognitive Analytics</li>
+<li>Research Intern, <a href="http://www.research.ibm.com/labs/india/" target="_blank">IBM Research Labs, India, Delhi</a>
+under <a href="http://researcher.watson.ibm.com/researcher/view.php?person=in-kkarun" target="_blank">Dr. Arun Kumar</a>, Cognitive Solutions</li>
+<li>Specialist Software Engineer, <a href="http://www.strandls.com/us/" target="_blank">Strand Life Sciences Pvt. Ltd.</a></li>
+<li>Senior Software Engineer, <a href="https://in.yahoo.com/" target="_blank">Yahoo! India</a></li>
+</ul>
+
+<p>Universities</p>
+
+<ul>
+<li><a href="http://cidse.engineering.asu.edu/" target="_blank">Computer Science, Arizona State University</a>
+
+<ul>
+<li>ASU Computer Science Ranking rises. Read <a href="https://engineering.asu.edu/factbook/rankings/" target="_blank">here</a> and <a href="https://asunow.asu.edu/content/asu-computer-science-program-sees-rise-reputation" target="_blank">here</a>.</li>
+</ul></li>
+<li><a href="http://www.csa.iisc.ernet.in/" target="_blank">Indian Institute of Science, Bangalore. India</a>
+
+<ul>
+<li>IISc Bangalore Makes Indian Debut in top 100 World university (THE ranking). Read <a href="http://indianexpress.com/article/india/india-news-india/iisc-makes-indian-debut-in-top-100-world-university-ranking/" target="_blank">Here</a>.</li>
+</ul></li>
+<li><a href="http://www.jaduniv.edu.in/htdocs/view_department.php?deptid=59" target="_blank">Department of Computer Science, Jadavpur University</a></li>
+</ul>
+
+
+<figure >
+    
+        <img src="/img/affiliations.png" width="80%" />
+    
+    
+</figure>
+
 
   </div>
 </div>
@@ -998,7 +1298,7 @@
       
       <li>
         <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:480%20275%209633">480 275 9633</a></span>
+        <span id="person-telephone" itemprop="telephone"><a href="tel:%28480%29%20275-9633">(480) 275-9633</a></span>
       </li>
       
 
@@ -1029,7 +1329,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2016 Somak Aditya &middot; 
+      &copy; 2017 Somak Aditya &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
@@ -1055,6 +1355,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
     
     <script src="/js/hugo-academic.js"></script>
+    
+    <script src="/js/jquery.mCustomScrollbar.min.js"></script>
+    
+    <script src="/js/jquery-1.11.0.min.js"></script>
     
 
     

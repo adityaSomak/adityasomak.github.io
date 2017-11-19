@@ -6,14 +6,14 @@
     <description>Recent content in Demo on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Somak Aditya</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Somak Aditya</copyright>
+    <lastBuildDate>Sun, 27 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/demo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>From Images to Sentences</title>
       <link>https://somakaditya.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/project/example-external-project/</guid>
       <description></description>
@@ -22,18 +22,9 @@
     <item>
       <title>K-Parser: A Knowledge Parser</title>
       <link>https://somakaditya.github.io/project/kparser/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://somakaditya.github.io/project/kparser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Solving Image Puzzles</title>
-      <link>https://somakaditya.github.io/project/riddle-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://somakaditya.github.io/project/riddle-project/</guid>
       <description></description>
     </item>
     
