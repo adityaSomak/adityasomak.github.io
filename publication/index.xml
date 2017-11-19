@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Somak Aditya</title>
-    <link>https://somakaditya.github.io/publication/</link>
+    <link>https://adityasomak.github.io/publication/</link>
     <description>Recent content in Publications on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Explicit Reasoning over End-to-End Neural Architectures</title>
-      <link>https://somakaditya.github.io/publication/pslvqa/</link>
+      <link>https://adityasomak.github.io/publication/pslvqa/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/pslvqa/</guid>
+      <guid>https://adityasomak.github.io/publication/pslvqa/</guid>
       <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language pro-
 cessing. Here we adopt Visual Question Answering (VQA) as an example task, where a system is expected to answer a
 question in natural language about an image. Current state-of-the-art systems attempted to solve the task using deep neural
@@ -31,10 +31,10 @@ Experimental analysis of the answers and the key evidential predicates generated
     
     <item>
       <title>Answering Image Riddles using Vision and Reasoning through Probabilistic Soft Logic</title>
-      <link>https://somakaditya.github.io/publication/riddles/</link>
+      <link>https://adityasomak.github.io/publication/riddles/</link>
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/riddles/</guid>
+      <guid>https://adityasomak.github.io/publication/riddles/</guid>
       <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
 Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
 knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
@@ -51,10 +51,10 @@ the entire dataset and related materials publicly available to the community.&lt
     
     <item>
       <title>DeepIU: An Architecture for Image Understanding</title>
-      <link>https://somakaditya.github.io/publication/deepiu/</link>
+      <link>https://adityasomak.github.io/publication/deepiu/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/deepiu/</guid>
+      <guid>https://adityasomak.github.io/publication/deepiu/</guid>
       <description>&lt;p&gt;Image Understanding is fundamental to systems that need to extract contents and infer concepts
 from images. In this paper, we develop an architecture for understanding images, through which a
 system can recognize the content and the underlying concepts of an image and, reason and answer
@@ -75,10 +75,10 @@ image with reasonable accuracy.&lt;/p&gt;
     
     <item>
       <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
-      <link>https://somakaditya.github.io/publication/sdg/</link>
+      <link>https://adityasomak.github.io/publication/sdg/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/sdg/</guid>
+      <guid>https://adityasomak.github.io/publication/sdg/</guid>
       <description>&lt;p&gt;In this paper we propose the construction of linguistic
 descriptions of images. This is achieved through the extraction
 of scene description graphs (SDGs) from visual scenes
@@ -103,10 +103,10 @@ state-of-the art approaches.&lt;/p&gt;
     
     <item>
       <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
-      <link>https://somakaditya.github.io/publication/kparser/</link>
+      <link>https://adityasomak.github.io/publication/kparser/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/kparser/</guid>
+      <guid>https://adityasomak.github.io/publication/kparser/</guid>
       <description>&lt;p&gt;Concerned about the Turing test’s ability to correctly
 evaluate if a system exhibits human-like intelligence,
 the Winograd Schema Challenge (WSC)
@@ -130,10 +130,10 @@ schemas.&lt;/p&gt;
     
     <item>
       <title>Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</title>
-      <link>https://somakaditya.github.io/publication/common-sense/</link>
+      <link>https://adityasomak.github.io/publication/common-sense/</link>
       <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/publication/common-sense/</guid>
+      <guid>https://adityasomak.github.io/publication/common-sense/</guid>
       <description>&lt;p&gt;In this paper we explore the use of visual commonsense
 knowledge and other kinds of knowledge (such as
 domain knowledge, background knowledge, linguistic

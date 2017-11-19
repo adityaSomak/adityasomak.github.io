@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on Somak Aditya</title>
-    <link>https://somakaditya.github.io/tags/deep-learning/</link>
+    <link>https://adityasomak.github.io/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>Solving Visual QA using Reasoning and Deep Learning</title>
-      <link>https://somakaditya.github.io/project/pslvqa/</link>
+      <link>https://adityasomak.github.io/project/pslvqa/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/project/pslvqa/</guid>
+      <guid>https://adityasomak.github.io/project/pslvqa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Solving Image Puzzles</title>
-      <link>https://somakaditya.github.io/project/riddle-project/</link>
+      <link>https://adityasomak.github.io/project/riddle-project/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://somakaditya.github.io/project/riddle-project/</guid>
+      <guid>https://adityasomak.github.io/project/riddle-project/</guid>
       <description></description>
     </item>
     
