@@ -342,7 +342,8 @@
         $(window).on("load",function(){
             $("body").mCustomScrollbar({
                 theme:"inset-dark",
-                mouseWheel:{enable:true}
+                scrollInertia:300,
+                mouseWheel:{ enable: true }
             });
         });
     })(jQuery);
@@ -1380,7 +1381,7 @@ under <a href="http://researcher.watson.ibm.com/researcher/view.php?person=in-kk
     
     <script src="/js/hugo-academic.js"></script>
     
-    <script src="/js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
     
     <script src="/js/jquery-1.11.0.min.js"></script>
     
