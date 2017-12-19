@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>https://adityasomak.github.io/publication/sdg_cviu/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://adityasomak.github.io/project/riddle-project/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -178,6 +187,16 @@
     
       <loc>https://adityasomak.github.io/publication_types/1/</loc>
       <lastmod>2018-11-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://adityasomak.github.io/publication_types/2/</loc>
+      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -38,6 +38,24 @@ Experimental analysis of the answers and the key evidential predicates generated
     </item>
     
     <item>
+      <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
+      <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/sdg_cviu/</guid>
+      <description>&lt;p&gt;Two of the fundamental tasks in image understanding using text are caption generation and visual question answering
+[4, 72]. This work presents an intermediate knowledge structure that can be used for both tasks to obtain increased interpretability.
+We call this knowledge structure Scene Description Graph (SDG), as it is a directed labeled graph, representing objects, actions,
+regions, as well as their attributes, along with inferred concepts and semantic (from KM-Ontology [12]), ontological (i.e. superclass, hasProperty),
+and spatial relations. Thereby a general architecture is proposed in which a system can represent both the content and underlying concepts of an
+image using an SDG. The architecture is implemented using generic visual recognition techniques and commonsense reasoning to extract graphs from
+images. The utility of the generated SDGs is demonstrated in the applications of image captioning, image retrieval, and through examples in
+visual question answering. The experiments in this work show that the extracted graphs capture syntactic and semantic content of images
+with reasonable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Solving Image Puzzles</title>
       <link>https://adityasomak.github.io/project/riddle-project/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
@@ -926,24 +944,6 @@ schemas.&lt;/p&gt;
       
       <guid>https://adityasomak.github.io/project/kparser/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</title>
-      <link>https://adityasomak.github.io/publication/common-sense/</link>
-      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/publication/common-sense/</guid>
-      <description>&lt;p&gt;In this paper we explore the use of visual commonsense
-knowledge and other kinds of knowledge (such as
-domain knowledge, background knowledge, linguistic
-knowledge) for scene understanding. In particular, we
-combine visual processing with techniques from natural
-language understanding (especially semantic parsing),
-common-sense reasoning and knowledge representation
-and reasoning to improve visual perception to reason
-about finer aspects of activities&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -29,6 +29,24 @@ Experimental analysis of the answers and the key evidential predicates generated
     </item>
     
     <item>
+      <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
+      <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/sdg_cviu/</guid>
+      <description>&lt;p&gt;Two of the fundamental tasks in image understanding using text are caption generation and visual question answering
+[4, 72]. This work presents an intermediate knowledge structure that can be used for both tasks to obtain increased interpretability.
+We call this knowledge structure Scene Description Graph (SDG), as it is a directed labeled graph, representing objects, actions,
+regions, as well as their attributes, along with inferred concepts and semantic (from KM-Ontology [12]), ontological (i.e. superclass, hasProperty),
+and spatial relations. Thereby a general architecture is proposed in which a system can represent both the content and underlying concepts of an
+image using an SDG. The architecture is implemented using generic visual recognition techniques and commonsense reasoning to extract graphs from
+images. The utility of the generated SDGs is demonstrated in the applications of image captioning, image retrieval, and through examples in
+visual question answering. The experiments in this work show that the extracted graphs capture syntactic and semantic content of images
+with reasonable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Answering Image Riddles using Vision and Reasoning through Probabilistic Soft Logic</title>
       <link>https://adityasomak.github.io/publication/riddles/</link>
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
