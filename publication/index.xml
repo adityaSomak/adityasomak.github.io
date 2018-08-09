@@ -29,6 +29,26 @@ Experimental analysis of the answers and the key evidential predicates generated
     </item>
     
     <item>
+      <title>Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving</title>
+      <link>https://adityasomak.github.io/publication/riddles/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/riddles/</guid>
+      <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
+Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
+knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
+a groundtruth answer. The annotations are validated using crowd-sourced evaluation. We also define an automatic evaluation
+metric to track future progress. Our task bears similarity with the commonly known IQ tasks such as analogy solving,
+sequence filling that are often used to test intelligence.&lt;/p&gt;
+
+&lt;p&gt;We develop a Probabilistic Reasoning-based approach that utilizes probabilistic commonsense knowledge to answer these
+riddles with a reasonable accuracy. We demonstrate the results of our approach using both automatic and human evaluations.
+Our approach achieves some promising results ($12\%$ improvement over baseline) for these riddles and provides a strong baseline for future attempts. We make
+the entire dataset and related materials publicly available to the community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
       <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
@@ -43,26 +63,6 @@ image using an SDG. The architecture is implemented using generic visual recogni
 images. The utility of the generated SDGs is demonstrated in the applications of image captioning, image retrieval, and through examples in
 visual question answering. The experiments in this work show that the extracted graphs capture syntactic and semantic content of images
 with reasonable accuracy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Answering Image Riddles using Vision and Reasoning through Probabilistic Soft Logic</title>
-      <link>https://adityasomak.github.io/publication/riddles/</link>
-      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/publication/riddles/</guid>
-      <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
-Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
-knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
-a groundtruth answer. The annotations are validated using crowd-sourced evaluation. We also define an automatic evaluation
-metric to track future progress. Our task bears similarity with the commonly known IQ tasks such as analogy solving,
-sequence filling that are often used to test intelligence.&lt;/p&gt;
-
-&lt;p&gt;We develop a Probabilistic Reasoning-based approach that utilizes probabilistic commonsense knowledge to answer these
-riddles with a reasonable accuracy. We demonstrate the results of our approach using both automatic and human evaluations.
-Our approach achieves some promising results ($12\%$ improvement over baseline) for these riddles and provides a strong baseline for future attempts. We make
-the entire dataset and related materials publicly available to the community.&lt;/p&gt;
 </description>
     </item>
     
