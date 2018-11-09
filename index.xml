@@ -10,6 +10,28 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Spatial Knowledge Sidtillation to aid Visual Reasoning</title>
+      <link>https://adityasomak.github.io/publication/spatialkd/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/spatialkd/</guid>
+      <description>&lt;p&gt;For tasks involving language and vision, the current state-of-the-art methods do not leverage any additional information
+that might be present to gather privileged knowledge. Instead, such an ability is expected to be learnt during the training
+phase. One such task is Visual Question Answering, where large diagnostic datasets have been proposed to
+test a system’s capability of reasoning and answering questions about images. In
+this work, we take a step towards integrating this additional privileged information in the form of spatial knowledge to
+aid in visual reasoning. We propose a framework that combines recent advances in knowledge distillation (teacherstudent
+framework), relational reasoning and probabilistic logical languages to incorporate such knowledge in existing
+neural networks for the surrogate task of fact-based Visual Question Answering. Specifically, for a question posed
+against an image, we use a probabilistic logical language to encode the spatial knowledge and the spatial understanding
+about the question in the form of a mask that is directly provided to the teacher network. The student network learns
+from the ground-truth information as well as the teacher’s prediction via distillation. We also demonstrate the impact
+of predicting such a mask inside the teacher’s network using attention. Empirically, we show that both the methods
+improve the test accuracy over a state-of-the-art approach on a publicly available dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Explicit Reasoning over End-to-End Neural Architectures</title>
       <link>https://adityasomak.github.io/publication/pslvqa/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
@@ -26,6 +48,15 @@ ically, the reasoning layer adopts a Probabilistic Soft Logic (PSL) based engine
 relations, semantic parse of the question, and background ontological knowledge from word2vec and ConceptNet.
 Experimental analysis of the answers and the key evidential predicates generated on the VQA dataset validate our approach.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Spatial Knowledge Distillation to aid Visual Reasoning</title>
+      <link>https://adityasomak.github.io/project/spatialkd/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/project/spatialkd/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -908,42 +939,6 @@ caption based approach. Our Image-Sentence Alignment
 Evaluation results are also comparable to that of the recent
 state-of-the art approaches.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
-      <link>https://adityasomak.github.io/publication/kparser/</link>
-      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/publication/kparser/</guid>
-      <description>&lt;p&gt;Concerned about the Turing test’s ability to correctly
-evaluate if a system exhibits human-like intelligence,
-the Winograd Schema Challenge (WSC)
-has been proposed as an alternative. A Winograd
-Schema consists of a sentence and a question. The
-answers to the questions are intuitive for humans
-but are designed to be difficult for machines, as
-they require various forms of commonsense knowledge
-about the sentence. In this paper we demonstrate
-our progress towards addressing the WSC.
-We present an approach that identifies the knowledge
-needed to answer a challenge question, hunts
-down that knowledge from text repositories, and
-then reasons with them to come up with the answer.
-In the process we develop a semantic parser
-(&lt;a href=&#34;www.kparser.org&#34; target=&#34;_blank&#34;&gt;www.kparser.org&lt;/a&gt;). We show that our approach
-works well with respect to a subset of Winograd
-schemas.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>K-Parser: A Knowledge Parser</title>
-      <link>https://adityasomak.github.io/project/kparser/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/project/kparser/</guid>
-      <description></description>
     </item>
     
   </channel>

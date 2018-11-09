@@ -6,8 +6,30 @@
     <description>Recent content in Publications on Somak Aditya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Spatial Knowledge Sidtillation to aid Visual Reasoning</title>
+      <link>https://adityasomak.github.io/publication/spatialkd/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/spatialkd/</guid>
+      <description>&lt;p&gt;For tasks involving language and vision, the current state-of-the-art methods do not leverage any additional information
+that might be present to gather privileged knowledge. Instead, such an ability is expected to be learnt during the training
+phase. One such task is Visual Question Answering, where large diagnostic datasets have been proposed to
+test a system’s capability of reasoning and answering questions about images. In
+this work, we take a step towards integrating this additional privileged information in the form of spatial knowledge to
+aid in visual reasoning. We propose a framework that combines recent advances in knowledge distillation (teacherstudent
+framework), relational reasoning and probabilistic logical languages to incorporate such knowledge in existing
+neural networks for the surrogate task of fact-based Visual Question Answering. Specifically, for a question posed
+against an image, we use a probabilistic logical language to encode the spatial knowledge and the spatial understanding
+about the question in the form of a mask that is directly provided to the teacher network. The student network learns
+from the ground-truth information as well as the teacher’s prediction via distillation. We also demonstrate the impact
+of predicting such a mask inside the teacher’s network using attention. Empirically, we show that both the methods
+improve the test accuracy over a state-of-the-art approach on a publicly available dataset.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Explicit Reasoning over End-to-End Neural Architectures</title>
