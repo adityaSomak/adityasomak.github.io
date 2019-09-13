@@ -10,7 +10,25 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Spatial Knowledge Sidtillation to aid Visual Reasoning</title>
+      <title>Integrating Knowledge and Reasoning in Image Understanding</title>
+      <link>https://adityasomak.github.io/publication/integratingsurvey/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/integratingsurvey/</guid>
+      <description>&lt;p&gt;Deep learning based data-driven approaches have been successfully applied in various image under-
+standing applications ranging from object recognition, semantic segmentation to visual question an-
+swering.  However, the lack of knowledge integration as well as higher-level reasoning capabilities
+with  the  methods  still  pose  a  hindrance. In  this work, we present a brief survey of a few represen-
+tative  reasoning  mechanisms,  knowledge  integration methods and their corresponding image under-
+standing applications developed by various groups of researchers, approaching the problem from a va-
+riety of angles.  Furthermore, we discuss upon key efforts on integrating external knowledge with neu-
+ral networks. Taking cues from these efforts, we conclude by discussing potential pathways to im-
+prove reasoning capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spatial Knowledge Distillation to aid Visual Reasoning</title>
       <link>https://adityasomak.github.io/publication/spatialkd/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -911,34 +929,6 @@ Here&#39;s some important information...
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
-      <link>https://adityasomak.github.io/publication/sdg/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/publication/sdg/</guid>
-      <description>&lt;p&gt;In this paper we propose the construction of linguistic
-descriptions of images. This is achieved through the extraction
-of scene description graphs (SDGs) from visual scenes
-using an automatically constructed knowledge base. SDGs
-are constructed using both vision and reasoning. Specifically,
-commonsense reasoning1
-is applied on (a) detections
-obtained from existing perception methods on given
-images, (b) a “commonsense” knowledge base constructed
-using natural language processing of image annotations
-and &amp;copy; lexical ontological knowledge from resources such
-as WordNet. Amazon Mechanical Turk(AMT)-based evaluations
-on Flickr8k, Flickr30k and MS-COCO datasets show
-that in most cases, sentences auto-constructed from SDGs
-obtained by our method give a more relevant and thorough
-description of an image than a recent state-of-the-art image
-caption based approach. Our Image-Sentence Alignment
-Evaluation results are also comparable to that of the recent
-state-of-the art approaches.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

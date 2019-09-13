@@ -10,7 +10,25 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Spatial Knowledge Sidtillation to aid Visual Reasoning</title>
+      <title>Integrating Knowledge and Reasoning in Image Understanding</title>
+      <link>https://adityasomak.github.io/publication/integratingsurvey/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityasomak.github.io/publication/integratingsurvey/</guid>
+      <description>&lt;p&gt;Deep learning based data-driven approaches have been successfully applied in various image under-
+standing applications ranging from object recognition, semantic segmentation to visual question an-
+swering.  However, the lack of knowledge integration as well as higher-level reasoning capabilities
+with  the  methods  still  pose  a  hindrance. In  this work, we present a brief survey of a few represen-
+tative  reasoning  mechanisms,  knowledge  integration methods and their corresponding image under-
+standing applications developed by various groups of researchers, approaching the problem from a va-
+riety of angles.  Furthermore, we discuss upon key efforts on integrating external knowledge with neu-
+ral networks. Taking cues from these efforts, we conclude by discussing potential pathways to im-
+prove reasoning capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spatial Knowledge Distillation to aid Visual Reasoning</title>
       <link>https://adityasomak.github.io/publication/spatialkd/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
