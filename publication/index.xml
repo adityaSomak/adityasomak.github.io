@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Somak Aditya</title>
+    <title>Publications | Somak Aditya</title>
     <link>https://adityasomak.github.io/publication/</link>
-    <description>Recent content in Publications on Somak Aditya</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://adityasomak.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>https://adityasomak.github.io/publication/</link>
+    </image>
     
     <item>
       <title>Integrating Knowledge and Reasoning in Image Understanding</title>
       <link>https://adityasomak.github.io/publication/integratingsurvey/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/integratingsurvey/</guid>
       <description>&lt;p&gt;Deep learning based data-driven approaches have been successfully applied in various image under-
 standing applications ranging from object recognition, semantic segmentation to visual question an-
@@ -31,7 +33,6 @@ prove reasoning capabilities.&lt;/p&gt;
       <title>Spatial Knowledge Distillation to aid Visual Reasoning</title>
       <link>https://adityasomak.github.io/publication/spatialkd/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/spatialkd/</guid>
       <description>&lt;p&gt;For tasks involving language and vision, the current state-of-the-art methods do not leverage any additional information
 that might be present to gather privileged knowledge. Instead, such an ability is expected to be learnt during the training
@@ -53,7 +54,6 @@ improve the test accuracy over a state-of-the-art approach on a publicly availab
       <title>Explicit Reasoning over End-to-End Neural Architectures</title>
       <link>https://adityasomak.github.io/publication/pslvqa/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/pslvqa/</guid>
       <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language pro-
 cessing. Here we adopt Visual Question Answering (VQA) as an example task, where a system is expected to answer a
@@ -72,7 +72,6 @@ Experimental analysis of the answers and the key evidential predicates generated
       <title>Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving</title>
       <link>https://adityasomak.github.io/publication/riddles/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/riddles/</guid>
       <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
 Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
@@ -92,7 +91,6 @@ the entire dataset and related materials publicly available to the community.&lt
       <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
       <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/sdg_cviu/</guid>
       <description>&lt;p&gt;Two of the fundamental tasks in image understanding using text are caption generation and visual question answering
 [4, 72]. This work presents an intermediate knowledge structure that can be used for both tasks to obtain increased interpretability.
@@ -110,7 +108,6 @@ with reasonable accuracy.&lt;/p&gt;
       <title>DeepIU: An Architecture for Image Understanding</title>
       <link>https://adityasomak.github.io/publication/deepiu/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/deepiu/</guid>
       <description>&lt;p&gt;Image Understanding is fundamental to systems that need to extract contents and infer concepts
 from images. In this paper, we develop an architecture for understanding images, through which a
@@ -134,7 +131,6 @@ image with reasonable accuracy.&lt;/p&gt;
       <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
       <link>https://adityasomak.github.io/publication/sdg/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/sdg/</guid>
       <description>&lt;p&gt;In this paper we propose the construction of linguistic
 descriptions of images. This is achieved through the extraction
@@ -162,7 +158,6 @@ state-of-the art approaches.&lt;/p&gt;
       <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
       <link>https://adityasomak.github.io/publication/kparser/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/kparser/</guid>
       <description>&lt;p&gt;Concerned about the Turing test’s ability to correctly
 evaluate if a system exhibits human-like intelligence,
@@ -189,7 +184,6 @@ schemas.&lt;/p&gt;
       <title>Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</title>
       <link>https://adityasomak.github.io/publication/common-sense/</link>
       <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/common-sense/</guid>
       <description>&lt;p&gt;In this paper we explore the use of visual commonsense
 knowledge and other kinds of knowledge (such as

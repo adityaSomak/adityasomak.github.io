@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yiannis Aloimonos | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/yiannis-aloimonos/</link>
+      <atom:link href="https://adityasomak.github.io/authors/yiannis-aloimonos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yiannis Aloimonos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Yiannis Aloimonos</title>
+      <link>https://adityasomak.github.io/authors/yiannis-aloimonos/</link>
+    </image>
+    
+    <item>
+      <title>Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving</title>
+      <link>https://adityasomak.github.io/publication/riddles/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/riddles/</guid>
+      <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
+Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
+knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
+a groundtruth answer. The annotations are validated using crowd-sourced evaluation. We also define an automatic evaluation
+metric to track future progress. Our task bears similarity with the commonly known IQ tasks such as analogy solving,
+sequence filling that are often used to test intelligence.&lt;/p&gt;
+
+&lt;p&gt;We develop a Probabilistic Reasoning-based approach that utilizes probabilistic commonsense knowledge to answer these
+riddles with a reasonable accuracy. We demonstrate the results of our approach using both automatic and human evaluations.
+Our approach achieves some promising results ($12\%$ improvement over baseline) for these riddles and provides a strong baseline for future attempts. We make
+the entire dataset and related materials publicly available to the community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
+      <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/sdg_cviu/</guid>
+      <description>&lt;p&gt;Two of the fundamental tasks in image understanding using text are caption generation and visual question answering
+[4, 72]. This work presents an intermediate knowledge structure that can be used for both tasks to obtain increased interpretability.
+We call this knowledge structure Scene Description Graph (SDG), as it is a directed labeled graph, representing objects, actions,
+regions, as well as their attributes, along with inferred concepts and semantic (from KM-Ontology [12]), ontological (i.e. superclass, hasProperty),
+and spatial relations. Thereby a general architecture is proposed in which a system can represent both the content and underlying concepts of an
+image using an SDG. The architecture is implemented using generic visual recognition techniques and commonsense reasoning to extract graphs from
+images. The utility of the generated SDGs is demonstrated in the applications of image captioning, image retrieval, and through examples in
+visual question answering. The experiments in this work show that the extracted graphs capture syntactic and semantic content of images
+with reasonable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DeepIU: An Architecture for Image Understanding</title>
+      <link>https://adityasomak.github.io/publication/deepiu/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/deepiu/</guid>
+      <description>&lt;p&gt;Image Understanding is fundamental to systems that need to extract contents and infer concepts
+from images. In this paper, we develop an architecture for understanding images, through which a
+system can recognize the content and the underlying concepts of an image and, reason and answer
+questions about both using a visual module, a reasoning module, and a commonsense knowledge
+base. In this architecture, visual data combines with background knowledge and; iterates through
+visual and reasoning modules to answer questions about an image or to generate a textual description
+of an image. We first provide motivations of such a Deep Image Understanding architecture
+and then, we describe the necessary components it should include. We also introduce our own
+preliminary implementation of this architecture and empirically show how this more generic implementation
+compares with a recent end-to-end Neural approach on specific applications. We
+address the knowledge-representation challenge in such an architecture by representing an image
+using a directed labeled graph (called Scene Description Graph). Our implementation uses generic
+visual recognition techniques and commonsense reasoning to extract such graphs from images.
+Our experiments show that the extracted graphs capture the syntactic and semantic content of an
+image with reasonable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
+      <link>https://adityasomak.github.io/publication/sdg/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/sdg/</guid>
+      <description>&lt;p&gt;In this paper we propose the construction of linguistic
+descriptions of images. This is achieved through the extraction
+of scene description graphs (SDGs) from visual scenes
+using an automatically constructed knowledge base. SDGs
+are constructed using both vision and reasoning. Specifically,
+commonsense reasoning1
+is applied on (a) detections
+obtained from existing perception methods on given
+images, (b) a “commonsense” knowledge base constructed
+using natural language processing of image annotations
+and &amp;copy; lexical ontological knowledge from resources such
+as WordNet. Amazon Mechanical Turk(AMT)-based evaluations
+on Flickr8k, Flickr30k and MS-COCO datasets show
+that in most cases, sentences auto-constructed from SDGs
+obtained by our method give a more relevant and thorough
+description of an image than a recent state-of-the-art image
+caption based approach. Our Image-Sentence Alignment
+Evaluation results are also comparable to that of the recent
+state-of-the art approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</title>
+      <link>https://adityasomak.github.io/publication/common-sense/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/common-sense/</guid>
+      <description>&lt;p&gt;In this paper we explore the use of visual commonsense
+knowledge and other kinds of knowledge (such as
+domain knowledge, background knowledge, linguistic
+knowledge) for scene understanding. In particular, we
+combine visual processing with techniques from natural
+language understanding (especially semantic parsing),
+common-sense reasoning and knowledge representation
+and reasoning to improve visual perception to reason
+about finer aspects of activities&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

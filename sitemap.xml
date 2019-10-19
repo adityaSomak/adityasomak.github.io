@@ -1,340 +1,206 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/integratingsurvey/</loc>
-      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication_types/1/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/spatialkd/</loc>
-      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/pslvqa/</loc>
-      <lastmod>2018-11-17T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/chitta-baral/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/spatialkd/</loc>
-      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/integratingsurvey/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/pslvqa/</loc>
-      <lastmod>2018-11-08T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication_types/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/riddles/</loc>
-      <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/sdg_cviu/</loc>
-      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/rudra-saha/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/riddle-project/</loc>
-      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/somak-aditya/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/spatialkd/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/yezhou-yang/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/pslvqa/</loc>
+    <lastmod>2018-11-17T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/example-external-project/</loc>
-      <lastmod>2016-11-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/deep-learning/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/deepiu/</loc>
-      <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/getting-started/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/soft-logic/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/widgets/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/spatialkd/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/managing-content/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/vision-and-language/</loc>
+    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/sdg/</loc>
-      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/pslvqa/</loc>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/kparser/</loc>
-      <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/riddles/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/kparser/</loc>
-      <lastmod>2015-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/yiannis-aloimonos/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/common-sense/</loc>
-      <lastmod>2015-03-12T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication_types/2/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/cornelia-fermuller/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication_types/1/</loc>
-      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/sdg_cviu/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication_types/2/</loc>
-      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/riddle-project/</loc>
+    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/common-sense/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/deep-learning/</loc>
-      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/example-external-project/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/demo/</loc>
-      <lastmod>2016-11-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/knowledge-acqusition/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/hugo/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/deepiu/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/sdg/</loc>
+    <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/project/</loc>
-      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/arpit-sharma/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication_types/</loc>
-      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/authors/nguyen-ha-vo/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/publication/</loc>
-      <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/publication/kparser/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/soft-logic/</loc>
-      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/project/kparser/</loc>
+    <lastmod>2015-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/nlp/</loc>
+    <lastmod>2015-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://adityasomak.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://adityasomak.github.io/tags/semantic-prasing/</loc>
+    <lastmod>2015-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication/common-sense/</loc>
+    <lastmod>2015-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/talk/</loc>
+  </url>
   
 </urlset>

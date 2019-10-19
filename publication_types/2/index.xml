@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Somak Aditya</title>
+    <title>2 | Somak Aditya</title>
     <link>https://adityasomak.github.io/publication_types/2/</link>
-    <description>Recent content in 2 on Somak Aditya</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://adityasomak.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://adityasomak.github.io/publication_types/2/</link>
+    </image>
     
     <item>
       <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
       <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/publication/sdg_cviu/</guid>
       <description>&lt;p&gt;Two of the fundamental tasks in image understanding using text are caption generation and visual question answering
 [4, 72]. This work presents an intermediate knowledge structure that can be used for both tasks to obtain increased interpretability.

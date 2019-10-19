@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Somak Aditya</title>
+    <title>Tags | Somak Aditya</title>
     <link>https://adityasomak.github.io/tags/</link>
-    <description>Recent content in Tags on Somak Aditya</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://adityasomak.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://adityasomak.github.io/tags/</link>
+    </image>
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://adityasomak.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/tags/academic/</guid>
-      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
+      <title>deep-learning</title>
       <link>https://adityasomak.github.io/tags/deep-learning/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>https://adityasomak.github.io/tags/demo/</link>
-      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://adityasomak.github.io/tags/hugo/</link>
-      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>https://adityasomak.github.io/tags/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityasomak.github.io/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soft Logic</title>
+      <title>soft-logic</title>
       <link>https://adityasomak.github.io/tags/soft-logic/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://adityasomak.github.io/tags/soft-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision and Language</title>
+      <link>https://adityasomak.github.io/tags/vision-and-language/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/vision-and-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>common-sense</title>
+      <link>https://adityasomak.github.io/tags/common-sense/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/common-sense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Acqusition</title>
+      <link>https://adityasomak.github.io/tags/knowledge-acqusition/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/knowledge-acqusition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://adityasomak.github.io/tags/nlp/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Prasing</title>
+      <link>https://adityasomak.github.io/tags/semantic-prasing/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/semantic-prasing/</guid>
       <description></description>
     </item>
     

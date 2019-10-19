@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vision and Language | Somak Aditya</title>
+    <link>https://adityasomak.github.io/tags/vision-and-language/</link>
+      <atom:link href="https://adityasomak.github.io/tags/vision-and-language/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vision and Language</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Vision and Language</title>
+      <link>https://adityasomak.github.io/tags/vision-and-language/</link>
+    </image>
+    
+    <item>
+      <title>Spatial Knowledge Distillation to aid Visual Reasoning</title>
+      <link>https://adityasomak.github.io/project/spatialkd/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/spatialkd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Visual QA using Reasoning and Deep Learning</title>
+      <link>https://adityasomak.github.io/project/pslvqa/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/pslvqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Image Puzzles</title>
+      <link>https://adityasomak.github.io/project/riddle-project/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/riddle-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Images to Sentences</title>
+      <link>https://adityasomak.github.io/project/example-external-project/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

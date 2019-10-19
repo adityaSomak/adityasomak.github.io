@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>common-sense | Somak Aditya</title>
+    <link>https://adityasomak.github.io/tags/common-sense/</link>
+      <atom:link href="https://adityasomak.github.io/tags/common-sense/index.xml" rel="self" type="application/rss+xml" />
+    <description>common-sense</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>common-sense</title>
+      <link>https://adityasomak.github.io/tags/common-sense/</link>
+    </image>
+    
+    <item>
+      <title>From Images to Sentences</title>
+      <link>https://adityasomak.github.io/project/example-external-project/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-Parser: A Knowledge Parser</title>
+      <link>https://adityasomak.github.io/project/kparser/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/kparser/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
