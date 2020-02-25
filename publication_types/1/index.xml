@@ -5,12 +5,28 @@
     <link>https://adityasomak.github.io/publication_types/1/</link>
       <atom:link href="https://adityasomak.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://adityasomak.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Uncovering Relations for Marketing Knowledge Representation</title>
+      <link>https://adityasomak.github.io/publication/makrstarai/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/makrstarai/</guid>
+      <description>&lt;p&gt;Online behaviors of consumers and marketers generate massive marketing data, which ever more sophisticated models attempt to turn into insights and aid decisions by
+marketers. Yet, in making decisions human managers bring to bear marketing knowledge which reside outside of data and models. Thus, it behooves creation of an automated
+marketing knowledge base that can interact with data and models. Currently, marketing knowledge is dispersed in large corpora, but no definitive knowledge base for
+marketing exists. Out of the two broad aspects of marketing knowledge - representation and reasoning - this treatise focuses on the former. Specifically,
+we focus on creation of marketing knowledge graph from corpora, which requires identification of entities and relations. The relation identification task is
+particularly challenging in marketing, because of the non-factoid nature of much marketing knowledge, and the difficulty of forming rules that govern relations.
+Specifically, we define a set of relations to capture marketing knowledge, propose a pipeline for creating the knowledge graph from text and propose a
+rule-guided semi-supervised relation prediction algorithm to extract relations between marketing entities from sentences.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Integrating Knowledge and Reasoning in Image Understanding</title>
