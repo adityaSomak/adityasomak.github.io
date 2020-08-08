@@ -89,17 +89,25 @@
       <link>https://adityasomak.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I have joined Microsoft Research India as a Postdoctoral Researcher where I am working with the NLP team (primarily with Dr. Monojit Choudhury), exploring applications of
-model-based knowledge integration approaches for natural language inferencing. Knowledge integration has three aspects: knowledge acqusition, representation and reasoning.
-While my former efforts had a higher concentration on the latter two; at MSR, I plan to work on some aspects of acquisition such as weighted rule learning in probabilistic logics.&lt;/p&gt;
+      <description>&lt;p&gt;I have joined &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt; as a Postdoctoral Researcher.
+At MSRI, with Dr. Monojit Choudhury, I am developing models with logical reasoning capabilities required for natural language understanding (NLU). Specifically,
+we ask: what reasoning capabilities are required for tasks such as Natural Language Inferencing?
+Are neural models capable of performing such reasoning? Are there possible neuro-symbolic
+variants that may fill this gap?
+Parallel to exploring neuro-symbolic methods under the lens of NLI,
+I am also exploring multi-hop reasoning capabilities of neural methods in symbolic domains with Dr. Navin Goyal.&lt;/p&gt;
 
-&lt;p&gt;Prior to this, I completed my Ph.D. in Computer Science from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; on June 27, 2018.
+&lt;p&gt;Overall, my central goal in research has been devloping models that are both data-driven, yet enriched by knowledge. My work is guided by the three central aspects:
+ knowledge acqusition, representation and reasoning.
+While at MSRI, I am primarily focusing on reasoning capabilities, my former efforts had a higher concentration on the latter two.
+I completed my Ph.D. in Computer Science from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; on June 27, 2018.
 For my doctoral studies, I worked on Image Understanding using a combination of Deep Learning, Commonsense Reasoning and Knowledge Representation Techniques under the
 supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; (Past President of KR.inc, 2016-2018).
 I was also co-advised by &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Dr. Yezhou Yang&lt;/a&gt; (Assistant Professor, ASU).
 My current efforts have been published in AAAI, IJCAI, UAI, NAACL, CVIU (journal), WACV.&lt;/p&gt;
 
-&lt;p&gt;I have completed my Masters (ME) in Computer Science from the &lt;a href=&#34;http://www.csa.iisc.ernet.in/&#34; target=&#34;_blank&#34;&gt;Indian Institute of Science, Bangalore&lt;/a&gt; in 2011 with a concentration in Machine Learning under the supervision of &lt;a href=&#34;http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Prof. M Narasimha Murty&lt;/a&gt; (Dean, Faculty of Engineering, IISc).
+&lt;p&gt;I completed my Masters (ME) in Computer Science from the &lt;a href=&#34;http://www.csa.iisc.ernet.in/&#34; target=&#34;_blank&#34;&gt;Indian Institute of Science, Bangalore&lt;/a&gt; in 2011 with a concentration in
+Machine Learning under the supervision of &lt;a href=&#34;http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Prof. M Narasimha Murty&lt;/a&gt; (Dean, Faculty of Engineering, IISc).
 I have done my Bachelors in CS from Jadavpur University in 2009.
 After a brief stint at Yahoo, I joined Strand Life Sciences where I worked in the NGS team for nearly 2.5 years before joining ASU to pursue PhD.&lt;/p&gt;
 </description>
