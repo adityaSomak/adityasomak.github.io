@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monojit Choudhury | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <atom:link href="https://adityasomak.github.io/authors/monojit-choudhury/index.xml" rel="self" type="application/rss+xml" />
+    <description>Monojit Choudhury</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+    </image>
+    
+    <item>
+      <title>TaxiNLI: Taking a Ride up the NLU Hill</title>
+      <link>https://adityasomak.github.io/publication/taxinli/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/taxinli/</guid>
+      <description>&lt;p&gt;Pre-trained Transformer-based neural architectures have consistently achieved state-of-the-art performance in the Natural Language Inference (NLI) task. Since NLI examples encompass a variety of linguistic, logical, and reasoning phenomena, it remains unclear as to which specific concepts are learnt by the trained systems and where they can achieve strong generalization. To investigate this question, we propose a taxonomic hierarchy of categories that are relevant for the NLI task. We introduce TAXINLI, a new dataset, that has 10k examples from the MNLI dataset (Williams et al., 2018) with these taxonomic labels. Through various experiments on TAXINLI, we observe that whereas for certain taxonomic categories SOTA neural models have achieved near perfect accuracies - a large jump over the previous models - some categories still remain difficult. Our work adds to the growing body of literature that shows the gaps in the current NLI systems and datasets through a systematic presentation and analysis of reasoning categories.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

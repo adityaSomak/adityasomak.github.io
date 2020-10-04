@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logic | Somak Aditya</title>
+    <link>https://adityasomak.github.io/tags/logic/</link>
+      <atom:link href="https://adityasomak.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Logic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Logic</title>
+      <link>https://adityasomak.github.io/tags/logic/</link>
+    </image>
+    
+    <item>
+      <title>Solving NLI using Reasoning and Learning</title>
+      <link>https://adityasomak.github.io/project/nsnli/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/nsnli/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

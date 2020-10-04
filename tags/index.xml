@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/tags/</link>
       <atom:link href="https://adityasomak.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,8 +15,24 @@
     <item>
       <title>deep-learning</title>
       <link>https://adityasomak.github.io/tags/deep-learning/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language</title>
+      <link>https://adityasomak.github.io/tags/language/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logic</title>
+      <link>https://adityasomak.github.io/tags/logic/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/logic/</guid>
       <description></description>
     </item>
     
@@ -33,6 +49,14 @@
       <link>https://adityasomak.github.io/tags/vision-and-language/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/tags/vision-and-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision</title>
+      <link>https://adityasomak.github.io/tags/vision/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/vision/</guid>
       <description></description>
     </item>
     

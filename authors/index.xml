@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Atanu Sinha</title>
-      <link>https://adityasomak.github.io/authors/atanu-sinha/</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/atanu-sinha/</guid>
+      <title>Aalok Sathe*</title>
+      <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/aalok-sathe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pratik Joshi*</title>
+      <link>https://adityasomak.github.io/authors/pratik-joshi/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/pratik-joshi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atanu Sinha</title>
+      <link>https://adityasomak.github.io/authors/atanu-sinha/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/atanu-sinha/</guid>
       <description></description>
     </item>
     
@@ -90,19 +114,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I have joined &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt; as a Postdoctoral Researcher.
-At MSRI, with Dr. Monojit Choudhury, I am exploring different types of reasoning capabilities required for natural language understanding (NLU)
-tasks; and developing logically coherent models that are capable of such reasoning. We explore both traditional neural models and possible neuro-symbolic
-variants. Parallel to exploring neuro(symbolic) methods under the lens of NLI,
-I am also exploring multi-hop reasoning capabilities of neural methods in symbolic domains with Dr. Navin Goyal.&lt;/p&gt;
+At MSRI, with Dr. Monojit Choudhury, I am exploring &lt;em&gt;evaluation&lt;/em&gt; and &lt;em&gt;enhancement&lt;/em&gt; of Neural language models using the combined theories of Language and Logic. Our exploration leads us to consider both traditional neural models and neuro-symbolic variants. Parallel to exploring neuro(symbolic) methods in the context of NLI, I am also exploring multi-hop reasoning capabilities of neural methods in symbolic domains with Dr. Navin Goyal.&lt;/p&gt;
 
-&lt;p&gt;Overall, my central goal in research has been devloping models that are both data-driven, yet enriched by knowledge.
-Developing such models require three central considerations: knowledge acqusition, representation and reasoning.
-While at MSRI, I am primarily focusing on reasoning capabilities, efforts during my PhD had an equal distribution of both representation and reasoning.
-For my doctoral studies, I worked on Image Understanding using a combination of Deep Learning, Commonsense Reasoning and Knowledge Representation Techniques under the
+&lt;p&gt;Overall, my central goal in research has been devloping models that learns from data, yet enriched by knowledge and capable of reasoning with such knowledge.
+Developing such models require three central considerations: &lt;em&gt;knowledge acqusition&lt;/em&gt;, &lt;em&gt;representation&lt;/em&gt; and &lt;em&gt;reasoning&lt;/em&gt;.
+At MSRI and during my PhD, a fundamental observation was that, often an  equal measure of concentration is required for each application.&lt;/p&gt;
+
+&lt;p&gt;During my doctoral studies, my efforts revolved around Image Understanding under the&lt;br /&gt;
 supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; (Past President of KR.inc, 2016-2018).
 I was also co-advised by &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Dr. Yezhou Yang&lt;/a&gt; (Assistant Professor, ASU).
-My current efforts have been published in AAAI, IJCAI, UAI, NAACL, CVIU (journal), WACV.
-I completed my Ph.D. in Computer Science from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; on June 27, 2018.&lt;/p&gt;
+Through a combination of Deep Learning, Knowledge Representation and Probabilistic Logical Reasoning; I demonstrated the benefits of using reasoning and knowledge in Question-Answering (IJCAI, AAAI), Captioning (CVIU), puzzle solving (UAI) and visual reasoning (WACV). I completed my Ph.D. in Computer Science from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; on June 27, 2018.&lt;/p&gt;
 
 &lt;p&gt;I completed my Masters (ME) in Computer Science from the &lt;a href=&#34;http://www.csa.iisc.ernet.in/&#34; target=&#34;_blank&#34;&gt;Indian Institute of Science, Bangalore&lt;/a&gt; in 2011 with a concentration in
 Machine Learning under the supervision of &lt;a href=&#34;http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Prof. M Narasimha Murty&lt;/a&gt; (Dean, Faculty of Engineering, IISc).
