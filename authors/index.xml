@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,34 @@
     </image>
     
     <item>
-      <title>Aalok Sathe*</title>
-      <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/aalok-sathe/</guid>
+      <title>Ishan Tarunesh</title>
+      <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/ishan-tarunesh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monojit Choudhury</title>
       <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aalok Sathe*</title>
+      <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/aalok-sathe/</guid>
       <description></description>
     </item>
     
@@ -41,14 +57,6 @@
       <link>https://adityasomak.github.io/authors/pratik-joshi/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/pratik-joshi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
