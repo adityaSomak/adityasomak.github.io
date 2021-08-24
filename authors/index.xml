@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Atanu Sinha</title>
+      <link>https://adityasomak.github.io/authors/atanu-sinha/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/atanu-sinha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Aalok Sathe*</title>
       <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
@@ -65,14 +73,6 @@
       <link>https://adityasomak.github.io/authors/vishesh-agarwal/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/vishesh-agarwal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Atanu Sinha</title>
-      <link>https://adityasomak.github.io/authors/atanu-sinha/</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/atanu-sinha/</guid>
       <description></description>
     </item>
     
@@ -125,6 +125,54 @@
     </item>
     
     <item>
+      <title>Barry Lumpkin</title>
+      <link>https://adityasomak.github.io/authors/barry-lumpkin/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/barry-lumpkin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniela Inclezan</title>
+      <link>https://adityasomak.github.io/authors/daniela-inclezan/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/daniela-inclezan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dawn M Sweet</title>
+      <link>https://adityasomak.github.io/authors/dawn-m-sweet/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/dawn-m-sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenny Hastings</title>
+      <link>https://adityasomak.github.io/authors/jenny-hastings/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/jenny-hastings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jieping Ye</title>
+      <link>https://adityasomak.github.io/authors/jieping-ye/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/jieping-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joohyung Lee</title>
+      <link>https://adityasomak.github.io/authors/joohyung-lee/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/joohyung-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nguyen Ha Vo</title>
       <link>https://adityasomak.github.io/authors/nguyen-ha-vo/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
@@ -133,14 +181,39 @@
     </item>
     
     <item>
+      <title>Nguyen Vo</title>
+      <link>https://adityasomak.github.io/authors/nguyen-vo/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/nguyen-vo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Richard Scherl</title>
+      <link>https://adityasomak.github.io/authors/richard-scherl/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/richard-scherl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zaw Naung</title>
+      <link>https://adityasomak.github.io/authors/zaw-naung/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/zaw-naung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://adityasomak.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Postdoctoral Researcher at &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt;.
-At MSRI, with Dr. Monojit Choudhury, I am exploring &lt;em&gt;evaluation&lt;/em&gt; and &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of Neural language models. Our exploration leads us to consider both traditional neural models and neuro-symbolic variants. Parallel to exploring neuro(symbolic) methods in the context of NLI, I am also exploring multi-hop reasoning capabilities of neural methods in symbolic domains with Dr. Navin Goyal.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Postdoctoral Researcher at &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt;. My primary goal in research is the &lt;em&gt;enhancement&lt;/em&gt; of &lt;em&gt;reasoning&lt;/em&gt; capabilities of &lt;em&gt;purely data-driven&lt;/em&gt; decision making systems. At MSRI, with Dr. Monojit Choudhury, I explored &lt;em&gt;evaluation&lt;/em&gt; and &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of Neural language models. Our exploration leads us to consider both traditional neural and neuro-symbolic models. Parallel to exploring neuro(symbolic) methods in the context of NLI, I have also explored multi-hop reasoning capabilities of &lt;em&gt;neural methods in symbolic domains&lt;/em&gt; with Dr. Navin Goyal.&lt;/p&gt;
 
-&lt;p&gt;Overall, my research is driven by three fundamental hypotheses: 1) knowledge and reasoning is fundamental to machine understanding, 2) different types of reasoning may require different types of methods and 3) knowledge and reasoning plays an important role in interpretability and extrinsic human-AI trust establishment. During my PhD (from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt;), under the supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; and &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Prof. Yezhou Yang&lt;/a&gt;, I have explored the first hypothesis in the context of image understanding. Through a combination of Deep Learning, Knowledge Representation and Probabilistic Logical Reasoning; I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering (IJCAI, AAAI), Captioning (CVIU), image puzzle solving (UAI) and visual reasoning (WACV). During my PostDoc, I have concentrated more on the second and third hypotheses. In future, I aspire to strike a balance as all three hypotheses are in many ways inter-dependent.&lt;/p&gt;
+&lt;p&gt;During my Ph.D (from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt;), under the supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; and &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Prof. Yezhou Yang&lt;/a&gt;, I have explored &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of image understanding systems. Through a combination of Deep Learning, Knowledge Representation, and Probabilistic Logical Reasoning, I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering, Captioning, image puzzle solving and visual reasoning.&lt;/p&gt;
+
+&lt;p&gt;In summary, my past work has been driven by two fundamental hypotheses: 1) knowledge and reasoning is fundamental to machine understanding (irrespective of the input modality), and 2) different types of reasoning may require different types of methods (deviating from &lt;em&gt;one-model-to-rule-them-all&lt;/em&gt;). Lastly, to build deployable AI systems, interpretability and human-AI (extrinsic) trust is essential. In future, I would also explore how knowledge and reasoning plays a role in interpretable trusted AI systems.&lt;/p&gt;
 
 &lt;!-- my agenda in research is to devlop models that simultaneously learns from data, while being enriched by knowledge and capable of reasoning with such knowledge. 
 Developing such models require three central considerations: *knowledge acquisition*, *representation* and *reasoning*. 

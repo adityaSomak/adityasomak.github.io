@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://adityasomak.github.io/publication_types/1/</loc>
+    <loc>https://adityasomak.github.io/publication_types/3/</loc>
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,6 +45,26 @@
   <url>
     <loc>https://adityasomak.github.io/publication/checklist/</loc>
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication_types/8/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/atanu-sinha/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication/makrstaraipatent/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication_types/1/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,13 +128,13 @@
   </url>
   
   <url>
-    <loc>https://adityasomak.github.io/authors/atanu-sinha/</loc>
+    <loc>https://adityasomak.github.io/publication/makrstarai/</loc>
     <lastmod>2020-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://adityasomak.github.io/publication/makrstarai/</loc>
-    <lastmod>2020-02-07T00:00:00+00:00</lastmod>
+    <loc>https://adityasomak.github.io/publication_types/7/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -124,6 +144,11 @@
   
   <url>
     <loc>https://adityasomak.github.io/publication/integratingsurvey/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication/thesis/</loc>
     <lastmod>2019-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,13 +258,68 @@
   </url>
   
   <url>
+    <loc>https://adityasomak.github.io/authors/barry-lumpkin/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/daniela-inclezan/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/dawn-m-sweet/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/jenny-hastings/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/jieping-ye/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/joohyung-lee/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://adityasomak.github.io/authors/nguyen-ha-vo/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/nguyen-vo/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication/social/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/richard-scherl/</loc>
     <lastmod>2015-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adityasomak.github.io/publication/kparser/</loc>
     <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/zaw-naung/</loc>
+    <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/publication/identifying/</loc>
+    <lastmod>2015-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -276,6 +356,10 @@
   
   <url>
     <loc>https://adityasomak.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/teaching/</loc>
   </url>
   
 </urlset>

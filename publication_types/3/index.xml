@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Somak Aditya</title>
+    <link>https://adityasomak.github.io/publication_types/3/</link>
+      <atom:link href="https://adityasomak.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>3</title>
+      <link>https://adityasomak.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task</title>
+      <link>https://adityasomak.github.io/publication/checklist/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/checklist/</guid>
+      <description>&lt;p&gt;The recent state-of-the-art natural language understanding (NLU) systems often behave unpredictably, failing on simpler reasoning examples. Despite this, there has been limited focus on quantifying progress towards systems with more predictable behavior. We think that reasoning capability-wise behavioral summary (proposed in Ribeiro et al. (2020)) is a step towards bridging this gap. We create a CHECKLIST test-suite (184K examples) for the Natural Language Inference (NLI) task, a representative NLU task. We benchmark state-of-the-art NLI systems on this test-suite, which reveals fine-grained insights into the reasoning abilities of BERT and RoBERTa. Our analysis further reveals inconsistencies of the models on examples derived from the same template or distinct templates but pertaining to same reasoning capability, indicating that generalizing the models’ behavior through observations made on a CheckList is non-trivial. Through an user-study, we find that users were able to utilize behavioral information to generalize much better for examples predicted from RoBERTa, compared to that of BERT.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

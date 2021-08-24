@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joohyung Lee | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/joohyung-lee/</link>
+      <atom:link href="https://adityasomak.github.io/authors/joohyung-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joohyung Lee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Joohyung Lee</title>
+      <link>https://adityasomak.github.io/authors/joohyung-lee/</link>
+    </image>
+    
+    <item>
+      <title>Recognizing social constructs from textual conversation</title>
+      <link>https://adityasomak.github.io/publication/social/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/social/</guid>
+      <description>&lt;p&gt;In this paper we present our work on recognizing high level social constructs such as Leadership and Status from textual conversation using an approach that makes use of the background knowledge about social hierarchy and integrates statistical methods and symbolic logic based methods. We use a stratified approach in which we first detect lower level language constructs such as politeness, command and agreement that help us to infer intermediate constructs such as deference, closeness and authority that are observed between the parties engaged in conversation. These intermediate constructs in turn are used to determine the social constructs Leadership and Status. We have implemented this system successfully in both English and Korean languages and achieved considerable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

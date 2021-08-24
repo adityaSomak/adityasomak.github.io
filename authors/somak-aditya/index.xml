@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Creating a knowledge graph based on text-based knowledge corpora</title>
+      <link>https://adityasomak.github.io/publication/makrstaraipatent/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/makrstaraipatent/</guid>
+      <description>&lt;p&gt;In some embodiments, a knowledge graph generation system extracts noun-phrases from sentences of a knowledge corpora and determines the relations between the noun-phrases based on a relation classifier that is configured to predict a relation between a pair of entities without restricting the entities to a set of named entities. The knowledge graph generation system further generates a sub-graph for each of the sentences based on the noun-phrases and the determined relations. Nodes or entities of the sub-graph represent the non-phrases in the sentence and edges represent the relations between the noun-phrases connected by the respective edges. The knowledge graph generation system merges the sub-graphs to generate the knowledge graph for the knowledge corpora.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Analyzing the Nuances of Transformers&#39; Polynomial Simplification Abilities</title>
       <link>https://adityasomak.github.io/publication/polysimp/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
@@ -69,6 +78,17 @@ standing applications developed by various groups of researchers, approaching th
 riety of angles.  Furthermore, we discuss upon key efforts on integrating external knowledge with neu-
 ral networks. Taking cues from these efforts, we conclude by discussing potential pathways to im-
 prove reasoning capabilities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Knowledge and Reasoning for Image Understanding</title>
+      <link>https://adityasomak.github.io/publication/thesis/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/thesis/</guid>
+      <description>&lt;p&gt;Image Understanding is a long-established discipline in computer vision, which encompasses a body of advanced image processing techniques, that are used to locate (“where”), characterize and recognize (“what”) objects, regions, and their attributes in the image. However, the notion of “understanding” (and the goal of artificial intelligent machines) goes beyond factual recall of the recognized components and includes reasoning and thinking beyond what can be seen (or perceived). Understanding is often evaluated by asking questions of increasing difficulty. Thus, the expected functionalities of an intelligent Image Understanding system can be expressed in terms of the functionalities that are required to answer questions about an image. Answering questions about images require primarily three components: Image Understanding, question (natural language) understanding, and reasoning based on knowledge. Any question, asking beyond what can be directly seen, requires modeling of commonsense (or background/ontological/factual) knowledge and reasoning.&lt;/p&gt;
+
+&lt;p&gt;Knowledge and reasoning have seen scarce use in image understanding applications. In this thesis, we demonstrate the utilities of incorporating background knowledge and using explicit reasoning in image understanding applications. We first present a comprehensive survey of the previous work that utilized background knowledge and reasoning in understanding images. This survey outlines the limited use of commonsense knowledge in high-level applications. We then present a set of vision and reasoning-based methods to solve several applications and show that these approaches benefit in terms of accuracy and interpretability from the explicit use of knowledge and reasoning. We propose novel knowledge representations of image, knowledge acquisition methods, and a new implementation of an efficient probabilistic logical reasoning engine that can utilize publicly available commonsense knowledge to solve applications such as visual question answering, image puzzles. Additionally, we identify the need for new datasets that explicitly require external commonsense knowledge to solve. We propose the new task of Image Riddles, which requires a combination of vision, and reasoning based on ontological knowledge; and we collect a sufficiently large dataset to serve as an ideal testbed for vision and reasoning research. Lastly, we propose end-to-end deep architectures that can combine vision, knowledge and reasoning modules together and achieve large performance boosts over state-of-the-art methods&lt;/p&gt;
 </description>
     </item>
     
@@ -198,6 +218,15 @@ state-of-the art approaches.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Recognizing social constructs from textual conversation</title>
+      <link>https://adityasomak.github.io/publication/social/</link>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/social/</guid>
+      <description>&lt;p&gt;In this paper we present our work on recognizing high level social constructs such as Leadership and Status from textual conversation using an approach that makes use of the background knowledge about social hierarchy and integrates statistical methods and symbolic logic based methods. We use a stratified approach in which we first detect lower level language constructs such as politeness, command and agreement that help us to infer intermediate constructs such as deference, closeness and authority that are observed between the parties engaged in conversation. These intermediate constructs in turn are used to determine the social constructs Leadership and Status. We have implemented this system successfully in both English and Korean languages and achieved considerable accuracy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
       <link>https://adityasomak.github.io/publication/kparser/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
@@ -220,6 +249,15 @@ In the process we develop a semantic parser
 (&lt;a href=&#34;www.kparser.org&#34; target=&#34;_blank&#34;&gt;www.kparser.org&lt;/a&gt;). We show that our approach
 works well with respect to a subset of Winograd
 schemas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identifying various kinds of event mentions in k-parser output</title>
+      <link>https://adityasomak.github.io/publication/identifying/</link>
+      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/identifying/</guid>
+      <description>&lt;p&gt;In this paper we show how our semantic parser (Knowledge Parser or K-Parser) identifies various kinds of event mentions in the input text. The types include recursive (complex) and non recursive event mentions. K-Parser outputs each event mention in form of an acyclic graph with root nodes as the verbs that drive those events. The children nodes of the verbs represent the entities participating in the events, and their conceptual classes. The on-line demo of the system is available at &lt;a href=&#34;http://kparser.org&#34; target=&#34;_blank&#34;&gt;http://kparser.org&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

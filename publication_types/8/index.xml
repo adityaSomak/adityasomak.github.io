@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 | Somak Aditya</title>
+    <link>https://adityasomak.github.io/publication_types/8/</link>
+      <atom:link href="https://adityasomak.github.io/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>8</title>
+      <link>https://adityasomak.github.io/publication_types/8/</link>
+    </image>
+    
+    <item>
+      <title>Creating a knowledge graph based on text-based knowledge corpora</title>
+      <link>https://adityasomak.github.io/publication/makrstaraipatent/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/makrstaraipatent/</guid>
+      <description>&lt;p&gt;In some embodiments, a knowledge graph generation system extracts noun-phrases from sentences of a knowledge corpora and determines the relations between the noun-phrases based on a relation classifier that is configured to predict a relation between a pair of entities without restricting the entities to a set of named entities. The knowledge graph generation system further generates a sub-graph for each of the sentences based on the noun-phrases and the determined relations. Nodes or entities of the sub-graph represent the non-phrases in the sentence and edges represent the relations between the noun-phrases connected by the respective edges. The knowledge graph generation system merges the sub-graphs to generate the knowledge graph for the knowledge corpora.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
