@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ATP | Somak Aditya</title>
+    <link>https://adityasomak.github.io/tags/atp/</link>
+      <atom:link href="https://adityasomak.github.io/tags/atp/index.xml" rel="self" type="application/rss+xml" />
+    <description>ATP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>ATP</title>
+      <link>https://adityasomak.github.io/tags/atp/</link>
+    </image>
+    
+    <item>
+      <title>Symbolic Mathematics</title>
+      <link>https://adityasomak.github.io/project/symbolicmath/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/symbolicmath/</guid>
+      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explore Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps. Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that
+Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach
+(where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

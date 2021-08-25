@@ -13,11 +13,17 @@
     </image>
     
     <item>
-      <title>Solving Visual QA using Reasoning and Deep Learning</title>
+      <title>Vision and Reasoning</title>
       <link>https://adityasomak.github.io/project/pslvqa/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/pslvqa/</guid>
-      <description></description>
+      <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and older Active Vision literature points to an explicit iterative interaction
+between perception, reasoning and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;ACS paper&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We have proposed instantiations of this abstract architecture to solve image puzzles, VQA and visual reasoning tasks such as CLEVR. In our &lt;a href=&#34;https://visionandreasoning.wordpress.com&#34; target=&#34;_blank&#34;&gt;AAAI 2018 VQA&lt;/a&gt;, and &lt;a href=&#34;https://imageriddle.wordpress.com/imageriddle/&#34; target=&#34;_blank&#34;&gt;UAI 2018 Puzzles&lt;/a&gt;, we have proposed an explicit probabilistic soft logic layer on top of a neural architecture that helps integrate commonsense knowledge and induces post-hoc interpretability.&lt;/p&gt;
+
+&lt;p&gt;Later on, for an end-to-end (differentiable) integration of spatial knowledge, we explore a combination of knowledge distillation, probabilistic logic, and relational network in our &lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/2019-wacv.pdf&#34; target=&#34;_blank&#34;&gt;WACV 2019 CLEVR&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

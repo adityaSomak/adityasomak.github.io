@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/tags/common-sense/</link>
       <atom:link href="https://adityasomak.github.io/tags/common-sense/index.xml" rel="self" type="application/rss+xml" />
     <description>common-sense</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>common-sense</title>
@@ -13,18 +13,28 @@
     </image>
     
     <item>
+      <title>Natural Language Processing</title>
+      <link>https://adityasomak.github.io/project/nlp/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/nlp/</guid>
+      <description>&lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
+Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
+in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;CoNLL 2020&lt;/a&gt; showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.&lt;/p&gt;
+
+&lt;p&gt;We did a follow-up, adapting the CheckList methodology, where we create a large &lt;a href=&#34;https://arxiv.org/abs/2107.07229&#34; target=&#34;_blank&#34;&gt;CheckList-NLI&lt;/a&gt; dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&amp;rsquo;s behavior is more predictable than BERT.&lt;/p&gt;
+
+&lt;hr style=&#34;width:100%;text-align:left;margin-left:0&#34;&gt;
+
+&lt;p&gt;&lt;h3&gt; Semantic Parsing &lt;/h3&gt;
+We (along with co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;K-Parser IJCAI-15&lt;/a&gt;, &lt;a href=&#34;https://aclanthology.org/W15-0811.pdf&#34; target=&#34;_blank&#34;&gt;K-Parser NAACL 15&lt;/a&gt;), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>From Images to Sentences</title>
       <link>https://adityasomak.github.io/project/example-external-project/</link>
       <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>K-Parser: A Knowledge Parser</title>
-      <link>https://adityasomak.github.io/project/kparser/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/project/kparser/</guid>
       <description></description>
     </item>
     
