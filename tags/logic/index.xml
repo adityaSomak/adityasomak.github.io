@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Logic | Somak Aditya</title>
+    <title>logic | Somak Aditya</title>
     <link>https://adityasomak.github.io/tags/logic/</link>
       <atom:link href="https://adityasomak.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
-    <description>Logic</description>
+    <description>logic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>Logic</title>
+      <title>logic</title>
       <link>https://adityasomak.github.io/tags/logic/</link>
     </image>
     
@@ -17,18 +17,30 @@
       <link>https://adityasomak.github.io/project/symbolicmath/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/symbolicmath/</guid>
-      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explore Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps. Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that
-Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach
-(where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline&lt;/p&gt;
+      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explored Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps.&lt;/p&gt;
+
+&lt;p&gt;Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach (where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline.&lt;/p&gt;
+
+&lt;p&gt;&lt;div&gt;
+&lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformers&amp;rsquo; Polynomial Simplification Abilities. ICLR 2021 MathAI Workshop.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Natural Language Processing</title>
       <link>https://adityasomak.github.io/project/nlp/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/nlp/</guid>
-      <description>&lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
+      <description>&lt;p&gt;Using Natural Language Inference task (NLI) as a representative task for natural language understanding (NLU), my goal is the &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of language models.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
 in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;CoNLL 2020&lt;/a&gt; showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.&lt;/p&gt;
 
@@ -38,6 +50,24 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 
 &lt;p&gt;&lt;h3&gt; Semantic Parsing &lt;/h3&gt;
 We (along with co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;K-Parser IJCAI-15&lt;/a&gt;, &lt;a href=&#34;https://aclanthology.org/W15-0811.pdf&#34; target=&#34;_blank&#34;&gt;K-Parser NAACL 15&lt;/a&gt;), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;div&gt;
+&lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015.
+&lt;/li&gt;&lt;li&gt;
+Pratik Joshi&lt;em&gt;, Somak Aditya&lt;/em&gt;, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
+&lt;/li&gt;&lt;li&gt;
+Arpit Sharma, Somak Aditya, Vo Nguyen and Chitta Baral. Towards Addressing the Winograd Schema Challenge - Building and Using a Semantic Parser and a Knowledge Hunting Module. IJCAI 2015.
+&lt;/li&gt;&lt;li&gt;
+Somak Aditya, Chitta Baral, Nguyen Ha Vo, Joohyung Lee, Jieping Ye, Zaw Naung, Barry Lumpkin, Jenny Hastings, Richard Scherl, Dawn M. Sweet, Daniela Inclezan. Recognizing Social Constructs from Textual Conversation. HLT-NAACL 2015.
+&lt;/li&gt;&lt;li&gt;
+Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various Kinds of Event Mentions in K-Parser Output The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation. HLT-NAACL 2015.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     

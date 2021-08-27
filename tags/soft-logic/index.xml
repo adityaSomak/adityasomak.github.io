@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/tags/soft-logic/</link>
       <atom:link href="https://adityasomak.github.io/tags/soft-logic/index.xml" rel="self" type="application/rss+xml" />
     <description>soft-logic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 08 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>soft-logic</title>
@@ -15,14 +15,52 @@
     <item>
       <title>Vision and Reasoning</title>
       <link>https://adityasomak.github.io/project/pslvqa/</link>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/pslvqa/</guid>
-      <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and older Active Vision literature points to an explicit iterative interaction
-between perception, reasoning and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;ACS paper&lt;/a&gt;).&lt;/p&gt;
+      <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and Active Vision literature points to an explicit iterative interaction
+among perception, reasoning, and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;We have proposed instantiations of this abstract architecture to solve image puzzles, VQA and visual reasoning tasks such as CLEVR. In our &lt;a href=&#34;https://visionandreasoning.wordpress.com&#34; target=&#34;_blank&#34;&gt;AAAI 2018 VQA&lt;/a&gt;, and &lt;a href=&#34;https://imageriddle.wordpress.com/imageriddle/&#34; target=&#34;_blank&#34;&gt;UAI 2018 Puzzles&lt;/a&gt;, we have proposed an explicit probabilistic soft logic layer on top of a neural architecture that helps integrate commonsense knowledge and induces post-hoc interpretability.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt; Captioning &lt;/h3&gt;
+In our earliest attempt (&lt;a href=&#34;https://imagesdg.wordpress.com/image-to-scene-description-graph/&#34; target=&#34;_blank&#34;&gt;CVIU 2017&lt;/a&gt; ), we used a combination of image classification, reasoning with commonsense knowledge (extracted from training captions) to propose a Scene Description Graph as an intermediate representation for a natural image. We showed the efficacy of this representation through image captioning, image retrieval tasks (and QA case studies.)&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Visual QA, Image Puzzles and Visual Reasoning &lt;/h3&gt;
+We have proposed instantiations of this abstract architecture to solve image puzzles, VQA and visual reasoning tasks such as CLEVR. In our &lt;a href=&#34;https://visionandreasoning.wordpress.com&#34; target=&#34;_blank&#34;&gt;AAAI 2018 VQA&lt;/a&gt;, and &lt;a href=&#34;https://imageriddle.wordpress.com/imageriddle/&#34; target=&#34;_blank&#34;&gt;UAI 2018 Puzzles&lt;/a&gt; work, we have proposed an explicit probabilistic soft logic layer on top of a neural architecture that helps integrate commonsense knowledge and induces post-hoc interpretability.&lt;/p&gt;
 
 &lt;p&gt;Later on, for an end-to-end (differentiable) integration of spatial knowledge, we explore a combination of knowledge distillation, probabilistic logic, and relational network in our &lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/2019-wacv.pdf&#34; target=&#34;_blank&#34;&gt;WACV 2019 CLEVR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;div&gt;
+&lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral. Integrating Knowledge and Reasoning in Image Understanding. IJCAI 2019.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Rudra Saha, Yezhou Yang and Chitta Baral. Spatial Knowledge Distillation to aid Visual Reasoning. WACV 2019.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral. Explicit Reasoning over End-to-End Neural Architectures for Visual Question Answering. AAAI 2018.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral and Yiannis Aloimonos. Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving. UAI 2018.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral, Yiannis Aloimonos and Cornelia Fermuller. Image Understanding using Vision and Reasoning through Scene Description Graph. Computer Vision and Image Understanding Journal. (Accepted December 2017)
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral and Yiannis Aloimonos. Answering Image Riddles using Vision and Reasoning through Probabilistic Soft Logic.. Arxiv version. 2016. Website with additional information on this work.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Chitta Baral, Yezhou Yang, Yiannnis Aloimonos and Cornelia Fermuller. DeepIU: An architecture for image understanding. Advances in Cognitive Systems. 2016.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yezhou Yang, Chitta Baral, Cornelia Fermuller, Yiannis Aloimonos. From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge. Arxiv version.
+&lt;/li&gt;
+&lt;li&gt;
+Somak Aditya, Yiannis Aloimonos, Chitta Baral, Cornelia Fermuller and Yezhou Yang. Visual common-sense for scene understanding using perception, semantic parsing and reasoning. Common-sense 2015, AAAI 2015 Spring Symposium. (Appenidix with code.)
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     
