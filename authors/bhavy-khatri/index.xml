@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bhavy Khatri | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/bhavy-khatri/</link>
+      <atom:link href="https://adityasomak.github.io/authors/bhavy-khatri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bhavy Khatri</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Bhavy Khatri</title>
+      <link>https://adityasomak.github.io/authors/bhavy-khatri/</link>
+    </image>
+    
+    <item>
+      <title>Predicting joint intent-slot structure</title>
+      <link>https://adityasomak.github.io/publication/intentslotpatent/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/intentslotpatent/</guid>
+      <description>&lt;p&gt;Systems and methods for natural language processing (NLP) are described. The systems may be trained by identifying training data including clean data and noisy data; predicting annotation information using an artificial neural network (ANN); computing a loss value for the annotation information using a weighted loss function that applies a first weight to the clean data and at least one second weight to the noisy data; and updating the ANN based on the loss value. The noisy data may be obtained by identifying a set of unannotated sentences in a target domain, delexicalizing the set of unannotated sentences, finding similar sentences in a source domain, filling at least one arbitrary value in the similar delexicalized sentences, generating annotation information for the similar delexicalized sentences using an annotation model for the source domain, and applying a heuristic mapping to produce annotation information for the sentences in the target domain&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

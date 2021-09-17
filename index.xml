@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>Predicting joint intent-slot structure</title>
+      <link>https://adityasomak.github.io/publication/intentslotpatent/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/intentslotpatent/</guid>
+      <description>&lt;p&gt;Systems and methods for natural language processing (NLP) are described. The systems may be trained by identifying training data including clean data and noisy data; predicting annotation information using an artificial neural network (ANN); computing a loss value for the annotation information using a weighted loss function that applies a first weight to the clean data and at least one second weight to the noisy data; and updating the ANN based on the loss value. The noisy data may be obtained by identifying a set of unannotated sentences in a target domain, delexicalizing the set of unannotated sentences, finding similar sentences in a source domain, filling at least one arbitrary value in the similar delexicalized sentences, generating annotation information for the similar delexicalized sentences using an annotation model for the source domain, and applying a heuristic mapping to produce annotation information for the sentences in the target domain&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task</title>
@@ -212,7 +221,7 @@ image with reasonable accuracy.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Natural Language Processing</title>
+      <title>Reasoning in NLP</title>
       <link>https://adityasomak.github.io/project/nlp/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/nlp/</guid>
@@ -251,9 +260,9 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
     
     <item>
       <title>Vision and Reasoning</title>
-      <link>https://adityasomak.github.io/project/pslvqa/</link>
+      <link>https://adityasomak.github.io/project/vision/</link>
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/project/pslvqa/</guid>
+      <guid>https://adityasomak.github.io/project/vision/</guid>
       <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and Active Vision literature points to an explicit iterative interaction
 among perception, reasoning, and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
 
