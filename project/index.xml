@@ -21,15 +21,15 @@
 
 &lt;p&gt;Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach (where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline.&lt;/p&gt;
 
-&lt;p&gt;&lt;div&gt;
+&lt;!-- &lt;div&gt;
 &lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
 &lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
-Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformers&amp;rsquo; Polynomial Simplification Abilities. ICLR 2021 MathAI Workshop.
+Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformers&#39; Polynomial Simplification Abilities. ICLR 2021 MathAI Workshop. 
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
+&lt;/ul&gt; --&gt;
 </description>
     </item>
     
@@ -38,7 +38,7 @@ Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformer
       <link>https://adityasomak.github.io/project/nlp/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/nlp/</guid>
-      <description>&lt;p&gt;Using Natural Language Inference task (NLI) as a representative task for natural language understanding (NLU), my goal is the &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of language models.&lt;/p&gt;
+      <description>&lt;p&gt;Models that claim to understand language, should also be able to demonstrate its abilities to reason across various dimensions. My present goal is to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of such systems (or language models).&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
@@ -48,18 +48,20 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 
 &lt;hr style=&#34;width:100%;text-align:left;margin-left:0&#34;&gt;
 
-&lt;p&gt;&lt;h3&gt; Semantic Parsing &lt;/h3&gt;
-We (along with co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;K-Parser IJCAI-15&lt;/a&gt;, &lt;a href=&#34;https://aclanthology.org/W15-0811.pdf&#34; target=&#34;_blank&#34;&gt;K-Parser NAACL 15&lt;/a&gt;), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.&lt;/p&gt;
+&lt;p&gt;Previously I have been interested in mapping natural language to formal language representation and reasoning with it. My proposed solutions towards Question-Answering and Winograd Schema Challenge during my Ph.D have been motivated by the central idea of semantic parsing, followed by logical (or probabilistic logical) reasoning.&lt;/p&gt;
 
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;&lt;h3&gt; Semantic Parsing (K-Parser) &lt;/h3&gt;
+We (led by co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;K-Parser IJCAI-15&lt;/a&gt;, &lt;a href=&#34;https://aclanthology.org/W15-0811.pdf&#34; target=&#34;_blank&#34;&gt;K-Parser NAACL 15&lt;/a&gt;), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.&lt;/p&gt;
+
+&lt;!-- &lt;div&gt;
 &lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
 &lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;
-Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015.
+Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015. 
 &lt;/li&gt;&lt;li&gt;
-Pratik Joshi&lt;em&gt;, Somak Aditya&lt;/em&gt;, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
+Pratik Joshi*, Somak Aditya*, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
 &lt;/li&gt;&lt;li&gt;
 Arpit Sharma, Somak Aditya, Vo Nguyen and Chitta Baral. Towards Addressing the Winograd Schema Challenge - Building and Using a Semantic Parser and a Knowledge Hunting Module. IJCAI 2015.
 &lt;/li&gt;&lt;li&gt;
@@ -67,7 +69,7 @@ Somak Aditya, Chitta Baral, Nguyen Ha Vo, Joohyung Lee, Jieping Ye, Zaw Naung, B
 &lt;/li&gt;&lt;li&gt;
 Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various Kinds of Event Mentions in K-Parser Output The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation. HLT-NAACL 2015.
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
+&lt;/ul&gt; --&gt;
 </description>
     </item>
     
@@ -87,16 +89,16 @@ We have proposed instantiations of this abstract architecture to solve image puz
 
 &lt;p&gt;Later on, for an end-to-end (differentiable) integration of spatial knowledge, we explore a combination of knowledge distillation, probabilistic logic, and relational network in our &lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/2019-wacv.pdf&#34; target=&#34;_blank&#34;&gt;WACV 2019 CLEVR&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;div&gt;
+&lt;!-- &lt;div&gt;
 &lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
 &lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-Somak Aditya, Yezhou Yang, Chitta Baral. Integrating Knowledge and Reasoning in Image Understanding. IJCAI 2019.
+&lt;ul&gt; 
+&lt;li&gt; 
+Somak Aditya, Yezhou Yang, Chitta Baral. Integrating Knowledge and Reasoning in Image Understanding. IJCAI 2019. 
 &lt;/li&gt;
 &lt;li&gt;
-Somak Aditya, Rudra Saha, Yezhou Yang and Chitta Baral. Spatial Knowledge Distillation to aid Visual Reasoning. WACV 2019.
+Somak Aditya, Rudra Saha, Yezhou Yang and Chitta Baral. Spatial Knowledge Distillation to aid Visual Reasoning. WACV 2019. 
 &lt;/li&gt;
 &lt;li&gt;
 Somak Aditya, Yezhou Yang, Chitta Baral. Explicit Reasoning over End-to-End Neural Architectures for Visual Question Answering. AAAI 2018.
@@ -119,7 +121,7 @@ Somak Aditya, Yezhou Yang, Chitta Baral, Cornelia Fermuller, Yiannis Aloimonos. 
 &lt;li&gt;
 Somak Aditya, Yiannis Aloimonos, Chitta Baral, Cornelia Fermuller and Yezhou Yang. Visual common-sense for scene understanding using perception, semantic parsing and reasoning. Common-sense 2015, AAAI 2015 Spring Symposium. (Appenidix with code.)
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
+&lt;/ul&gt; --&gt;
 </description>
     </item>
     

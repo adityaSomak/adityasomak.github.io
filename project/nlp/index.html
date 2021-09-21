@@ -626,7 +626,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Using Natural Language Inference task (NLI) as a representative task for natural language understanding (NLU), my goal is the <em>evaluate</em>, <em>enhance</em> and <em>explain</em> the reasoning capabilities of language models.</p>
+      <p>Models that claim to understand language, should also be able to demonstrate its abilities to reason across various dimensions. My present goal is to <em>evaluate</em>, <em>enhance</em> and <em>explain</em> the reasoning capabilities of such systems (or language models).</p>
 
 <p><h3> Natural Language Inference </h3>
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
@@ -636,18 +636,20 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 
 <hr style="width:100%;text-align:left;margin-left:0">
 
-<p><h3> Semantic Parsing </h3>
-We (along with co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;rep=rep1&amp;type=pdf" target="_blank">K-Parser IJCAI-15</a>, <a href="https://aclanthology.org/W15-0811.pdf" target="_blank">K-Parser NAACL 15</a>), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.</p>
+<p>Previously I have been interested in mapping natural language to formal language representation and reasoning with it. My proposed solutions towards Question-Answering and Winograd Schema Challenge during my Ph.D have been motivated by the central idea of semantic parsing, followed by logical (or probabilistic logical) reasoning.</p>
 
-<p><div>
+<p><h3> Semantic Parsing (K-Parser) </h3>
+We (led by co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;rep=rep1&amp;type=pdf" target="_blank">K-Parser IJCAI-15</a>, <a href="https://aclanthology.org/W15-0811.pdf" target="_blank">K-Parser NAACL 15</a>), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.</p>
+
+<!-- <div>
 <div id="References" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><h3 style="margin-bottom:0px;">References</h3>
 <hr style="float: center"></div>
 </div>
 <ul>
 <li>
-Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015.
+Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015. 
 </li><li>
-Pratik Joshi<em>, Somak Aditya</em>, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
+Pratik Joshi*, Somak Aditya*, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
 </li><li>
 Arpit Sharma, Somak Aditya, Vo Nguyen and Chitta Baral. Towards Addressing the Winograd Schema Challenge - Building and Using a Semantic Parser and a Knowledge Hunting Module. IJCAI 2015.
 </li><li>
@@ -655,7 +657,7 @@ Somak Aditya, Chitta Baral, Nguyen Ha Vo, Joohyung Lee, Jieping Ye, Zaw Naung, B
 </li><li>
 Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various Kinds of Event Mentions in K-Parser Output The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation. HLT-NAACL 2015.
 </li>
-</ul></p>
+</ul> -->
 
     </div>
 
@@ -816,60 +818,33 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Predicting joint intent-slot structure | 
+  In <em>USPTO 2021</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/intentslotpatent/" >Predicting joint intent-slot structure</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Systems and methods for natural language processing (NLP) are described. The systems may be trained …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/sharmila-nangi-reddy/">Sharmila Nangi Reddy</a></span>, <span><a href="/authors/pranil-joshi/">Pranil Joshi</a></span>, <span><a href="/authors/kushal-chawla/">Kushal Chawla</a></span>, <span><a href="/authors/bhavy-khatri/">Bhavy Khatri</a></span>, <span><a href="/authors/abhinav-mishra/">Abhinav Mishra</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>USPTO 2021</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2021).
+  <p style="margin:0">
+  
 
 
 
@@ -912,74 +887,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task | 
+  In <em>ArXiv 2021</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/checklist/" >Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      The recent state-of-the-art natural language understanding (NLU) systems often behave …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/ishan-tarunesh/">Ishan Tarunesh</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/monojit-choudhury/">Monojit Choudhury</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>ArXiv 2021</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2021).
+  <p style="margin:0">
+  
 
 
 
@@ -1022,79 +970,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/checklist/" >
-      <img src="/publication/checklist/featured_hub834a75794b6f2a5445dc9e407a80230_741608_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Creating a knowledge graph based on text-based knowledge corpora | 
+  In <em>USPTO 2021</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/makrstaraipatent/" >Creating a knowledge graph based on text-based knowledge corpora</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      In some embodiments, a knowledge graph generation system extracts noun-phrases from sentences of a …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/atanu-sinha/">Atanu Sinha</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>USPTO 2021</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2021).
+  <p style="margin:0">
+  
 
 
 
@@ -1137,79 +1053,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/makrstaraipatent/" >
-      <img src="/publication/makrstaraipatent/featured_hu09754827f266e6f267db5df15aeb1adb_41561_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  TaxiNLI: Taking a Ride up the NLU Hill | 
+  In <em>CoNLL 2020</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/taxinli/" >TaxiNLI: Taking a Ride up the NLU Hill</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Pre-trained Transformer-based neural architectures have consistently achieved state-of-the-art …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/pratik-joshi/">Pratik Joshi*</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya*</a></span>, <span><a href="/authors/aalok-sathe/">Aalok Sathe*</a></span>, <span><a href="/authors/monojit-choudhury/">Monojit Choudhury</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>CoNLL 2020</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2020).
+  <p style="margin:0">
+  
 
 
 
@@ -1268,79 +1152,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/taxinli/" >
-      <img src="/publication/taxinli/featured_hu97ae18e968dcf5267ad4f24fe74ec12f_179344_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Uncovering Relations for Marketing Knowledge Representation | 
+  In <em>AAAI 2020, StarAI Workshp</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/makrstarai/" >Uncovering Relations for Marketing Knowledge Representation</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Online behaviors of consumers and marketers generate massive marketing data, which ever more …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/atanu-sinha/">Atanu Sinha</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>AAAI 2020, StarAI Workshp</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2020).
+  <p style="margin:0">
+  
 
 
 
@@ -1383,79 +1235,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/makrstarai/" >
-      <img src="/publication/makrstarai/featured_hu09754827f266e6f267db5df15aeb1adb_41561_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Integrating Knowledge and Reasoning in Image Understanding | 
+  In <em>IJCAI 2019</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/integratingsurvey/" >Integrating Knowledge and Reasoning in Image Understanding</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Deep learning based data-driven approaches have been successfully applied in various image under- …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>IJCAI 2019</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2019).
+  <p style="margin:0">
+  
 
 
 
@@ -1506,79 +1326,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/integratingsurvey/" >
-      <img src="/publication/integratingsurvey/featured_hude6324830d7d6eb341df7f52f6abe321_349822_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Knowledge and Reasoning for Image Understanding | 
+  In <em>Ph.D Dissertation, Defended 2018</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/thesis/" >Knowledge and Reasoning for Image Understanding</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Image Understanding is a long-established discipline in computer vision, which encompasses a body of …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>Ph.D Dissertation, Defended 2018</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2019).
+  <p style="margin:0">
+  
 
 
 
@@ -1629,79 +1417,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/thesis/" >
-      <img src="/publication/thesis/featured_hu933eb1444e9ee49dc02250279d9cbf60_1097012_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Spatial Knowledge Distillation to aid Visual Reasoning | 
+  In <em>WACV 2019</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/spatialkd/" >Spatial Knowledge Distillation to aid Visual Reasoning</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      For tasks involving language and vision, the current state-of-the-art methods do not leverage any …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/rudra-saha/">Rudra Saha</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>WACV 2019</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2019).
+  <p style="margin:0">
+  
 
 
 
@@ -1752,79 +1508,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/spatialkd/" >
-      <img src="/publication/spatialkd/featured_huf65a0bb3ca7c1358f4da20d8b3be9b9b_166244_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Explicit Reasoning over End-to-End Neural Architectures | 
+  In <em>AAAI 2018</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/pslvqa/" >Explicit Reasoning over End-to-End Neural Architectures</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Many vision and language tasks require commonsense reasoning beyond data-driven image and natural …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>AAAI 2018</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2018).
+  <p style="margin:0">
+  
 
 
 
@@ -1883,79 +1607,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/pslvqa/" >
-      <img src="/publication/pslvqa/featured_hu318f2fa0c9ebf8717403d60906e7897f_539195_300x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving | 
+  In <em>UAI 2018</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/riddles/" >Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>UAI 2018</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2018).
+  <p style="margin:0">
+  
 
 
 
@@ -2014,74 +1706,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Image Understanding using Vision and Reasoning through Scene Description Graph | 
+  In CVIU 2017.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/sdg_cviu/" >Image Understanding using Vision and Reasoning through Scene Description Graph</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Two of the fundamental tasks in image understanding using text are caption generation and visual …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/cornelia-fermuller/">Cornelia Fermuller</a></span>, <span><a href="/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></span>
 
-      </div>
-      
-    </div>
-
-    In CVIU 2017.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2017).
+  <p style="margin:0">
+  
 
 
 
@@ -2132,74 +1797,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  DeepIU: An Architecture for Image Understanding | 
+  In <em>ACS, 2016</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/deepiu/" >DeepIU: An Architecture for Image Understanding</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Image Understanding is fundamental to systems that need to extract contents and infer concepts from …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/cornelia-fermuller/">Cornelia Fermuller</a></span>, <span><a href="/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>ACS, 2016</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2016).
+  <p style="margin:0">
+  
 
 
 
@@ -2258,74 +1896,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge | 
+  In <em>arXiv preprint arXiv:1511.03292</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/sdg/" >From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      In this paper we propose the construction of linguistic descriptions of images. This is achieved …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/cornelia-fermuller/">Cornelia Fermuller</a></span>, <span><a href="/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>arXiv preprint arXiv:1511.03292</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2015).
+  <p style="margin:0">
+  
 
 
 
@@ -2376,74 +1987,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Recognizing social constructs from textual conversation | 
+  In <em>NAACL-HLT, 2015</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/social/" >Recognizing social constructs from textual conversation</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      In this paper we present our work on recognizing high level social constructs such as Leadership and …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/nguyen-vo/">Nguyen Vo</a></span>, <span><a href="/authors/joohyung-lee/">Joohyung Lee</a></span>, <span><a href="/authors/jieping-ye/">Jieping Ye</a></span>, <span><a href="/authors/zaw-naung/">Zaw Naung</a></span>, <span><a href="/authors/barry-lumpkin/">Barry Lumpkin</a></span>, <span><a href="/authors/jenny-hastings/">Jenny Hastings</a></span>, <span><a href="/authors/richard-scherl/">Richard Scherl</a></span>, <span><a href="/authors/dawn-m-sweet/">Dawn M Sweet</a></span>, <span><a href="/authors/daniela-inclezan/">Daniela Inclezan</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>NAACL-HLT, 2015</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2015).
+  <p style="margin:0">
+  
 
 
 
@@ -2486,74 +2070,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module. | 
+  In <em>IJCAI, 2015</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/kparser/" >Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      Concerned about the Turing test’s ability to correctly evaluate if a system exhibits human-like …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/arpit-sharma/">Arpit Sharma</a></span>, <span><a href="/authors/nguyen-ha-vo/">Nguyen Ha Vo</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>IJCAI, 2015</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2015).
+  <p style="margin:0">
+  
 
 
 
@@ -2596,74 +2153,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
+  Identifying various kinds of event mentions in k-parser output | 
+  In <em>NAACL-HLT 2015 Workshop on EVENTS</em>.
   
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/identifying/" >Identifying various kinds of event mentions in k-parser output</a>
-    </h3>
-
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-    <div class="article-style">
-      In this paper we show how our semantic parser (Knowledge Parser or K-Parser) identifies various …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/arpit-sharma/">Arpit Sharma</a></span>, <span><a href="/authors/nguyen-ha-vo/">Nguyen Ha Vo</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>NAACL-HLT 2015 Workshop on EVENTS</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2015).
+  <p style="margin:0">
+  
 
 
 
@@ -2706,68 +2236,47 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
         
           
+<div role="row" class="bx--structured-list-row">
+<div class="bx--structured-list-th" role="columnheader">
 
-
-
-
-
-
-
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-
-
-
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/common-sense/" >Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</a>
-    </h3>
-
+  Visual common-sense for scene understanding using perception, semantic parsing and reasoning. | 
+  In <em>AAAI Spring Symposium, 2015</em>.
+  
+  <br/>
+  
+  <em style="font-weight: normal;">
+  <span class="article-metadata li-cite-author">
     
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
 
 
   
   <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/yezhou-yang/">Yezhou Yang</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>, <span><a href="/authors/cornelia-fermuller/">Cornelia Fermuller</a></span>, <span><a href="/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></span>
 
-      </div>
-      
-    </div>
-
-    In <em>AAAI Spring Symposium, 2015</em>.
-    
-
-    
-    <div class="btn-links">
-      
+  </span>
+  </em>
+  (2015).
+  <p style="margin:0">
+  
 
 
 
@@ -2826,15 +2335,15 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
-    </div>
-    
+  </p>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+  
+  
 </div>
+</div>
+<hr style="float:centre; background:rgb(182, 181, 181); background-image: linear-gradient(to right,#ccc,rgb(182, 181, 181),#ccc)">
+
+
 
         
       
