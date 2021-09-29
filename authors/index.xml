@@ -5,12 +5,44 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://adityasomak.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Aalok Sathe</title>
+      <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/aalok-sathe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karthikeyan K</title>
+      <link>https://adityasomak.github.io/authors/karthikeyan-k/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/karthikeyan-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Abhinav Mishra</title>
@@ -53,14 +85,6 @@
     </item>
     
     <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ishan Tarunesh</title>
       <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
@@ -69,26 +93,10 @@
     </item>
     
     <item>
-      <title>Monojit Choudhury</title>
-      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Atanu Sinha</title>
       <link>https://adityasomak.github.io/authors/atanu-sinha/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/atanu-sinha/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aalok Sathe*</title>
-      <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/aalok-sathe/</guid>
       <description></description>
     </item>
     

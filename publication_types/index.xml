@@ -5,12 +5,20 @@
     <link>https://adityasomak.github.io/publication_types/</link>
       <atom:link href="https://adityasomak.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
       <link>https://adityasomak.github.io/publication_types/</link>
     </image>
+    
+    <item>
+      <title>1</title>
+      <link>https://adityasomak.github.io/publication_types/1/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>8</title>
@@ -25,14 +33,6 @@
       <link>https://adityasomak.github.io/publication_types/3/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication_types/3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>1</title>
-      <link>https://adityasomak.github.io/publication_types/1/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication_types/1/</guid>
       <description></description>
     </item>
     

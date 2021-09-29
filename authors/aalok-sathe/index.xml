@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aalok Sathe* | Somak Aditya</title>
+    <title>Aalok Sathe | Somak Aditya</title>
     <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
       <atom:link href="https://adityasomak.github.io/authors/aalok-sathe/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aalok Sathe*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <description>Aalok Sathe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>Aalok Sathe*</title>
+      <title>Aalok Sathe</title>
       <link>https://adityasomak.github.io/authors/aalok-sathe/</link>
     </image>
+    
+    <item>
+      <title>Analyzing the Effects of Reasoning Types on Cross-Lingual Transfer Performance</title>
+      <link>https://adityasomak.github.io/publication/crosslingual/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/crosslingual/</guid>
+      <description>&lt;p&gt;Multilingual language models achieve impressive zero-shot accuracies in many languages in complex tasks such as Natural Language Inference (NLI). Examples in NLI (and equivalent complex tasks) often pertain to various types of sub-tasks, requiring different kinds of reasoning. Certain types of reasoning have proven to be more difficult to learn in a monolingual context, and in the crosslingual context, similar observations may shed light on zero-shot transfer efficiency and few-shot sample selection. Hence, to investigate the effects of types of reasoning on transfer performance, we propose a category-annotated multilingual NLI dataset.  We discuss the challenges to scale monolingual annotations to multiple languages. We statistically observe interesting effects that the confluence of reasoning types and language similarities have on transfer performance.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>TaxiNLI: Taking a Ride up the NLU Hill</title>
