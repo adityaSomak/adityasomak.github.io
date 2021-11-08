@@ -654,7 +654,17 @@
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
 in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in <a href="https://github.com/microsoft/TaxiNLI" target="_blank">CoNLL 2020</a> showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.</p>
 
-<p>We did a follow-up, adapting the CheckList methodology, where we create a large <a href="https://arxiv.org/abs/2107.07229" target="_blank">CheckList-NLI</a> dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&rsquo;s behavior is more predictable than BERT.</p>
+<p>We did a follow-up, adapting the CheckList methodology, where we create a large <a href="https://github.com/microsoft/LoNLI" target="_blank">CheckList-NLI</a> dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&rsquo;s behavior is more predictable than BERT. Currently, we are also exploring augmenting NLI datasets with verifiable proofs.</p>
+
+<p>Summary and Extensions:
+<ul>
+<li> <a href="https://github.com/microsoft/TaxiNLI" target="_blank">TaxiNLI: Taxonomic Fragmentation of the NLI Task</a>, <em>CoNLL 2020</em>
+</li>
+<li> <a href="https://github.com/microsoft/TaxiXNLI" target="_blank">TaxiXNLI: Multi-lingual Extension of TaxiNLI</a>, <em>EMNLP 2021 MRL Workshop</em>
+</li>
+<li> <a href="https://github.com/microsoft/LoNLI" target="_blank">LoNLI: Testing Diverse Reasoning of NLI Systems</a>, <em>Under review</em>
+</li>
+</ul></p>
 
 <hr style="width:100%;text-align:left;margin-left:0">
 
@@ -1062,6 +1072,14 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/microsoft/LoNLI" target="_blank" rel="noopener">
+  Dataset
+</a>
 
 
 

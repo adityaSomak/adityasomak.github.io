@@ -240,7 +240,17 @@ image with reasonable accuracy.&lt;/p&gt;
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
 in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;CoNLL 2020&lt;/a&gt; showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.&lt;/p&gt;
 
-&lt;p&gt;We did a follow-up, adapting the CheckList methodology, where we create a large &lt;a href=&#34;https://arxiv.org/abs/2107.07229&#34; target=&#34;_blank&#34;&gt;CheckList-NLI&lt;/a&gt; dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&amp;rsquo;s behavior is more predictable than BERT.&lt;/p&gt;
+&lt;p&gt;We did a follow-up, adapting the CheckList methodology, where we create a large &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;CheckList-NLI&lt;/a&gt; dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&amp;rsquo;s behavior is more predictable than BERT. Currently, we are also exploring augmenting NLI datasets with verifiable proofs.&lt;/p&gt;
+
+&lt;p&gt;Summary and Extensions:
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;TaxiNLI: Taxonomic Fragmentation of the NLI Task&lt;/a&gt;, &lt;em&gt;CoNLL 2020&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI: Multi-lingual Extension of TaxiNLI&lt;/a&gt;, &lt;em&gt;EMNLP 2021 MRL Workshop&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review&lt;/em&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 
 &lt;hr style=&#34;width:100%;text-align:left;margin-left:0&#34;&gt;
 
