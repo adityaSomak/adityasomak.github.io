@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Somak Aditya</title>
+    <link>https://adityasomak.github.io/courses/</link>
+      <atom:link href="https://adityasomak.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Courses</title>
+      <link>https://adityasomak.github.io/courses/</link>
+    </image>
+    
+    <item>
+      <title>CS60092 Information Retrieval (Spring 2022)</title>
+      <link>https://adityasomak.github.io/courses/irspring22/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/irspring22/</guid>
+      <description>&lt;p&gt;&lt;h3&gt; Instructors &lt;/h3&gt;
+Somak Aditya&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;  Course Timings &lt;/h3&gt;
+&lt;b&gt;Lectures&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
+Monday - 8:00 - 10:00 (Teams Link) &lt;p&gt;&lt;/p&gt;
+Tuesday - 12:00 - 1:00 (Teams Link) &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;b&gt;Office Hours&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
+Friday - 18:10 - 19:10 (CSE-308)
+--&gt;
+
+&lt;p&gt;&lt;h3&gt; Teaching Assistants &lt;/h3&gt;
+TBA&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Announcements&lt;/h2&gt;
+Keep a tab here for announcements.
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+Tentative Weightage: Mid-sem (30 %), End-Sem (40 %), Term Project (30 %).
+&lt;p&gt;&lt;/p&gt;
+First Class on January TBA
+&lt;p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

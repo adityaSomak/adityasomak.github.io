@@ -5,12 +5,46 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>CS60092 Information Retrieval (Spring 2022)</title>
+      <link>https://adityasomak.github.io/courses/irspring22/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/irspring22/</guid>
+      <description>&lt;p&gt;&lt;h3&gt; Instructors &lt;/h3&gt;
+Somak Aditya&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;  Course Timings &lt;/h3&gt;
+&lt;b&gt;Lectures&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
+Monday - 8:00 - 10:00 (Teams Link) &lt;p&gt;&lt;/p&gt;
+Tuesday - 12:00 - 1:00 (Teams Link) &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;b&gt;Office Hours&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
+Friday - 18:10 - 19:10 (CSE-308)
+--&gt;
+
+&lt;p&gt;&lt;h3&gt; Teaching Assistants &lt;/h3&gt;
+TBA&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Announcements&lt;/h2&gt;
+Keep a tab here for announcements.
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+Tentative Weightage: Mid-sem (30 %), End-Sem (40 %), Term Project (30 %).
+&lt;p&gt;&lt;/p&gt;
+First Class on January TBA
+&lt;p&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Analyzing the Effects of Reasoning Types on Cross-Lingual Transfer Performance</title>
