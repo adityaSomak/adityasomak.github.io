@@ -17,24 +17,30 @@
       <link>https://adityasomak.github.io/courses/irspring22/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/courses/irspring22/</guid>
-      <description>&lt;p&gt;&lt;h3&gt; Instructors &lt;/h3&gt;
-Somak Aditya&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;  Course Timings &lt;/h3&gt;
-&lt;b&gt;Lectures&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
-Monday - 8:00 - 10:00 (Teams Link) &lt;p&gt;&lt;/p&gt;
-Tuesday - 12:00 - 1:00 (Teams Link) &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;table id=&#34;nobd&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34; border=&#34;0&#34;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34; valign=&#34;top&#34;&gt;&lt;b&gt;Instructor&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34;&gt;&lt;a href=&#34;http://cse.iitkgp.ac.in/~saditya/&#34;&gt;Somak Aditya&lt;/a&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Timing&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Slot A3: MON (08:00-08:55) , MON (09:00-09:55) , TUE(12:00-12:55)
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Venue&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;TBA
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;TBA
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/blockquote&gt;
 
 &lt;!--
 &lt;b&gt;Office Hours&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
 Friday - 18:10 - 19:10 (CSE-308)
 --&gt;
 
-&lt;p&gt;&lt;h3&gt; Teaching Assistants &lt;/h3&gt;
-TBA&lt;/p&gt;
-
 &lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;Announcements&lt;/h2&gt;
+&lt;h3&gt;Announcements&lt;/h3&gt;
 Keep a tab here for announcements.
 &lt;p&gt;&lt;/p&gt;
 
@@ -43,6 +49,11 @@ Tentative Weightage: Mid-sem (30 %), End-Sem (40 %), Term Project (30 %).
 &lt;p&gt;&lt;/p&gt;
 First Class on January TBA
 &lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Text and Reference Literature &lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt; Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. &lt;em&gt;Introduction to information retrieval&lt;/em&gt;, Cambridge: Cambridge university press, 2008.&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
 </description>
     </item>
     
