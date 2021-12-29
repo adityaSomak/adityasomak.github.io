@@ -27,7 +27,7 @@
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Slot A3: MON (08:00-08:55) , MON (09:00-09:55) , TUE(12:00-12:55)
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Venue&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;TBA
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Online Teams Channel *TBA*, Key *TBA*
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;TBA
@@ -41,18 +41,47 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;p&gt; &lt;/p&gt;
 &lt;h3&gt;Announcements&lt;/h3&gt;
-Keep a tab here for announcements.
+&lt;ul&gt;
+
+&lt;!-- &lt;li&gt; Every registered student should create an account on the Moodle system of CSE department. This system will be used for submission and grading of class tests and project. If you do not have an account already on the CSE department Moodle, create a new account for yourself following the procedure stated on the same webpage. Login to the system, and follow the link &#34;Autumn Semester (2021-22)&#34;. Choose the course &#34;CS60092_2021-22 Information Retrieval&#34;. Join this course as &#34;Student&#34;; use Student Enrolment Key: CSTU60092.
+&lt;/li&gt; --&gt;
+
+&lt;li&gt; First class on Tuesday, &lt;b&gt;January 4, at 12:00&lt;/b&gt;. Join the class *TBA* on MS Teams (IITKGP domain) using the Team Code *TBA*.
+&lt;/li&gt;
+
+&lt;li&gt; The course requires an understanding of the foundation of algorithms and data structures, probability and statistics, and knowledge of the basics of Natural Language Processing, and Machine Learning. This will be a research-oriented course that would require students to understand several CS research papers. There will be a term project that needs to be done using Python/Java. It is advisable to take this course only if you have the necessary background.
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
-Tentative Weightage: Mid-sem (30 %), End-Sem (40 %), Term Project (30 %).
+Tentative Weightage: Mid-sem (1 or 2 online tests - 30 %), End-Sem (1 or 2 online tests - 35 %), Term Project (35 %).
 &lt;p&gt;&lt;/p&gt;
-First Class on January TBA
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;h3&gt; Text and Reference Literature &lt;/h3&gt;
+&lt;p&gt;&lt;h3&gt;Broad Topics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt; Boolean retrieval &lt;/li&gt;
+&lt;li&gt; The term vocabulary &amp;amp; postings lists &lt;/li&gt;
+&lt;li&gt; Dictionaries and tolerant retrieval &lt;/li&gt;
+&lt;li&gt; Index construction and compression&lt;/li&gt;
+&lt;li&gt; Scoring, term weighting &amp;amp; the vector space model&lt;/li&gt;
+&lt;li&gt; Computing scores in a complete search system&lt;/li&gt;
+&lt;li&gt; Evaluation in information retrieval&lt;/li&gt;
+&lt;li&gt; Relevance feedback &amp;amp; query expansion&lt;/li&gt;
+&lt;li&gt; Probabilistic information retrieval&lt;/li&gt;
+&lt;li&gt; Language models for information retrieval&lt;/li&gt;
+&lt;li&gt; Web Search and Applications such as Query Auto-completion&lt;/li&gt;
+&lt;li&gt; Link analysis &amp;ndash; HITS, PageRank&lt;/li&gt;
+&lt;li&gt; Summarization&lt;/li&gt;
+&lt;li&gt; Learning to Rank&lt;/li&gt;
+&lt;li&gt; Neural IR&lt;/li&gt;
+&lt;li&gt; Domain-specific IR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt; Text and Reference Literature &lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt; Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. &lt;em&gt;Introduction to information retrieval&lt;/em&gt;, Cambridge: Cambridge university press, 2008.&lt;/li&gt;
+  &lt;li&gt; &lt;a href=&#34;https://nlp.stanford.edu/IR-book/information-retrieval-book.html&#34;&gt;Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. &lt;em&gt;Introduction to information retrieval&lt;/em&gt;, Cambridge: Cambridge university press, 2008.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; Research Papers shared in class. &lt;/li&gt;
 &lt;/ol&gt;&lt;/p&gt;
 </description>
     </item>
