@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://adityasomak.github.io/courses/teachingexp/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://adityasomak.github.io/publication_types/1/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url>
@@ -409,10 +414,6 @@
   
   <url>
     <loc>https://adityasomak.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://adityasomak.github.io/teaching/</loc>
   </url>
   
 </urlset>

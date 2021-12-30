@@ -27,10 +27,15 @@
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Slot A3: MON (08:00-08:55) , MON (09:00-09:55) , TUE(12:00-12:55)
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Venue&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Online Teams Channel *TBA*, Key *TBA*
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;Online Teams Channel &lt;b&gt;Information-Retrieval-2022Spring&lt;/b&gt;, Key &lt;b&gt;e3ulzxv&lt;/b&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;TBA
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;
+    Abhilash Nandy &lt;br/&gt;
+    Ankan Mullick &lt;br/&gt;
+    Neeraj Saini &lt;br/&gt;
+    Ravi Pratap Singh &lt;br/&gt;
+    Vaibhav Saxena &lt;br/&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/blockquote&gt;
 
@@ -46,7 +51,7 @@ Friday - 18:10 - 19:10 (CSE-308)
 &lt;!-- &lt;li&gt; Every registered student should create an account on the Moodle system of CSE department. This system will be used for submission and grading of class tests and project. If you do not have an account already on the CSE department Moodle, create a new account for yourself following the procedure stated on the same webpage. Login to the system, and follow the link &#34;Autumn Semester (2021-22)&#34;. Choose the course &#34;CS60092_2021-22 Information Retrieval&#34;. Join this course as &#34;Student&#34;; use Student Enrolment Key: CSTU60092.
 &lt;/li&gt; --&gt;
 
-&lt;li&gt; First class on Tuesday, &lt;b&gt;January 4, at 12:00&lt;/b&gt;. Join the class *TBA* on MS Teams (IITKGP domain) using the Team Code *TBA*.
+&lt;li&gt; First class on Tuesday, &lt;b&gt;January 4, at 12:00 noon&lt;/b&gt;. Join the class &lt;b&gt;Information-Retrieval-2022Spring&lt;/b&gt; on MS Teams (IITKGP domain) using the Team Code &lt;b&gt;e3ulzxv&lt;/b&gt;.
 &lt;/li&gt;
 
 &lt;li&gt; The course requires an understanding of the foundation of algorithms and data structures, probability and statistics, and knowledge of the basics of Natural Language Processing, and Machine Learning. This will be a research-oriented course that would require students to understand several CS research papers. There will be a term project that needs to be done using Python/Java. It is advisable to take this course only if you have the necessary background.
@@ -95,7 +100,68 @@ Please note, if the institute decides to switch back to offline mode, I might ma
   &lt;li&gt; Research Papers shared in class. &lt;/li&gt;
 &lt;/ol&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; Every test should be attempted individually by each student. Plagiarism in any form &amp;ndash; copying from other students or from online resources &amp;ndash; will be severely penalized.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; Every test should be attempted individually by each student. Plagiarism in any form will be severely penalized.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching/Mentoring Experience</title>
+      <link>https://adityasomak.github.io/courses/teachingexp/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/teachingexp/</guid>
+      <description>&lt;p&gt;&lt;h3&gt; Teaching &lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;
+Teaching Assistant Duties:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CSE-576 Natural Language Processing, Fall 2015 and Fall 2016
+
+&lt;ul&gt;
+&lt;li&gt;Responsibilities included: Creating Homework assignments, proposing class projects, and mentoring
+multiple groups, delivering advanced topic lectures.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;CSE-471 Introduction To Artificial Intelligence, Spring 2016&lt;/li&gt;
+&lt;li&gt;CSE-310 Data Structures and Algorithms, Spring 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;h3&gt; Mentoring (Post Ph.D) &lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(2021) &lt;a href=&#34;https://ishan00.github.io/&#34; target=&#34;_blank&#34;&gt;Ishan Tarunesh&lt;/a&gt;: CheckList NLI&lt;/li&gt;
+&lt;li&gt;(2021) &lt;a href=&#34;https://scholar.google.com/citations?user=KACcWC4AAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Karthikeyan K&lt;/a&gt;: Multi-lingual extension of TaxiNLI (&lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI&lt;/a&gt;; Primary Mentor: Monojit Choudhury; at Duke U.)&lt;/li&gt;
+&lt;li&gt;(2021) Vishesh Agarwal: Polynomial Simplification (Primary Mentor: Navin Goyal)&lt;/li&gt;
+&lt;li&gt;(2020-21) &lt;a href=&#34;https://aalok-sathe.gitlab.io/&#34; target=&#34;_blank&#34;&gt;Aalok Sathe&lt;/a&gt;: TaxiNLI and TaxiXNLI (at MIT BCS)&lt;/li&gt;
+&lt;li&gt;(2020) &lt;a href=&#34;https://pratikmjoshi.github.io/&#34; target=&#34;_blank&#34;&gt;Pratik Joshi&lt;/a&gt;: TaxiNLI: Taking a ride up the NLU Hill. (at CMU LTI)&lt;/li&gt;
+&lt;li&gt;(2019) Pranil Joshi (IIT-B), Abhinav Mishra (IIT-G), Bhavy Khatri (IIT-K): Knowledge-sharing between Cross-domain Agents
+
+&lt;ul&gt;
+&lt;li&gt;Mentored with Kushal Chawla (USC), Sharmila Nangi Reddy&lt;/li&gt;
+&lt;li&gt;(Feb 2020) Patent filed &lt;a href=&#34;https://patents.google.com/patent/US20210264111A1/en&#34; target=&#34;_blank&#34;&gt;USPTO&lt;/a&gt;. Status &lt;em&gt;pending&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;h3&gt; Mentoring (During Ph.D) &lt;/h3&gt;
+&lt;hr style=&#34;float: center&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/saharudra/&#34; target=&#34;_blank&#34;&gt;Rudra Saha&lt;/a&gt; (2017 &amp;ndash; 2018), Graduated, MS Student, Computer Science, ASU, Currently Researcher@Verisk
+
+&lt;ul&gt;
+&lt;li&gt;Spatial Knowledge Distillation to aid Visual Reasoning&lt;/li&gt;
+&lt;li&gt;Thesis: &lt;a href=&#34;https://repository.asu.edu/items/51644&#34; target=&#34;_blank&#34;&gt;Multimodal Representation Learning for Visual Reasoning and Text-to-Image Translation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/divyanshubandil/&#34; target=&#34;_blank&#34;&gt;Divyanshu Bandil&lt;/a&gt;(2016 &amp;ndash; 2017), Graduated MS Student, Computer Engineering.
+
+&lt;ul&gt;
+&lt;li&gt;Visual Question Categorization. Visual Question Answering in Dynamic Environments&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/trideeprath/&#34; target=&#34;_blank&#34;&gt;Trideep Rath&lt;/a&gt; (2015 &amp;ndash; 2017), Graduated, MS, Computer Science, ASU. Currently Data Scientist, Kayak
+
+&lt;ul&gt;
+&lt;li&gt;Thesis: &lt;a href=&#34;https://repository.asu.edu/attachments/186590/content/Rath_asu_0010N_17130.pdf&#34; target=&#34;_blank&#34;&gt;Word and Relation Embedding for Sentence Representation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
