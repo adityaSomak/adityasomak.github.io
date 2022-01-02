@@ -46,10 +46,14 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;p&gt; &lt;/p&gt;
 &lt;h3&gt;Announcements&lt;/h3&gt;
-&lt;ul&gt;
+&lt;ul style=&#34;list-style-type: square;&#34;&gt;
 
 &lt;!-- &lt;li&gt; Every registered student should create an account on the Moodle system of CSE department. This system will be used for submission and grading of class tests and project. If you do not have an account already on the CSE department Moodle, create a new account for yourself following the procedure stated on the same webpage. Login to the system, and follow the link &#34;Autumn Semester (2021-22)&#34;. Choose the course &#34;CS60092_2021-22 Information Retrieval&#34;. Join this course as &#34;Student&#34;; use Student Enrolment Key: CSTU60092.
 &lt;/li&gt; --&gt;
+
+&lt;li&gt; Every registered student should join the Google mailing list &lt;b&gt;ir-2022-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;/li&gt;
+
+&lt;li&gt; IR 2011-22 Spring will be a fully &lt;u&gt;online research-oriented course&lt;/u&gt;. &lt;/li&gt;
 
 &lt;li&gt; First class on Tuesday, &lt;b&gt;January 4, at 12:00 noon&lt;/b&gt;. Join the class &lt;b&gt;Information-Retrieval-2022Spring&lt;/b&gt; on MS Teams (IITKGP domain) using the Team Code &lt;b&gt;e3ulzxv&lt;/b&gt;.
 &lt;/li&gt;
@@ -61,8 +65,6 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;p&gt;&lt;/p&gt;
 Tentative Weightage: Three online proctored tests (60%), Term Project (40 %).
-&lt;p&gt;&lt;/p&gt;
-Please note, if the institute decides to switch back to offline mode, I might make some changes to the weightage.
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Pre-requisites for the course &lt;/h3&gt;
