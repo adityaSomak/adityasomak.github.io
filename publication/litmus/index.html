@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Pre-trained multilingual language models are gaining popularity due to their cross-lingual zero-shot transfer ability, but these models do not perform equally well in all languages. Evaluating task-specific performance of a model in a large number of languages is often a challenge due to lack of labeled data, as is targeting improvements in low performing languages through few-shot learning. We present a tool - LITMUS Predictor - that can make reliable performance projections for a fine-tuned task-specific model in a set of languages without test and training data, and help strategize data labeling efforts to optimize performance and fairness objectives.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/litmus/">
 
   
 
@@ -106,14 +106,12 @@
 
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/litmus/">
 
   
   
@@ -126,18 +124,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/">
-  <meta property="og:title" content="Authors | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/litmus/">
+  <meta property="og:title" content="LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems | Somak Aditya">
+  <meta property="og:description" content="Pre-trained multilingual language models are gaining popularity due to their cross-lingual zero-shot transfer ability, but these models do not perform equally well in all languages. Evaluating task-specific performance of a model in a large number of languages is often a challenge due to lack of labeled data, as is targeting improvements in low performing languages through few-shot learning. We present a tool - LITMUS Predictor - that can make reliable performance projections for a fine-tuned task-specific model in a set of languages without test and training data, and help strategize data labeling efforts to optimize performance and fairness objectives."><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-02-03T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-02-03T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-02-03T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/litmus/"
+  },
+  "headline": "LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems",
+  
+  "datePublished": "2022-02-03T00:00:00Z",
+  "dateModified": "2022-02-03T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Anirudh Srinivasan"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Pre-trained multilingual language models are gaining popularity due to their cross-lingual zero-shot transfer ability, but these models do not perform equally well in all languages. Evaluating task-specific performance of a model in a large number of languages is often a challenge due to lack of labeled data, as is targeting improvements in low performing languages through few-shot learning. We present a tool - LITMUS Predictor - that can make reliable performance projections for a fine-tuned task-specific model in a set of languages without test and training data, and help strategize data labeling efforts to optimize performance and fairness objectives."
+}
+</script>
+
+  
 
   
 
@@ -145,10 +188,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Somak Aditya</title>
+
+
+  <title>LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +385,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,6 +485,182 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/anirudh-srinivasan/">Anirudh Srinivasan</a></span>, <span><a href="/authors/gauri-kholkar/">Gauri Kholkar</a></span>, <span><a href="/authors/rahul-kejriwal/">Rahul Kejriwal</a></span>, <span><a href="/authors/tanuja-ganu/">Tanuja Ganu</a></span>, <span><a href="/authors/sandipan-dandapat/">Sandipan Dandapat</a></span>, <span><a href="/authors/sunayana-sitaram/">Sunayana Sitaram</a></span>, <span><a href="/authors/balakrishnan-santhanam/">Balakrishnan Santhanam</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/kalika-bali/">Kalika Bali</a></span>, <span><a href="/authors/monojit-choudhury/">Monojit Choudhury</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    February 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/litmus/&amp;text=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/litmus/&amp;t=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems&amp;body=https://adityasomak.github.io/publication/litmus/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/litmus/&amp;title=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems%20https://adityasomak.github.io/publication/litmus/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/litmus/&amp;title=LITMUS%20Predictor:%20An%20AI%20Assistant%20for%20Building%20Reliable,%20High-Performing%20and%20Fair%20Multilingual%20NLP%20Systems" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -448,83 +670,150 @@
 
 
 
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.microsoft.com/en-us/research/uploads/prod/2022/01/aaai_demo-3.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/aalok-sathe/">Aalok Sathe</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/karthikeyan-k/">Karthikeyan K</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/abhinav-mishra/">Abhinav Mishra</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/bhavy-khatri/">Bhavy Khatri</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/kushal-chawla/">Kushal Chawla</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/pranil-joshi/">Pranil Joshi</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/sharmila-nangi-reddy/">Sharmila Nangi Reddy</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/ishan-tarunesh/">Ishan Tarunesh</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/navin-goyal/">Navin Goyal</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/vishesh-agarwal/">Vishesh Agarwal</a></li>
-    
-  </ul>
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/authors/">&laquo;</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/3/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In AAAI 2022 Demonstrations</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Pre-trained multilingual language models are gaining popularity due to their cross-lingual zero-shot transfer ability, but these models do not perform equally well in all languages. Evaluating task-specific performance of a model in a large number of languages is often a challenge due to lack of labeled data, as is targeting improvements in low performing languages through few-shot learning. We present a tool - LITMUS Predictor - that can make reliable performance projections for a fine-tuned task-specific model in a set of languages without test and training data, and help strategize data labeling efforts to optimize performance and fairness objectives.</p>
 </div>
 
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/anirudh-srinivasan/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
+
       
 
     
+    
+    
+    <script src="/js/mathjax-config.js"></script>
     
 
     
@@ -546,6 +835,8 @@
       
 
       
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 
