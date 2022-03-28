@@ -53,12 +53,13 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;!-- &lt;li&gt; Every registered student should create an account on the Moodle system of CSE department. This system will be used for submission and grading of class tests and project. If you do not have an account already on the CSE department Moodle, create a new account for yourself following the procedure stated on the same webpage. Login to the system, and follow the link &#34;Autumn Semester (2021-22)&#34;. Choose the course &#34;CS60092_2021-22 Information Retrieval&#34;. Join this course as &#34;Student&#34;; use Student Enrolment Key: CSTU60092.
 &lt;/li&gt; --&gt;
+&lt;li&gt; &lt;b&gt;[Mar 28]&lt;/b&gt;  &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/monojitc/&#34;&gt;Dr. Monojit Choudhury&lt;/a&gt;, Principal Data and Applied Scientist at &lt;a href=&#34;https://turing.microsoft.com/&#34;&gt;Turing India (Microsoft)&lt;/a&gt; presented a Guest Lecture on &#34;&lt;em&gt;Computing and Representing the Meanings of Words: From Wittgenstein to GPT-3 and beyond&lt;/em&gt;&#34;. The recording is available &lt;a href=&#34;https://drive.google.com/file/d/1KW4WDp2H9BKfyZv7JFGT5gXH3yUFM_fU/view?usp=sharing&#34;&gt;here (Google Drive 309.4 MB MPEG4)&lt;/a&gt;.&lt;/li&gt;
 
-&lt;li&gt; [Mar 17] Class Test 2 will be on Mar 3rd week. Syllabus will include whatever is covered after Vector Space and Scoring. &lt;/li&gt; 
+&lt;li&gt; &lt;b&gt;[Mar 17]&lt;/b&gt; Class Test 2 will be on Mar 3rd week. Syllabus will include whatever is covered after Vector Space and Scoring. &lt;/li&gt; 
 
-&lt;li&gt; [Jan 27] Class Test 1 will be on Feb 3rd week. Syllabus will include whatever is covered upto Feb 1st week. Please register in the CSE Moodle. Enrollment key is shared on Teams &lt;/li&gt; 
+&lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Class Test 1 will be on Feb 3rd week. Syllabus will include whatever is covered upto Feb 1st week. Please register in the CSE Moodle. Enrollment key is shared on Teams &lt;/li&gt; 
 
-&lt;li&gt; [Jan 27] Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt;
 
 &lt;li&gt;  Note: for students, who are not able to register, kindly wait till 7th when the window closes. I will not be able to answer your emails individually. I will first approve based on CGPA and other criteria (such as total class strength cap etc.), once the window closes. &lt;/li&gt;
 
@@ -105,8 +106,9 @@ Tentative Weightage: Three online proctored tests (60%), Term Project (40 %).
 &lt;li&gt; Summarization&lt;/li&gt;
 &lt;li&gt; Learning to Rank&lt;/li&gt;
 &lt;li&gt; Neural IR&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt; Text and Reference Literature &lt;/h3&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Text and Reference Literature &lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt; &lt;a href=&#34;https://nlp.stanford.edu/IR-book/information-retrieval-book.html&#34;&gt;Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. &lt;em&gt;Introduction to information retrieval&lt;/em&gt;, Cambridge: Cambridge university press, 2008.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; Research Papers shared in class. &lt;/li&gt;
