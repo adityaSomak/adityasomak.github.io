@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>Generating Intermediate Steps for NLI with Next-Step Supervision</title>
+      <link>https://adityasomak.github.io/publication/multihop/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/multihop/</guid>
+      <description>&lt;p&gt;The Natural Language Inference (NLI) task often requires reasoning over multiple steps to reach the conclusion. While the necessity of generating such intermediate steps (instead of a summary explanation) has gained popular support, it is unclear how to generate such steps without complete end-to-end supervision and how such generated steps can be further utilized. In this work, we train a sequence-to-sequence model to generate only the next step given an NLI premise and hypothesis pair (and previous steps); then enhance it with external knowledge and symbolic search to generate intermediate steps with only next-step supervision. We show the correctness of such generated steps through automated and human verification. Furthermore, we show that such generated steps can help improve end-to-end NLI task performance using simple data augmentation strategies, across multiple public NLI datasets.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Multilingual CheckList: Generation and Evaluation</title>
@@ -441,7 +450,22 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 &lt;/li&gt;
 &lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI: Multi-lingual Extension of TaxiNLI&lt;/a&gt;, &lt;em&gt;EMNLP 2021 MRL Workshop&lt;/em&gt;
 &lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review&lt;/em&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review in LRE&lt;/em&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;h4&gt; Enhancing NLI: Multi-hop, Causality and Counterfactuals &lt;/h4&gt;
+As observed through TaxiNLI family of work, language models struggle with many important reasoning types. With Deepanway Ghoshal and Monojit choudhury, we explored a &lt;b&gt;less annotation-intensive&lt;/b&gt; way to &lt;a href=https://arxiv.org/abs/2208.14641&#34;&gt;generate intermediate steps&lt;/a&gt; for complex reasoning examples in free-form NLI datasets. We observe, not only, we can generate such multi-hop steps without end-to-end supervision; but the steps are accurate as they &lt;em&gt;can be augmented directly&lt;/em&gt; to improve NLI model&#39;s predictive ability. 
+
+
+&lt;img src=&#34;https://adityasomak.github.io/project/prooftypes.png&#34; alt=&#34;img&#34;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;References
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;ArXiv 2022, Under review&lt;/em&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 

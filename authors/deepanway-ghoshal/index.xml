@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepanway Ghoshal | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
+      <atom:link href="https://adityasomak.github.io/authors/deepanway-ghoshal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deepanway Ghoshal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Deepanway Ghoshal</title>
+      <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
+    </image>
+    
+    <item>
+      <title>Generating Intermediate Steps for NLI with Next-Step Supervision</title>
+      <link>https://adityasomak.github.io/publication/multihop/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/multihop/</guid>
+      <description>&lt;p&gt;The Natural Language Inference (NLI) task often requires reasoning over multiple steps to reach the conclusion. While the necessity of generating such intermediate steps (instead of a summary explanation) has gained popular support, it is unclear how to generate such steps without complete end-to-end supervision and how such generated steps can be further utilized. In this work, we train a sequence-to-sequence model to generate only the next step given an NLI premise and hypothesis pair (and previous steps); then enhance it with external knowledge and symbolic search to generate intermediate steps with only next-step supervision. We show the correctness of such generated steps through automated and human verification. Furthermore, we show that such generated steps can help improve end-to-end NLI task performance using simple data augmentation strategies, across multiple public NLI datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -52,7 +52,22 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 &lt;/li&gt;
 &lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI: Multi-lingual Extension of TaxiNLI&lt;/a&gt;, &lt;em&gt;EMNLP 2021 MRL Workshop&lt;/em&gt;
 &lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review&lt;/em&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review in LRE&lt;/em&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;h4&gt; Enhancing NLI: Multi-hop, Causality and Counterfactuals &lt;/h4&gt;
+As observed through TaxiNLI family of work, language models struggle with many important reasoning types. With Deepanway Ghoshal and Monojit choudhury, we explored a &lt;b&gt;less annotation-intensive&lt;/b&gt; way to &lt;a href=https://arxiv.org/abs/2208.14641&#34;&gt;generate intermediate steps&lt;/a&gt; for complex reasoning examples in free-form NLI datasets. We observe, not only, we can generate such multi-hop steps without end-to-end supervision; but the steps are accurate as they &lt;em&gt;can be augmented directly&lt;/em&gt; to improve NLI model&#39;s predictive ability. 
+
+
+&lt;img src=&#34;https://adityasomak.github.io/project/prooftypes.png&#34; alt=&#34;img&#34;/&gt;
+&lt;/div&gt;
+
+&lt;p&gt;References
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;ArXiv 2022, Under review&lt;/em&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
