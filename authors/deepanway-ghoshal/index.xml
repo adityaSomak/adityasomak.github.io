@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
       <atom:link href="https://adityasomak.github.io/authors/deepanway-ghoshal/index.xml" rel="self" type="application/rss+xml" />
     <description>Deepanway Ghoshal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Deepanway Ghoshal</title>
       <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
     </image>
+    
+    <item>
+      <title>Vector Space Interpolation for Query Expansion</title>
+      <link>https://adityasomak.github.io/publication/interpolation/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/interpolation/</guid>
+      <description>&lt;p&gt;Topic-sensitive query set expansion is an important area of research that aims to improve search results for information retrieval. It is particularly crucial for queries related to sensitive and emerging topics. In this work, we describe a method for query set expansion about emerging topics using vector space interpolation. We use a transformer model called OPTIMUS, which is suitable for vector space manipulation due to its variational autoencoder nature. One of our proposed methods – Dirichlet interpolation shows promising results for query expansion. Our methods effectively generate new queries about the sensitive topic by incorporating set-level diversity, which is not captured by traditional sentence-level augmentation methods such as paraphrasing or back-translation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Generating Intermediate Steps for NLI with Next-Step Supervision</title>

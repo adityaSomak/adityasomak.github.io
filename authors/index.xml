@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,39 +15,31 @@
     <item>
       <title>Deepanway Ghoshal</title>
       <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
-      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monojit Choudhury</title>
-      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Karthikeyan K</title>
       <link>https://adityasomak.github.io/authors/karthikeyan-k/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/karthikeyan-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pankaj Singh</title>
       <link>https://adityasomak.github.io/authors/pankaj-singh/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/pankaj-singh/</guid>
       <description></description>
     </item>
@@ -55,7 +47,7 @@
     <item>
       <title>Sandipan Dandapat</title>
       <link>https://adityasomak.github.io/authors/sandipan-dandapat/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/sandipan-dandapat/</guid>
       <description></description>
     </item>
@@ -63,15 +55,23 @@
     <item>
       <title>Shaily Bhatt</title>
       <link>https://adityasomak.github.io/authors/shaily-bhatt/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/shaily-bhatt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sunayana Sitaram</title>
       <link>https://adityasomak.github.io/authors/sunayana-sitaram/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/sunayana-sitaram/</guid>
       <description></description>
     </item>
