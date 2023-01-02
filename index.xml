@@ -34,10 +34,10 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;
-    Sachin Vashishtha &lt;br/&gt;
-    Bishal Santra &lt;br/&gt;
-    Karde Vivek Manikrao &lt;br/&gt;
-    Deepak Chaudhary &lt;br/&gt;
+    Sachin Vashishtha (sachinvashistha6916@gmail.com) &lt;br/&gt;
+    Bishal Santra (bsantraigi@gmail.com)&lt;br/&gt;
+    Karde Vivek Manikrao (vivek10.karde@gmail.com) &lt;br/&gt;
+    Deepak Chaudhary (DEEPAKCHAUDHARY4311@kgpian.iitkgp.ac.in) &lt;br/&gt;
     &lt;!-- Abhilash Nandy &lt;br/&gt;
     Ankan Mullick &lt;br/&gt;
     Neeraj Saini &lt;br/&gt;
@@ -64,9 +64,9 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt; --&gt;
 
-&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait till Jan 6th when the window closes. I will not be able to answer your emails individually. &lt;/span&gt; I will first approve based on CGPA and other criteria (such as total class strength cap etc.), once the window closes. &lt;/li&gt;
+&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait. I will not be able to answer your emails individually. &lt;/span&gt; From time to time, I will approve based on CGPA and other criteria (such as total class strength cap etc.). &lt;/li&gt;
 
-&lt;!-- &lt;li&gt; Every &lt;b&gt;registered&lt;/b&gt; student should join the Google mailing list &lt;b&gt;ir-2022-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;span style=&#34;color:red&#34;&gt;This group is meant only for registered (and approved) students. Kindly mention your roll number and the fact that you have registered in ERP.&lt;/span&gt;&lt;/li&gt; --&gt;
+&lt;li&gt; Every &lt;b&gt;registered&lt;/b&gt; student should join the Google mailing list &lt;b&gt;ir-2023-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;span style=&#34;color:red&#34;&gt;This group is meant only for registered (and approved) students. Kindly mention your roll number and the fact that you have registered in ERP.&lt;/span&gt;&lt;/li&gt;
 
 &lt;li&gt; IR 2022-23 Spring will be a fully &lt;u&gt;research-oriented course&lt;/u&gt;. &lt;/li&gt;
 
@@ -78,17 +78,36 @@ Friday - 18:10 - 19:10 (CSE-308)
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
-Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30 %).
+Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30%).
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Pre-requisites for the course &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt; Data structures and algorithms &lt;/li&gt;
+&lt;li&gt; Data structures and Algorithms &lt;/li&gt;
 &lt;li&gt; Probability and Statistics &lt;/li&gt;
 &lt;li&gt; Basics of Machine Learning &lt;/li&gt;
 &lt;li&gt; Basics of Natural Language Processing (Some might be covered during the course) &lt;/li&gt;
 &lt;li&gt; Basics of Graph algorithms (Some might be covered during the course) &lt;/li&gt;
 &lt;li&gt; Programming in Python/Java &lt;/b&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt; Boolean retrieval &lt;/li&gt;
+&lt;li&gt; The term vocabulary &amp;amp; postings lists &lt;/li&gt;
+&lt;li&gt; Skip Pointers, Phrase Queries and Positional Indexing&lt;/li&gt;
+&lt;li&gt; Scoring, term weighting &amp;amp; the vector space model&lt;/li&gt;
+&lt;li&gt; Dictionaries and Tolerant Retrieval&lt;/li&gt;
+&lt;li&gt; Evaluation in information retrieval&lt;/li&gt;
+&lt;li&gt; Index Construction and Compression&lt;/li&gt;
+&lt;li&gt; Relevance feedback &amp;amp; query expansion&lt;/li&gt;
+&lt;li&gt; Probabilistic information retrieval&lt;/li&gt;
+&lt;li&gt; Language models for information retrieval&lt;/li&gt;
+&lt;li&gt; Link analysis &amp;ndash; HITS, PageRank&lt;/li&gt;
+&lt;li&gt; Word Vectors&lt;/li&gt;
+&lt;li&gt; Summarization&lt;/li&gt;
+&lt;li&gt; Learning to Rank&lt;/li&gt;
+&lt;li&gt; Neural IR&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
 &lt;!-- &lt;h3&gt;Lecture Slides&lt;/h3&gt;
