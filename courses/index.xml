@@ -64,7 +64,7 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt; --&gt;
 
-&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;INVITED GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; confirmed!!&lt;/li&gt;
+&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;INVITED GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; on MARCH 13, MONDAY confirmed!!&lt;/li&gt;
 &lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait. I will not be able to answer your emails individually. &lt;/span&gt; From time to time, I will approve based on CGPA and other criteria (such as total class strength cap etc.). &lt;/li&gt;
 
 &lt;li&gt; Every &lt;b&gt;registered&lt;/b&gt; student should join the Google mailing list &lt;b&gt;ir-2023-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;span style=&#34;color:red&#34;&gt;This group is meant only for registered (and approved) students. Kindly mention your roll number and the fact that you have registered in ERP.&lt;/span&gt;&lt;/li&gt;
@@ -91,6 +91,51 @@ Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30%).
 &lt;li&gt; Basics of Graph algorithms (Some might be covered during the course) &lt;/li&gt;
 &lt;li&gt; Programming in Python/Java &lt;/b&gt; &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Topics Covered &lt;/h3&gt;
+&lt;table class=&#34;table&#34;&gt;
+  &lt;tr class=&#39;weekbegin active&#39;&gt;
+    &lt;th width=&#34;9%&#34;&gt;Week&lt;/th&gt;
+    &lt;th width=&#34;9%&#34;&gt;Date&lt;/th&gt;
+    &lt;!-- &lt;th width=&#34;12%&#34;&gt;Event&lt;/th&gt; --&gt;
+    &lt;th width=&#34;41%&#34;&gt;Description &amp;amp; materials&lt;/th&gt;
+    &lt;th width=&#34;41%&#34;&gt;Readings &amp;amp; other resources&lt;/th&gt;
+  &lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 1&lt;/td&gt;
+    &lt;td&gt;Mon. 09/01&lt;/td&gt;
+    &lt;!-- &lt;td&gt;Lecture (Pandu)&lt;/td&gt; --&gt;
+    &lt;td&gt;&lt;b&gt;Introduction to the course&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+      &lt;ul&gt;
+    &lt;!-- &lt;li&gt; Videos: &lt;a href=&#34;complementary_video_slides/05-01-07-IR-SemistructuredData.pptx&#34;&gt;&#34;Semistructured Data&#34;&lt;/a&gt; &lt;/li&gt; --&gt;
+    &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec2.pdf&#34;&gt;PDF&lt;/a&gt;
+    &lt;/li&gt;&lt;br /&gt;
+    &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;http://nlp.stanford.edu/IR-book/pdf/01bool.pdf&#34;&gt;IIR chapter 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;MG section 3.2&lt;/li&gt;
+        &lt;li&gt;MIR section 8.2&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://www.rhymezone.com/shakespeare/&#34;&gt;Shakespeare plays&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;tr&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tues. 10 / 01&lt;/td&gt;
+    &lt;!-- &lt;td&gt;Lecture (Chris)&lt;/td&gt; --&gt;
+    &lt;td&gt;&lt;b&gt;Boolean Retrieval&lt;/b&gt;: Dictionary and postings lists, boolean querying
+    &lt;!--(&lt;a href=&#34;https://github.com/manning/MergeAlgorithms&#34;&gt;starter code&lt;/a&gt;)--&gt;
+    &lt;br/&gt;&lt;br/&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
 &lt;ul&gt;
