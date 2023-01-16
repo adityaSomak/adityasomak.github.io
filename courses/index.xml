@@ -110,7 +110,7 @@ Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30%).
       &lt;ul&gt;
     &lt;!-- &lt;li&gt; Videos: &lt;a href=&#34;complementary_video_slides/05-01-07-IR-SemistructuredData.pptx&#34;&gt;&#34;Semistructured Data&#34;&lt;/a&gt; &lt;/li&gt; --&gt;
     &lt;li&gt;Slides:
-             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec2.pdf&#34;&gt;PDF&lt;/a&gt;
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec1.pdf&#34;&gt;PDF&lt;/a&gt;
     &lt;/li&gt;&lt;br /&gt;
     &lt;/ul&gt;
     &lt;/td&gt;
@@ -131,8 +131,18 @@ Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30%).
     &lt;td&gt;&lt;b&gt;Boolean Retrieval&lt;/b&gt;: Dictionary and postings lists, boolean querying
     &lt;!--(&lt;a href=&#34;https://github.com/manning/MergeAlgorithms&#34;&gt;starter code&lt;/a&gt;)--&gt;
     &lt;br/&gt;&lt;br/&gt;
+    &lt;ul&gt;
+    &lt;!-- &lt;li&gt; Videos: &lt;a href=&#34;complementary_video_slides/05-01-07-IR-SemistructuredData.pptx&#34;&gt;&#34;Semistructured Data&#34;&lt;/a&gt; &lt;/li&gt; --&gt;
+    &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec2.pdf&#34;&gt;PDF&lt;/a&gt;
+    &lt;/li&gt;
     &lt;/td&gt;
     &lt;td&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;http://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=1028102&#34;&gt;Fast phrase querying with combined indexes (Williams, Zobel, Bahle 2004)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=564415&#34;&gt;Efficient phrase querying with an auxiliary index (Bahle, Williams, Zobel 2002)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
