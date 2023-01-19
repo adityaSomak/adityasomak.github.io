@@ -140,6 +140,38 @@ Tentative Weightage: Class-Test, Mid-Sem and End-Sem (70%), Term Project (30%).
     &lt;td&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;http://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 2&lt;/td&gt;
+    &lt;td&gt;Mon. 16/ 01&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;The term vocabulary &amp;amp; postings lists&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec2.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://www.sims.berkeley.edu/~hearst/irbook/porter.html&#34;&gt;Porter&amp;rsquo;s stemmer (MIR)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://www.tartarus.org/~martin/PorterStemmer/&#34;&gt;Porter stemming algorithm (Official)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+   &lt;tr class=&#34;warning&#34;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tues. 17 / 01&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Skip Pointers, Phrase Queries and Positional Indexing&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec3.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.524&#34;&gt;A skip list cookbook (Pugh 1990)&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=1028102&#34;&gt;Fast phrase querying with combined indexes (Williams, Zobel, Bahle 2004)&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=564415&#34;&gt;Efficient phrase querying with an auxiliary index (Bahle, Williams, Zobel 2002)&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
