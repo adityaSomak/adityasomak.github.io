@@ -56,14 +56,14 @@ Friday - 18:10 - 19:10 (CSE-308)
 &lt;ul style=&#34;list-style-type: square;&#34;&gt;
 
 
-&lt;!-- &lt;li&gt; &lt;b&gt;[Mar 28]&lt;/b&gt;  &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/monojitc/&#34;&gt;Dr. Monojit Choudhury&lt;/a&gt;, Principal Data and Applied Scientist at &lt;a href=&#34;https://turing.microsoft.com/&#34;&gt;Turing India (Microsoft)&lt;/a&gt; presented a Guest Lecture on &#34;&lt;em&gt;Computing and Representing the Meanings of Words: From Wittgenstein to GPT-3 and beyond&lt;/em&gt;&#34;. The recording is available &lt;a href=&#34;https://drive.google.com/file/d/1KW4WDp2H9BKfyZv7JFGT5gXH3yUFM_fU/view?usp=sharing&#34;&gt;here (Google Drive 309.4 MB MPEG4)&lt;/a&gt;.&lt;/li&gt;
 
-&lt;li&gt; &lt;b&gt;[Mar 17]&lt;/b&gt; Class Test 2 will be on Mar 3rd week. Syllabus will include whatever is covered after Vector Space and Scoring. &lt;/li&gt; 
+&lt;!--&lt;li&gt; &lt;b&gt;[Mar 17]&lt;/b&gt; Class Test 2 will be on Mar 3rd week. Syllabus will include whatever is covered after Vector Space and Scoring. &lt;/li&gt; 
 
 &lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Class Test 1 will be on Feb 3rd week. Syllabus will include whatever is covered upto Feb 1st week. Please register in the CSE Moodle. Enrollment key is shared on Teams &lt;/li&gt; 
 
 &lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt; --&gt;
 
+&lt;li&gt; &lt;span style=&#39;color: red&#39;&gt;Recording of GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; is available &lt;a href=&#34;https://iitkgpacin-my.sharepoint.com/✌️/g/personal/saditya_cse_iitkgp_ac_in/EdqcwT7ngbBGhb3r4CltsGsBeb8qH8qdezaTKtSeFx6JPw?e=ghKdK4&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;INVITED GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; on MARCH 13, MONDAY confirmed!!&lt;/li&gt;
 &lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait. I will not be able to answer your emails individually. &lt;/span&gt; From time to time, I will approve based on CGPA and other criteria (such as total class strength cap etc.). &lt;/li&gt;
 
@@ -271,6 +271,50 @@ Weightage: Class-Performance/Viva (8%), Mid-Sem and End-Sem (60%), Term Project 
         &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/09expand.pdf&#34;&gt;IIR chapter 9&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://sigir.org/files/museum/pub-08/XXIII-1.pdf&#34;&gt;Rocchios&amp;rsquo;s Feedback Paper (SIGIR 1965)&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://www.cs.cornell.edu/people/tj/publications/joachims_97a.pdf&#34;&gt;Probabilistic Analysis of the Rocchio (Joachim &amp;lsquo;97)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+   &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 8&lt;/td&gt;
+    &lt;td&gt;Mon. 7/ 03&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Relevance Feedback &amp;amp; Query Expansion&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec10.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      See above.
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#34;warning&#34;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tues. 8 / 03&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Probabilistic IR&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec11.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/11prob.pdf&#34;&gt;IIR chapter 11&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://seeing-theory.brown.edu/compound-probability/index.html&#34;&gt;Basics of Probability Theory&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 9&lt;/td&gt;
+    &lt;td&gt;Mon. &lt;sup&gt;13&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt; &amp;amp; &lt;sup&gt;14&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Language Models for IR&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec12.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/class/cs224n/&#34;&gt;Stanford Course CS224n&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
