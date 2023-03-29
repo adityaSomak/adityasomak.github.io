@@ -319,7 +319,7 @@ Weightage: Class-Performance/Viva (8%), Mid-Sem and End-Sem (60%), Term Project 
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr class=&#39;weekbegin&#39;&gt;
-    &lt;td&gt;Week 8&lt;/td&gt;
+    &lt;td&gt;Week 10&lt;/td&gt;
     &lt;td&gt;Mon. 20/ 03&lt;/td&gt;
     &lt;td&gt;&lt;b&gt;Link Analysis: HITS&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
     &lt;ul&gt;
@@ -347,6 +347,39 @@ Weightage: Class-Performance/Viva (8%), Mid-Sem and End-Sem (60%), Term Project 
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/21link.pdf&#34;&gt;IIR chapter 21&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 11&lt;/td&gt;
+    &lt;td&gt;Mon. 27/ 03&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Web Crawling&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec14.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;!-- &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/21link.pdf&#34;&gt;IIR chapter 21&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fNk_zzaMoSs&#34;&gt;Vector Spaces Video Series&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt; --&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#34;warning&#34;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tues. 28 / 03&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Word2Vec (Part I and II)&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/w2vp1.pdf&#34;&gt;Part-1 PDF&lt;/a&gt;,
+              &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/w2vp2.pdf&#34;&gt;Part-2 PDF&lt;/a&gt;
+         &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;!-- &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/21link.pdf&#34;&gt;IIR chapter 21&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt; --&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
