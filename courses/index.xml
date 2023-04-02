@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>CS60092 Information Retrieval (Spring 2023) !!NEW!!</title>
+      <title>CS60092 Information Retrieval (Spring 2023)</title>
       <link>https://adityasomak.github.io/courses/irspring23/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/courses/irspring23/</guid>
@@ -63,8 +63,8 @@ Friday - 18:10 - 19:10 (CSE-308)
 
 &lt;li&gt; &lt;b&gt;[Jan 27]&lt;/b&gt; Project Choice submission deadline: &lt;b&gt; Jan 28th 11:59 PM IST &lt;/b&gt;. &lt;/li&gt; --&gt;
 
-&lt;li&gt; &lt;span style=&#39;color: red&#39;&gt;Recording of GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; is available &lt;a href=&#34;https://iitkgpacin-my.sharepoint.com/✌️/g/personal/saditya_cse_iitkgp_ac_in/EdqcwT7ngbBGhb3r4CltsGsBeb8qH8qdezaTKtSeFx6JPw?e=ghKdK4&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;INVITED GUEST LECTURE&lt;/span&gt; BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; on MARCH 13, MONDAY confirmed!!&lt;/li&gt;
+&lt;li&gt; Recording of GUEST LECTURE BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; is available &lt;a href=&#34;http://shorturl.at/gizQZ&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt; INVITED GUEST LECTURE BY &lt;a href=&#34;https://anikem.github.io/&#34;&gt;Dr. Anirudh Kembhavi&lt;/a&gt;, Director of Computer Vision at &lt;a href=&#34;https://allenai.org/&#34;&gt;Allen Institute for AI (AI2)&lt;/a&gt; on MARCH 13, MONDAY confirmed!!&lt;/li&gt;
 &lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait. I will not be able to answer your emails individually. &lt;/span&gt; From time to time, I will approve based on CGPA and other criteria (such as total class strength cap etc.). &lt;/li&gt;
 
 &lt;li&gt; Every &lt;b&gt;registered&lt;/b&gt; student should join the Google mailing list &lt;b&gt;ir-2023-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;span style=&#34;color:red&#34;&gt;This group is meant only for registered (and approved) students. Kindly mention your roll number and the fact that you have registered in ERP.&lt;/span&gt;&lt;/li&gt;
@@ -359,10 +359,9 @@ Weightage: Class-Performance/Viva (8%), Mid-Sem and End-Sem (60%), Term Project 
       &lt;/ul&gt;
     &lt;/td&gt;
     &lt;td&gt;
-    &lt;!-- &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/21link.pdf&#34;&gt;IIR chapter 21&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fNk_zzaMoSs&#34;&gt;Vector Spaces Video Series&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt; --&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/20crawl.pdf&#34;&gt;IIR chapter 20&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr class=&#34;warning&#34;&gt;
@@ -377,9 +376,10 @@ Weightage: Class-Performance/Viva (8%), Mid-Sem and End-Sem (60%), Term Project 
       &lt;/ul&gt;
     &lt;/td&gt;
     &lt;td&gt;
-    &lt;!-- &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/21link.pdf&#34;&gt;IIR chapter 21&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt; --&gt;
+    &lt;ul&gt;
+        &lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/1301.3781.pdf&#34;&gt;Efficient Estimation of Word Representations in Vector Space (original word2vec paper)&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf&#34;&gt;Distributed Representations of Words and Phrases and their Compositionality (negative sampling paper)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
