@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/navonil-majumdar/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/promptinj/">
 
   
 
@@ -106,14 +106,12 @@
 
 
   
-  <link rel="alternate" href="/authors/navonil-majumdar/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/navonil-majumdar/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/promptinj/">
 
   
   
@@ -126,18 +124,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/navonil-majumdar/">
-  <meta property="og:title" content="Navonil Majumdar | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/promptinj/">
+  <meta property="og:title" content="Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks | Somak Aditya">
+  <meta property="og:description" content="Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3."><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-05-03T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-05-24T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-05-24T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/promptinj/"
+  },
+  "headline": "Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks",
+  
+  "datePublished": "2023-05-24T00:00:00Z",
+  "dateModified": "2023-05-24T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Abhinav Rao"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3."
+}
+</script>
+
+  
 
   
 
@@ -145,10 +188,13 @@
   
 
 
+  
 
 
 
-  <title>Navonil Majumdar | Somak Aditya</title>
+
+
+  <title>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +385,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,35 +485,328 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1>Navonil Majumdar</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/abhinav-rao/">Abhinav Rao</a></span>, <span><a href="/authors/sachin/">Sachin Vashisth</a></span>, <span><a href="/authors/atharva/">Atharva Naik</a></span>, <span><a href="/authors/admin/">Somak Aditya</a></span>, <span><a href="/authors/monojit-choudhury/">Monojit Choudhury</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/promptinj/&amp;text=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/promptinj/&amp;t=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks&amp;body=https://adityasomak.github.io/publication/promptinj/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/promptinj/&amp;title=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks%20https://adityasomak.github.io/publication/promptinj/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/promptinj/&amp;title=Tricking%20LLMs%20into%20Disobedience:%20Understanding,%20Analyzing,%20and%20Preventing%20Jailbreaks" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+
+</div>
+
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2305.14965" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
 
     
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/counterfactualda/">A Robust Information-Masking Approach for Domain Counterfactual Generation</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In ArXiv 2023 (Under Review)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.5, OPT, BLOOM, and FLAN-T5-xxl). We further propose a limited set of prompt guards and discuss their effectiveness against known attack types.</p>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/abhinav-rao/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
-</section>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
