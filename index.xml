@@ -715,9 +715,9 @@ multiple groups, delivering advanced topic lectures.&lt;/li&gt;
       <link>https://adityasomak.github.io/project/symbolicmath/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/symbolicmath/</guid>
-      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explored Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps.&lt;/p&gt;
+      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explored Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps.&lt;/p&gt;
 
-&lt;p&gt;Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach (where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline.&lt;/p&gt;
+&lt;p&gt;Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach (where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline.&lt;/p&gt;
 
 &lt;!-- &lt;div&gt;
 &lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
@@ -952,10 +952,21 @@ Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various K
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/vision/</guid>
       <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and Active Vision literature points to an explicit iterative interaction
-among perception, reasoning, and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
+among perception, reasoning, and memory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Ongoing Projects &lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt; SERB DST Startup Research Grant (2021-23) ~ INR 26 Lacs
+        | Topic: &amp;ldquo;Learning from Rules and Data for Image Analytics&amp;rdquo;&lt;/li&gt;
+&lt;li&gt; IIT Kharagpur Faculty Startup Research Grant (2022-24) ~ INR 25 Lacs
+        &lt;br/&gt; Topic: The Role of Feedback in Vision-Language enabled Embodied Agents towards Applications in Desire Management
+        &lt;br/&gt; Joint PI: Prof. Pawan Goyal &lt;/li&gt;
+&lt;li&gt; Counterfactual Reasoning in Videos &lt;/li&gt;
+&lt;li&gt; Active Learning for 3D Video Grounding (with Dr. Maneesh Singh)&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Captioning &lt;/h3&gt;
-In our earliest attempt (&lt;a href=&#34;https://imagesdg.wordpress.com/image-to-scene-description-graph/&#34; target=&#34;_blank&#34;&gt;CVIU 2017&lt;/a&gt; ), we used a combination of image classification, reasoning with commonsense knowledge (extracted from training captions) to propose a Scene Description Graph as an intermediate representation for a natural image. We showed the efficacy of this representation through image captioning, image retrieval tasks (and QA case studies.)&lt;/p&gt;
+In our earliest attempt (&lt;a href=&#34;https://imagesdg.wordpress.com/image-to-scene-description-graph/&#34; target=&#34;_blank&#34;&gt;CVIU 2017&lt;/a&gt;), we used a combination of image classification, reasoning with commonsense knowledge (extracted from training captions) to propose a Scene Description Graph as an intermediate representation for a natural image. We showed the efficacy of this representation through image captioning, image retrieval tasks (and QA case studies).&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Visual QA, Image Puzzles and Visual Reasoning &lt;/h3&gt;
 We have proposed instantiations of this abstract architecture to solve image puzzles, VQA and visual reasoning tasks such as CLEVR. In our &lt;a href=&#34;https://visionandreasoning.wordpress.com&#34; target=&#34;_blank&#34;&gt;AAAI 2018 VQA&lt;/a&gt;, and &lt;a href=&#34;https://imageriddle.wordpress.com/imageriddle/&#34; target=&#34;_blank&#34;&gt;UAI 2018 Puzzles&lt;/a&gt; work, we have proposed an explicit probabilistic soft logic layer on top of a neural architecture that helps integrate commonsense knowledge and induces post-hoc interpretability.&lt;/p&gt;

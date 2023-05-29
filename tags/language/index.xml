@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/tags/language/</link>
       <atom:link href="https://adityasomak.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <description>Language</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Language</title>
@@ -13,80 +13,26 @@
     </image>
     
     <item>
-      <title>Reasoning in NLP</title>
-      <link>https://adityasomak.github.io/project/nlp/</link>
-      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/project/nlp/</guid>
-      <description>&lt;p&gt;Models that claim to understand language, should also be able to demonstrate its abilities to reason across various dimensions. My present goal is to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of such systems (or language models).&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
-Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
-in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;CoNLL 2020&lt;/a&gt; showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.&lt;/p&gt;
-
-&lt;p&gt;We did a follow-up, adapting the CheckList methodology, where we create a large &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;CheckList-NLI&lt;/a&gt; dataset to individually yet collectively test different reasoning capabilities, including pragmatic ones. Through our test-suite, we show that such a post-hoc evaluation provides a more comprehensive overview of the behavioral nature of the language models. A thorough human study with Linguistic Olympiad participants shows that behavioral summary leads to better explanation and RoBERTa&amp;rsquo;s behavior is more predictable than BERT. Currently, we are also exploring augmenting NLI datasets with verifiable proofs.&lt;/p&gt;
-
-&lt;p&gt;Summary and Extensions:
-&lt;ul&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;TaxiNLI: Taxonomic Fragmentation of the NLI Task&lt;/a&gt;, &lt;em&gt;CoNLL 2020&lt;/em&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI: Multi-lingual Extension of TaxiNLI&lt;/a&gt;, &lt;em&gt;EMNLP 2021 MRL Workshop&lt;/em&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review in LRE&lt;/em&gt;
-&lt;/li&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/ul&gt;&lt;/p&gt;
-
-&lt;div&gt;
-&lt;h4&gt; Enhancing NLI: Multi-hop, Causality and Counterfactuals &lt;/h4&gt;
-As observed through TaxiNLI family of work, language models struggle with many important reasoning types. With Deepanway Ghoshal and Monojit choudhury, we explored a &lt;b&gt;less annotation-intensive&lt;/b&gt; way to &lt;a href=https://arxiv.org/abs/2208.14641&#34;&gt;generate intermediate steps&lt;/a&gt; for complex reasoning examples in free-form NLI datasets. We observe, not only, we can generate such multi-hop steps without end-to-end supervision; but the steps are accurate as they &lt;em&gt;can be augmented directly&lt;/em&gt; to improve NLI model&#39;s predictive ability. 
-
-
-&lt;img src=&#34;https://adityasomak.github.io/project/prooftypes.png&#34; alt=&#34;img&#34;/&gt;
-&lt;/div&gt;
-
-&lt;p&gt;References
-&lt;ul&gt;
-&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;ArXiv 2022, Under review&lt;/em&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;hr style=&#34;width:100%;text-align:left;margin-left:0&#34;&gt;
-
-&lt;p&gt;Previously I have been interested in mapping natural language to formal language representation and reasoning with it. My proposed solutions towards Question-Answering and Winograd Schema Challenge during my Ph.D have been motivated by the central idea of semantic parsing, followed by logical (or probabilistic logical) reasoning.&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt; Semantic Parsing (K-Parser) &lt;/h3&gt;
-We (led by co-authors Arpit Sharma and Nguyen Vo) have explored mapping of natural language to formal representation, that enbales logical reasoning. Through several papers (&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.6262&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;K-Parser IJCAI-15&lt;/a&gt;, &lt;a href=&#34;https://aclanthology.org/W15-0811.pdf&#34; target=&#34;_blank&#34;&gt;K-Parser NAACL 15&lt;/a&gt;), we showed how such semantic parsing enables us to find event mentions, and (even patially but interpretably) solved Winograd Schema challenge problems.&lt;/p&gt;
-
-&lt;!-- &lt;div&gt;
-&lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
-&lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-Ishan Tarunesh, Somak Aditya, Monojit Choudhury. Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task. Arxiv 2015. 
-&lt;/li&gt;&lt;li&gt;
-Pratik Joshi*, Somak Aditya*, Aalok Sathe*, Monojit Choudhury. TaxiNLI: Taking a Ride up the NLU Hill. CoNLL 2020.
-&lt;/li&gt;&lt;li&gt;
-Arpit Sharma, Somak Aditya, Vo Nguyen and Chitta Baral. Towards Addressing the Winograd Schema Challenge - Building and Using a Semantic Parser and a Knowledge Hunting Module. IJCAI 2015.
-&lt;/li&gt;&lt;li&gt;
-Somak Aditya, Chitta Baral, Nguyen Ha Vo, Joohyung Lee, Jieping Ye, Zaw Naung, Barry Lumpkin, Jenny Hastings, Richard Scherl, Dawn M. Sweet, Daniela Inclezan. Recognizing Social Constructs from Textual Conversation. HLT-NAACL 2015.
-&lt;/li&gt;&lt;li&gt;
-Arpit Sharma, Nguyen H. Vo, Somak Aditya and Chitta Baral. Identifying Various Kinds of Event Mentions in K-Parser Output The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation. HLT-NAACL 2015.
-&lt;/li&gt;
-&lt;/ul&gt; --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Vision and Reasoning</title>
       <link>https://adityasomak.github.io/project/vision/</link>
       <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/vision/</guid>
       <description>&lt;p&gt;Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language processing. Cognitive Sciences and Active Vision literature points to an explicit iterative interaction
-among perception, reasoning, and memeory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
+among perception, reasoning, and memory (knowledge) modules (&lt;a href=&#34;https://www.public.asu.edu/~cbaral/papers/acs2016.pdf&#34; target=&#34;_blank&#34;&gt;DeepIU ACS 2015&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Ongoing Projects &lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt; SERB DST Startup Research Grant (2021-23) ~ INR 26 Lacs
+        | Topic: &amp;ldquo;Learning from Rules and Data for Image Analytics&amp;rdquo;&lt;/li&gt;
+&lt;li&gt; IIT Kharagpur Faculty Startup Research Grant (2022-24) ~ INR 25 Lacs
+        &lt;br/&gt; Topic: The Role of Feedback in Vision-Language enabled Embodied Agents towards Applications in Desire Management
+        &lt;br/&gt; Joint PI: Prof. Pawan Goyal &lt;/li&gt;
+&lt;li&gt; Counterfactual Reasoning in Videos &lt;/li&gt;
+&lt;li&gt; Active Learning for 3D Video Grounding (with Dr. Maneesh Singh)&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Captioning &lt;/h3&gt;
-In our earliest attempt (&lt;a href=&#34;https://imagesdg.wordpress.com/image-to-scene-description-graph/&#34; target=&#34;_blank&#34;&gt;CVIU 2017&lt;/a&gt; ), we used a combination of image classification, reasoning with commonsense knowledge (extracted from training captions) to propose a Scene Description Graph as an intermediate representation for a natural image. We showed the efficacy of this representation through image captioning, image retrieval tasks (and QA case studies.)&lt;/p&gt;
+In our earliest attempt (&lt;a href=&#34;https://imagesdg.wordpress.com/image-to-scene-description-graph/&#34; target=&#34;_blank&#34;&gt;CVIU 2017&lt;/a&gt;), we used a combination of image classification, reasoning with commonsense knowledge (extracted from training captions) to propose a Scene Description Graph as an intermediate representation for a natural image. We showed the efficacy of this representation through image captioning, image retrieval tasks (and QA case studies).&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Visual QA, Image Puzzles and Visual Reasoning &lt;/h3&gt;
 We have proposed instantiations of this abstract architecture to solve image puzzles, VQA and visual reasoning tasks such as CLEVR. In our &lt;a href=&#34;https://visionandreasoning.wordpress.com&#34; target=&#34;_blank&#34;&gt;AAAI 2018 VQA&lt;/a&gt;, and &lt;a href=&#34;https://imageriddle.wordpress.com/imageriddle/&#34; target=&#34;_blank&#34;&gt;UAI 2018 Puzzles&lt;/a&gt; work, we have proposed an explicit probabilistic soft logic layer on top of a neural architecture that helps integrate commonsense knowledge and induces post-hoc interpretability.&lt;/p&gt;
