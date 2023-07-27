@@ -5,12 +5,20 @@
     <link>https://adityasomak.github.io/courses/</link>
       <atom:link href="https://adityasomak.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Courses</title>
       <link>https://adityasomak.github.io/courses/</link>
     </image>
+    
+    <item>
+      <title>CS60050 Machine Learning (Autumn 2023) &lt;span style=&#39;font-weight: bold;color: red&#39;&gt;!NEW!&lt;/span&gt;</title>
+      <link>https://adityasomak.github.io/courses/mlaut23/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/mlaut23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS60092 Information Retrieval (Spring 2023)</title>
