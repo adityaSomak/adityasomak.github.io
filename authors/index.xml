@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://adityasomak.github.io/authors/admin/</link>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/admin/</guid>
       <description>&lt;!-- &lt;div class=&#34;info&#34;&gt;
 I am looking for motivated full-time Ph.D students who are interested in pursuing &lt;b&gt;&lt;u&gt;their thesis&lt;/u&gt;&lt;/b&gt; in the exciting juncture of classical and statistical AI (often dubbed as neuro-symbolic methods). 
@@ -53,6 +53,22 @@ for nearly 2.5 years.  --&gt;
     </item>
     
     <item>
+      <title>Ishan Tarunesh</title>
+      <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/ishan-tarunesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://adityasomak.github.io/authors/atharva/</link>
       <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
@@ -73,14 +89,6 @@ for nearly 2.5 years.  --&gt;
       <link>https://adityasomak.github.io/authors/abhinav-rao/</link>
       <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/abhinav-rao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monojit Choudhury</title>
-      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
       <description></description>
     </item>
     
@@ -265,14 +273,6 @@ for nearly 2.5 years.  --&gt;
       <link>https://adityasomak.github.io/authors/sharmila-nangi-reddy/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/sharmila-nangi-reddy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ishan Tarunesh</title>
-      <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
-      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/ishan-tarunesh/</guid>
       <description></description>
     </item>
     

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU). In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/monojit-choudhury/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/lonli/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/authors/monojit-choudhury/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/monojit-choudhury/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/lonli/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/monojit-choudhury/">
-  <meta property="og:title" content="Monojit Choudhury | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/lonli/">
+  <meta property="og:title" content="LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI | Somak Aditya">
+  <meta property="og:description" content="Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU). In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases."><meta property="og:image" content="https://adityasomak.github.io/publication/lonli/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/lonli/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-08-07T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-08-07T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-08-07T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/lonli/"
+  },
+  "headline": "LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/lonli/featured.png"
+  ],
+  
+  "datePublished": "2023-08-07T00:00:00Z",
+  "dateModified": "2023-08-07T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ishan Tarunesh"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU). In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Monojit Choudhury | Somak Aditya</title>
+  <title>LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,67 +488,349 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1>Monojit Choudhury</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI</h1>
+
+  
+
+  
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/ishan-tarunesh/">Ishan Tarunesh</a></span>, <span><a href="/authors/admin/">Somak Aditya</a></span>, <span><a href="/authors/monojit-choudhury/">Monojit Choudhury</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/lonli/&amp;text=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/lonli/&amp;t=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI&amp;body=https://adityasomak.github.io/publication/lonli/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/lonli/&amp;title=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI%20https://adityasomak.github.io/publication/lonli/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/lonli/&amp;title=LoNLI:%20An%20Extensible%20Framework%20for%20Testing%20Diverse%20Logical%20Reasoning%20Capabilities%20for%20NLI" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2112.02333.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/microsoft/LoNLI" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 623px; max-height: 271px;">
+  <div style="position: relative">
+    <img src="/publication/lonli/featured.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
     
 
     
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/lonli/">LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI</a>
-        </li>
-        
-        <li>
-          <a href="/publication/promptinj/">Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</a>
-        </li>
-        
-        <li>
-          <a href="/publication/amcg/">Multilingual CheckList: Generation and Evaluation</a>
-        </li>
-        
-        <li>
-          <a href="/publication/interpolation/">Vector Space Interpolation for Query Expansion</a>
-        </li>
-        
-        <li>
-          <a href="/publication/multihop/">Generating Intermediate Steps for NLI with Next-Step Supervision</a>
-        </li>
-        
-        <li>
-          <a href="/publication/litmus/">LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems</a>
-        </li>
-        
-        <li>
-          <a href="/publication/crosslingual/">Analyzing the Effects of Reasoning Types on Cross-Lingual Transfer Performance</a>
-        </li>
-        
-        <li>
-          <a href="/publication/checklist/">Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task</a>
-        </li>
-        
-        <li>
-          <a href="/publication/taxinli/">TaxiNLI: Taking a Ride up the NLU Hill</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In Language Resources and Evaluations 2023</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU).  In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases. We extend a publicly available framework of automated test case instantiation from free-form natural language templates (CheckList), and a well-defined taxonomy of capabilities to cover a wide range of increasingly harder test cases while varying the complexity of natural language. Through our analysis of state-of-the-art NLI systems, we observe that our benchmark is indeed hard (and non-trivial even with training on additional resources). Some capabilities stand out as harder. Further fine-grained analysis and fine-tuning experiments reveal more insights about these capabilities and the models &ndash; supporting and extending previous observations; thus showing the utility of the proposed testbench.</p>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/ishan-tarunesh/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
-</section>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
