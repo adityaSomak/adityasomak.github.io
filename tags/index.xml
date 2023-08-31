@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/tags/</link>
       <atom:link href="https://adityasomak.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,26 +13,50 @@
     </image>
     
     <item>
-      <title>ATP</title>
-      <link>https://adityasomak.github.io/tags/atp/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/tags/atp/</guid>
+      <title>common-sense</title>
+      <link>https://adityasomak.github.io/tags/common-sense/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/common-sense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep-learning</title>
       <link>https://adityasomak.github.io/tags/deep-learning/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>logic</title>
+      <title>Logic</title>
       <link>https://adityasomak.github.io/tags/logic/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/tags/logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Logic</title>
+      <link>https://adityasomak.github.io/tags/probabilistic-logic/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/probabilistic-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSL</title>
+      <link>https://adityasomak.github.io/tags/psl/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/psl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ATP</title>
+      <link>https://adityasomak.github.io/tags/atp/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/tags/atp/</guid>
       <description></description>
     </item>
     
@@ -49,14 +73,6 @@
       <link>https://adityasomak.github.io/tags/transformers/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/tags/transformers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>common-sense</title>
-      <link>https://adityasomak.github.io/tags/common-sense/</link>
-      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/tags/common-sense/</guid>
       <description></description>
     </item>
     

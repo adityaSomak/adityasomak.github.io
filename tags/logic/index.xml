@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>logic | Somak Aditya</title>
+    <title>Logic | Somak Aditya</title>
     <link>https://adityasomak.github.io/tags/logic/</link>
       <atom:link href="https://adityasomak.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
-    <description>logic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <description>Logic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>logic</title>
+      <title>Logic</title>
       <link>https://adityasomak.github.io/tags/logic/</link>
     </image>
+    
+    <item>
+      <title>NeuroSymbolic Reasoning</title>
+      <link>https://adityasomak.github.io/project/neurosymbolic/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/project/neurosymbolic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Symbolic Mathematics</title>
