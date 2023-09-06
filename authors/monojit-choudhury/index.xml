@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
       <atom:link href="https://adityasomak.github.io/authors/monojit-choudhury/index.xml" rel="self" type="application/rss+xml" />
     <description>Monojit Choudhury</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Monojit Choudhury</title>
       <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
     </image>
+    
+    <item>
+      <title>Prover: Generating Intermediate Steps for NLI with Commonsense Knowledge Retrieval and Next-Step Prediction</title>
+      <link>https://adityasomak.github.io/publication/multihop/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/multihop/</guid>
+      <description>&lt;p&gt;The Natural Language Inference (NLI) task often requires reasoning over multiple steps to reach the conclusion. While the necessity of generating such intermediate steps (instead of a summary explanation) has gained popular support, it is unclear how to generate such steps without complete end-to-end supervision and how such generated steps can be further utilized. In this work, we train and enhance a sequence-to-sequence next-step prediction model with external commonsense knowledge and search to generate intermediate steps with limited next-step supervision. We show the correctness of such generated steps through human verification, on MNLI and MED datasets (and discuss the limitations through qualitative examples). We show that such generated steps can help improve end-to-end NLI task performance using simple data augmentation strategies. Using a CheckList dataset for NLI, we also explore the effect of augmentation on specific reasoning types.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI</title>
@@ -45,15 +54,6 @@
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/interpolation/</guid>
       <description>&lt;p&gt;Topic-sensitive query set expansion is an important area of research that aims to improve search results for information retrieval. It is particularly crucial for queries related to sensitive and emerging topics. In this work, we describe a method for query set expansion about emerging topics using vector space interpolation. We use a transformer model called OPTIMUS, which is suitable for vector space manipulation due to its variational autoencoder nature. One of our proposed methods – Dirichlet interpolation shows promising results for query expansion. Our methods effectively generate new queries about the sensitive topic by incorporating set-level diversity, which is not captured by traditional sentence-level augmentation methods such as paraphrasing or back-translation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Generating Intermediate Steps for NLI with Next-Step Supervision</title>
-      <link>https://adityasomak.github.io/publication/multihop/</link>
-      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/multihop/</guid>
-      <description>&lt;p&gt;The Natural Language Inference (NLI) task often requires reasoning over multiple steps to reach the conclusion. While the necessity of generating such intermediate steps (instead of a summary explanation) has gained popular support, it is unclear how to generate such steps without complete end-to-end supervision and how such generated steps can be further utilized. In this work, we train a sequence-to-sequence model to generate only the next step given an NLI premise and hypothesis pair (and previous steps); then enhance it with external knowledge and symbolic search to generate intermediate steps with only next-step supervision. We show the correctness of such generated steps through automated and human verification. Furthermore, we show that such generated steps can help improve end-to-end NLI task performance using simple data augmentation strategies, across multiple public NLI datasets.&lt;/p&gt;
 </description>
     </item>
     

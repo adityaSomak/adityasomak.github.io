@@ -5,12 +5,60 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://adityasomak.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Atharva Naik</title>
+      <link>https://adityasomak.github.io/authors/atharva-naik/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/atharva-naik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deepanway Ghoshal</title>
+      <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jyothi Vedurada</title>
+      <link>https://adityasomak.github.io/authors/jyothi-vedurada/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/jyothi-vedurada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soumitra Das</title>
+      <link>https://adityasomak.github.io/authors/soumitra-das/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/soumitra-das/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -57,14 +105,6 @@ for nearly 2.5 years.  --&gt;
       <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/ishan-tarunesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monojit Choudhury</title>
-      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
       <description></description>
     </item>
     
@@ -117,26 +157,10 @@ for nearly 2.5 years.  --&gt;
     </item>
     
     <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Soujanya Poria</title>
       <link>https://adityasomak.github.io/authors/soujanya-poria/</link>
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/soujanya-poria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deepanway Ghoshal</title>
-      <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
-      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
       <description></description>
     </item>
     
