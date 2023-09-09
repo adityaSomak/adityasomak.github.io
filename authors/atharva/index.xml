@@ -5,12 +5,22 @@
     <link>https://adityasomak.github.io/authors/atharva/</link>
       <atom:link href="https://adityasomak.github.io/authors/atharva/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/authors/atharva/</link>
     </image>
+    
+    <item>
+      <title>SYNC: A Structurally guided Hard Negative Curricula for Efficient Neural Code Search</title>
+      <link>https://adityasomak.github.io/publication/sync/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/sync/</guid>
+      <description>&lt;p&gt;In neural code search, a Transformers-based pre-trained language model (such as CodeBERT) is used to embed both the query (NL) and the code snippet (PL) into a joint representation space; which is used to retrieve the relevant PLs satisfying the query. These models often make mistakes such as retrieving snippets with incorrect data types, and incorrect method names or signatures. The generalization ability beyond training data is also limited (as the code retrieval datasets vary in the ways NL-PL pairs are collected). In this work, we propose a novel contrastive learning technique (SYNC) that enables efficient finetuning of code LMs with soft and hard negatives, where the hard negatives are constructed using a set of structure-aware AST-based perturbations; targeted towards possible syntactic and semantic variations.
+Our method achieves significant improvements in retrieval performance for three code LMs (CodeBERT, GraphCodeBERT, UniXCoder) over four Python code retrieval datasets.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</title>
