@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>logic | Somak Aditya</title>
+    <title>Logic | Somak Aditya</title>
     <link>https://adityasomak.github.io/tags/logic/</link>
       <atom:link href="https://adityasomak.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
-    <description>logic</description>
+    <description>Logic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>logic</title>
+      <title>Logic</title>
       <link>https://adityasomak.github.io/tags/logic/</link>
     </image>
     
@@ -48,6 +48,9 @@ Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformer
       <guid>https://adityasomak.github.io/project/nlp/</guid>
       <description>&lt;p&gt;Models that claim to understand language, should also be able to demonstrate its abilities to reason across various dimensions. My present goal is to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of such systems (or language models).&lt;/p&gt;
 
+&lt;p&gt;&lt;h4&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt; Reasoning in LLMs &lt;/h4&gt;
+Our group has invested significantly in advancing reasoning abilities of LLMs in a multi-hop setting. The following drafts are in progress: 1) DeSelect$^+$: Efficient Leaf Selection to Improve Entailment Tree Generation, 2) A comprehensive survey of Logical Reasoning abilities of Large Language Models alongwith a benchmark, and 3) Multi-step Logical Reasoning under Incomplete Knowledge.&lt;/p&gt;
+
 &lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
 in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line published in &lt;a href=&#34;https://github.com/microsoft/TaxiNLI&#34; target=&#34;_blank&#34;&gt;CoNLL 2020&lt;/a&gt; showed that these models (BERT, RoBERTa) may not know how to perform certain types of reasoning such as causal, numeric, spatial, temporal; but they can identify the type of reasoning required for a new example.&lt;/p&gt;
@@ -60,13 +63,13 @@ in Taxonomy of reasoning w.r.t the NLI task. Our first work along this line publ
 &lt;/li&gt;
 &lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/TaxiXNLI&#34; target=&#34;_blank&#34;&gt;TaxiXNLI: Multi-lingual Extension of TaxiNLI&lt;/a&gt;, &lt;em&gt;EMNLP 2021 MRL Workshop&lt;/em&gt;
 &lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;Under review in LRE&lt;/em&gt;
+&lt;li&gt; &lt;a href=&#34;https://github.com/microsoft/LoNLI&#34; target=&#34;_blank&#34;&gt;LoNLI: Testing Diverse Reasoning of NLI Systems&lt;/a&gt;, &lt;em&gt;LREV 2023, In Print, &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;&lt;/em&gt;
 &lt;/li&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/ul&gt;&lt;/p&gt;
 
 &lt;div&gt;
-&lt;h4&gt; Enhancing NLI: Multi-hop, Causality and Counterfactuals &lt;/h4&gt;
+&lt;h4&gt; Enhancing NLI: Multi-hop, Causality and Counterfactuals &amp; Reasoning in LLMs &lt;/h4&gt;
 As observed through TaxiNLI family of work, language models struggle with many important reasoning types. With Deepanway Ghoshal and Monojit choudhury, we explored a &lt;b&gt;less annotation-intensive&lt;/b&gt; way to &lt;a href=https://arxiv.org/abs/2208.14641&#34;&gt;generate intermediate steps&lt;/a&gt; for complex reasoning examples in free-form NLI datasets. We observe, not only, we can generate such multi-hop steps without end-to-end supervision; but the steps are accurate as they &lt;em&gt;can be augmented directly&lt;/em&gt; to improve NLI model&#39;s predictive ability. 
 
 
@@ -75,7 +78,7 @@ As observed through TaxiNLI family of work, language models struggle with many i
 
 &lt;p&gt;References
 &lt;ul&gt;
-&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;ArXiv 2022, Under review&lt;/em&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;AACL-IJCNLP 2023, Main&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
