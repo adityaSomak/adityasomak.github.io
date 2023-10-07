@@ -121,48 +121,6 @@ Experimental analysis of the answers and the key evidential predicates generated
     </item>
     
     <item>
-      <title>Combining Knowledge and Reasoning through Probabilistic Soft Logic for Image Puzzle Solving</title>
-      <link>https://adityasomak.github.io/publication/riddles/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/riddles/</guid>
-      <description>&lt;p&gt;In this work, we explore a genre of puzzles (“image riddles”) which involves a set of images and a question.
-Answering these puzzles require both capabilities involving visual detection (including object, activity recognition) and,
-knowledge-based or commonsense reasoning. We compile a dataset of over 3k riddles where each riddle consists of 4 images and
-a groundtruth answer. The annotations are validated using crowd-sourced evaluation. We also define an automatic evaluation
-metric to track future progress. Our task bears similarity with the commonly known IQ tasks such as analogy solving,
-sequence filling that are often used to test intelligence.&lt;/p&gt;
-
-&lt;p&gt;We develop a Probabilistic Reasoning-based approach that utilizes probabilistic commonsense knowledge to answer these
-riddles with a reasonable accuracy. We demonstrate the results of our approach using both automatic and human evaluations.
-Our approach achieves some promising results ($12\%$ improvement over baseline) for these riddles and provides a strong baseline for future attempts. We make
-the entire dataset and related materials publicly available to the community.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DeepIU: An Architecture for Image Understanding</title>
-      <link>https://adityasomak.github.io/publication/deepiu/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/deepiu/</guid>
-      <description>&lt;p&gt;Image Understanding is fundamental to systems that need to extract contents and infer concepts
-from images. In this paper, we develop an architecture for understanding images, through which a
-system can recognize the content and the underlying concepts of an image and, reason and answer
-questions about both using a visual module, a reasoning module, and a commonsense knowledge
-base. In this architecture, visual data combines with background knowledge and; iterates through
-visual and reasoning modules to answer questions about an image or to generate a textual description
-of an image. We first provide motivations of such a Deep Image Understanding architecture
-and then, we describe the necessary components it should include. We also introduce our own
-preliminary implementation of this architecture and empirically show how this more generic implementation
-compares with a recent end-to-end Neural approach on specific applications. We
-address the knowledge-representation challenge in such an architecture by representing an image
-using a directed labeled graph (called Scene Description Graph). Our implementation uses generic
-visual recognition techniques and commonsense reasoning to extract such graphs from images.
-Our experiments show that the extracted graphs capture the syntactic and semantic content of an
-image with reasonable accuracy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Recognizing social constructs from textual conversation</title>
       <link>https://adityasomak.github.io/publication/social/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>

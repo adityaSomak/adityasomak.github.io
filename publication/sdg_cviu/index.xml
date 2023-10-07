@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Understanding using Vision and Reasoning through Scene Description Graph | Somak Aditya</title>
+    <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
+      <atom:link href="https://adityasomak.github.io/publication/sdg_cviu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Understanding using Vision and Reasoning through Scene Description Graph</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/publication/sdg_cviu/featured.png</url>
+      <title>Image Understanding using Vision and Reasoning through Scene Description Graph</title>
+      <link>https://adityasomak.github.io/publication/sdg_cviu/</link>
+    </image>
+    
+  </channel>
+</rss>

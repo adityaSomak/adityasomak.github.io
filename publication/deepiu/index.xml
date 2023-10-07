@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeepIU: An Architecture for Image Understanding | Somak Aditya</title>
+    <link>https://adityasomak.github.io/publication/deepiu/</link>
+      <atom:link href="https://adityasomak.github.io/publication/deepiu/index.xml" rel="self" type="application/rss+xml" />
+    <description>DeepIU: An Architecture for Image Understanding</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/publication/deepiu/featured.png</url>
+      <title>DeepIU: An Architecture for Image Understanding</title>
+      <link>https://adityasomak.github.io/publication/deepiu/</link>
+    </image>
+    
+  </channel>
+</rss>

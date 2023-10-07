@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge | Somak Aditya</title>
+    <link>https://adityasomak.github.io/publication/sdg/</link>
+      <atom:link href="https://adityasomak.github.io/publication/sdg/index.xml" rel="self" type="application/rss+xml" />
+    <description>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/publication/sdg/featured.png</url>
+      <title>From Images to Sentences through Scene Description Graphs using Commonsense Reasoning and Knowledge</title>
+      <link>https://adityasomak.github.io/publication/sdg/</link>
+    </image>
+    
+  </channel>
+</rss>
