@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Logical reasoning is fundamental for humans yet presents a substantial challenge in the domain of Artificial Intelligence. Initially, researchers used Knowledge Representation and Reasoning (KR) systems that did not scale and required non-trivial manual effort. Recently, the emergence of large language models (LLMs) has demonstrated the ability to overcome various limitations of formal Knowledge Representation (KR) systems. Consequently, there’s a growing interest in using LLMs for logical reasoning via natural language.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/chitta-baral/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/logiglue/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/authors/chitta-baral/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/chitta-baral/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/logiglue/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/chitta-baral/">
-  <meta property="og:title" content="Chitta Baral | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/logiglue/">
+  <meta property="og:title" content="Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models | Somak Aditya">
+  <meta property="og:description" content="Logical reasoning is fundamental for humans yet presents a substantial challenge in the domain of Artificial Intelligence. Initially, researchers used Knowledge Representation and Reasoning (KR) systems that did not scale and required non-trivial manual effort. Recently, the emergence of large language models (LLMs) has demonstrated the ability to overcome various limitations of formal Knowledge Representation (KR) systems. Consequently, there’s a growing interest in using LLMs for logical reasoning via natural language."><meta property="og:image" content="https://adityasomak.github.io/publication/logiglue/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/logiglue/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-11-07T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-11-07T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-11-07T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/logiglue/"
+  },
+  "headline": "Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/logiglue/featured.png"
+  ],
+  
+  "datePublished": "2023-11-07T00:00:00Z",
+  "dateModified": "2023-11-07T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Man Luo"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Logical reasoning is fundamental for humans yet presents a substantial challenge in the domain of Artificial Intelligence. Initially, researchers used Knowledge Representation and Reasoning (KR) systems that did not scale and required non-trivial manual effort. Recently, the emergence of large language models (LLMs) has demonstrated the ability to overcome various limitations of formal Knowledge Representation (KR) systems. Consequently, there’s a growing interest in using LLMs for logical reasoning via natural language."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Chitta Baral | Somak Aditya</title>
+  <title>Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,63 +488,362 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1>Chitta Baral</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models</h1>
+
+  
+
+  
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/man-luo/">Man Luo</a></span>, <span><a href="/authors/shrinidhi-kumbhar/">Shrinidhi Kumbhar</a></span>, <span><a href="/authors/ming-shen/">Ming shen</a></span>, <span><a href="/authors/mihir-parmar/">Mihir Parmar</a></span>, <span><a href="/authors/neeraj-varshney/">Neeraj Varshney</a></span>, <span><a href="/authors/pratyay-banerjee/">Pratyay Banerjee</a></span>, <span><a href="/authors/admin/">Somak Aditya</a></span>, <span><a href="/authors/chitta-baral/">Chitta Baral</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/logiglue/&amp;text=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/logiglue/&amp;t=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models&amp;body=https://adityasomak.github.io/publication/logiglue/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/logiglue/&amp;title=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models%20https://adityasomak.github.io/publication/logiglue/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/logiglue/&amp;title=Towards%20LogiGLUE:%20A%20Brief%20Survey%20and%20A%20Benchmark%20for%20Analyzing%20Logical%20Reasoning%20Capabilities%20of%20Language%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2310.00836.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://huggingface.co/logicreasoning/LogiT5" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://huggingface.co/datasets/logicreasoning/logi_glue" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 464px;">
+  <div style="position: relative">
+    <img src="/publication/logiglue/featured_hu80295ac3e557fe02d6b0ad5f17a965fc_212149_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
     
 
     
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/logiglue/">Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models</a>
-        </li>
-        
-        <li>
-          <a href="/publication/integratingsurvey/">Integrating Knowledge and Reasoning in Image Understanding</a>
-        </li>
-        
-        <li>
-          <a href="/publication/spatialkd/">Spatial Knowledge Distillation to aid Visual Reasoning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/pslvqa/">Explicit Reasoning over End-to-End Neural Architectures</a>
-        </li>
-        
-        <li>
-          <a href="/publication/social/">Recognizing social constructs from textual conversation</a>
-        </li>
-        
-        <li>
-          <a href="/publication/kparser/">Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</a>
-        </li>
-        
-        <li>
-          <a href="/publication/identifying/">Identifying various kinds of event mentions in k-parser output</a>
-        </li>
-        
-        <li>
-          <a href="/publication/common-sense/">Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In ArXiv 2023</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Logical reasoning is fundamental for humans yet presents a substantial challenge in the domain of Artificial Intelligence. Initially, researchers used Knowledge Representation and Reasoning (KR) systems that did not scale and required non-trivial manual effort. Recently, the emergence of large language models (LLMs) has demonstrated the ability to overcome various limitations of formal Knowledge Representation (KR) systems. Consequently, there’s a growing interest in using LLMs for logical reasoning via natural language.</p>
+
+<p>This work strives to understand the proficiency of LLMs in logical reasoning by offering a brief review of the latest progress in this area; with a focus on the logical reasoning datasets, tasks, and the methods adopted to utilize LLMs for reasoning. To offer a thorough analysis, we’ve compiled a benchmark titled LogiGLUE. This includes 24 varied datasets encompassing deductive, abductive, and inductive reasoning. We have standardized these datasets into Seq2Seq tasks to facilitate straightforward training and evaluation for future research. Utilizing LogiGLUE as a foundation, we have trained an instruction fine-tuned language model, resulting in LogiT5. We study single-task training, multi-task training, and a &ldquo;chain-of-thought&rdquo; knowledge distillation finetuning technique to assess the model’s performance across the different logical reasoning categories. By this comprehensive process, we aim to shed light on the capabilities and potential pathways for enhancing logical reasoning proficiency in LLMs, paving the way for more advanced and nuanced developments in this
+critical field.</p>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/man-luo/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
-</section>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 

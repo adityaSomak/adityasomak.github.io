@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Somak Aditya</title>
-    <link>https://adityasomak.github.io/publication_types/2/</link>
-      <atom:link href="https://adityasomak.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
+    <title>Man Luo | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/man-luo/</link>
+      <atom:link href="https://adityasomak.github.io/authors/man-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Man Luo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>2</title>
-      <link>https://adityasomak.github.io/publication_types/2/</link>
+      <title>Man Luo</title>
+      <link>https://adityasomak.github.io/authors/man-luo/</link>
     </image>
     
     <item>
@@ -21,15 +21,6 @@
 
 &lt;p&gt;This work strives to understand the proficiency of LLMs in logical reasoning by offering a brief review of the latest progress in this area; with a focus on the logical reasoning datasets, tasks, and the methods adopted to utilize LLMs for reasoning. To offer a thorough analysis, we’ve compiled a benchmark titled LogiGLUE. This includes 24 varied datasets encompassing deductive, abductive, and inductive reasoning. We have standardized these datasets into Seq2Seq tasks to facilitate straightforward training and evaluation for future research. Utilizing LogiGLUE as a foundation, we have trained an instruction fine-tuned language model, resulting in LogiT5. We study single-task training, multi-task training, and a &amp;ldquo;chain-of-thought&amp;rdquo; knowledge distillation finetuning technique to assess the model’s performance across the different logical reasoning categories. By this comprehensive process, we aim to shed light on the capabilities and potential pathways for enhancing logical reasoning proficiency in LLMs, paving the way for more advanced and nuanced developments in this
 critical field.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>LoNLI: An Extensible Framework for Testing Diverse Logical Reasoning Capabilities for NLI</title>
-      <link>https://adityasomak.github.io/publication/lonli/</link>
-      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/lonli/</guid>
-      <description>&lt;p&gt;Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU).  In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases. We extend a publicly available framework of automated test case instantiation from free-form natural language templates (CheckList), and a well-defined taxonomy of capabilities to cover a wide range of increasingly harder test cases while varying the complexity of natural language. Through our analysis of state-of-the-art NLI systems, we observe that our benchmark is indeed hard (and non-trivial even with training on additional resources). Some capabilities stand out as harder. Further fine-grained analysis and fine-tuning experiments reveal more insights about these capabilities and the models &amp;ndash; supporting and extending previous observations; thus showing the utility of the proposed testbench.&lt;/p&gt;
 </description>
     </item>
     
