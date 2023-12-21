@@ -5,12 +5,109 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>CS60092 Information Retrieval (Spring 2024)</title>
+      <link>https://adityasomak.github.io/courses/irspring24/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/irspring24/</guid>
+      <description>&lt;blockquote&gt;
+&lt;table id=&#34;nobd&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34; border=&#34;0&#34;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34; valign=&#34;top&#34;&gt;&lt;b&gt;Instructor&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; align=&#34;left&#34;&gt;&lt;a href=&#34;http://cse.iitkgp.ac.in/~saditya/&#34;&gt;Somak Aditya&lt;/a&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Timing (Tentative)&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt; MON (12:00-12:55) , TUE (10:00-11:55)
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;First Class (Tentative)&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt; January 2nd, 2023 &lt;/span&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Venue&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt; NC241, Nalanda Classroom
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;
+    TBA
+    &lt;!-- Sachin Vashishtha (sachinvashistha6916@gmail.com) &lt;br/&gt;
+    Bishal Santra (bsantraigi@gmail.com)&lt;br/&gt;
+    Karde Vivek Manikrao (vivek10.karde@gmail.com) &lt;br/&gt;
+    Deepak Chaudhary (DEEPAKCHAUDHARY4311@kgpian.iitkgp.ac.in) &lt;br/&gt; --&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;!--
+&lt;b&gt;Office Hours&lt;/b&gt; &lt;p&gt;&lt;/p&gt;
+Friday - 18:10 - 19:10 (CSE-308)
+--&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Announcements&lt;/h3&gt;
+&lt;ul style=&#34;list-style-type: square;&#34;&gt;
+
+
+
+&lt;li&gt;  &lt;span style=&#39;color: red&#39;&gt;Note: for students, who are not able to register, kindly wait. I will not be able to answer your emails individually. &lt;/span&gt; From time to time, I will approve based on CGPA and other criteria (such as total class strength cap etc.). &lt;/li&gt;
+
+&lt;!-- &lt;li&gt; Every &lt;b&gt;registered&lt;/b&gt; student should join the Google mailing list &lt;b&gt;ir-2023-spring@googlegroups.com&lt;/b&gt;. All urgent announcements would be made through the group. &lt;span style=&#34;color:red&#34;&gt;This group is meant only for registered (and approved) students. Kindly mention your roll number and the fact that you have registered in ERP.&lt;/span&gt;&lt;/li&gt; --&gt;
+
+&lt;li&gt; IR 2023-24 Spring will be a fully &lt;u&gt;research-oriented course&lt;/u&gt;. &lt;/li&gt;
+
+&lt;li&gt; First introductory class will be on &lt;b&gt;January 2 (Tuesday), at 10:00 am&lt;/b&gt;.&lt;/li&gt; 
+
+&lt;li&gt; The course requires an understanding of the foundation of algorithms and data structures, probability and statistics, and knowledge of the basics of Natural Language Processing, and Machine Learning. This will be a research-oriented course that would require students to understand several CS research papers. There will be a term project that needs to be done using Python/Java. It is advisable to take this course only if you have the necessary background.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+Weightage: Class-Performance/Viva (8-10%), Mid-Sem and End-Sem (60%), Term Project (30-32%).
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt; Boolean retrieval &lt;/li&gt;
+&lt;li&gt; The term vocabulary &amp;amp; postings lists &lt;/li&gt;
+&lt;li&gt; Skip Pointers, Phrase Queries and Positional Indexing&lt;/li&gt;
+&lt;li&gt; Scoring, term weighting &amp;amp; the vector space model&lt;/li&gt;
+&lt;li&gt; Dictionaries and Tolerant Retrieval&lt;/li&gt;
+&lt;li&gt; Evaluation in information retrieval&lt;/li&gt;
+&lt;li&gt; Index Construction and Compression&lt;/li&gt;
+&lt;li&gt; Relevance feedback &amp;amp; query expansion&lt;/li&gt;
+&lt;li&gt; Probabilistic information retrieval&lt;/li&gt;
+&lt;li&gt; Language models for information retrieval (Probabilistic, RNN, Transformers)&lt;/li&gt;
+&lt;li&gt; Retrieval-Augmented Generation (RAG) and Large Language Models&lt;/li&gt;
+&lt;li&gt; Link analysis &amp;ndash; HITS, PageRank&lt;/li&gt;
+&lt;li&gt; Word Vectors&lt;/li&gt;
+&lt;li&gt; Learning to Rank&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Pre-requisites for the course &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt; Data structures and Algorithms &lt;/li&gt;
+&lt;li&gt; Probability and Statistics &lt;/li&gt;
+&lt;li&gt; Basics of Machine Learning &lt;/li&gt;
+&lt;li&gt; Basics of Natural Language Processing (Some might be covered during the course) &lt;/li&gt;
+&lt;li&gt; Basics of Graph algorithms (Some might be covered during the course) &lt;/li&gt;
+&lt;li&gt; Programming in Python/Java &lt;/b&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Reference Literature, Useful Tools and Software Resources &lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt; &lt;a href=&#34;https://nlp.stanford.edu/IR-book/information-retrieval-book.html&#34;&gt;Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. &lt;em&gt;Introduction to information retrieval&lt;/em&gt;, Cambridge: Cambridge university press, 2008.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; Research Papers shared in class. &lt;/li&gt;
+  &lt;li&gt; Pranav Rajpurkar&amp;rsquo;s &lt;a href=&#34;https://docs.google.com/document/d/1uvAbEhbgS_M-uDMTzmOWRlYxqCkogKRXdbKYYT98ooc/edit#&#34;&gt;Harvard CS197 AI Research Experiences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; Every test should be attempted individually by each student. Plagiarism in any form will be severely penalized.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models</title>
