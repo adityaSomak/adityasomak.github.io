@@ -30,15 +30,13 @@
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt; January 2nd, 2023 &lt;/span&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Venue&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt; NC241, Nalanda Classroom
+    &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt; NC242, Nalanda Classroom
 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&lt;b&gt;Teaching Assistants&lt;/b&gt;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;
     &lt;/td&gt;&lt;td id=&#34;nobd&#34; valign=&#34;top&#34; align=&#34;left&#34;&gt;
-    TBA
-    &lt;!-- Sachin Vashishtha (sachinvashistha6916@gmail.com) &lt;br/&gt;
-    Bishal Santra (bsantraigi@gmail.com)&lt;br/&gt;
-    Karde Vivek Manikrao (vivek10.karde@gmail.com) &lt;br/&gt;
-    Deepak Chaudhary (DEEPAKCHAUDHARY4311@kgpian.iitkgp.ac.in) &lt;br/&gt; --&gt;
+    Sachin Vashishtha (sachinvashistha6916@gmail.com) &lt;br/&gt;
+    Anuj Parashar (anujparashar16012000@gmail.com) &lt;br/&gt;
+    Yerragorla Krishna Mohan (krishnamohanyerragorla@gmail.com) &lt;br/&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/blockquote&gt;
 
@@ -67,7 +65,7 @@ Friday - 18:10 - 19:10 (CSE-308)
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
-Weightage: Class-Performance/Viva (8-10%), Mid-Sem and End-Sem (60%), Term Project (30-32%).
+Weightage: Class-Performance/Viva/Quiz (10-15%), Mid-Sem and End-Sem (60%), Term Project (25-30%).
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
@@ -81,8 +79,8 @@ Weightage: Class-Performance/Viva (8-10%), Mid-Sem and End-Sem (60%), Term Proje
 &lt;li&gt; Index Construction and Compression&lt;/li&gt;
 &lt;li&gt; Relevance feedback &amp;amp; query expansion&lt;/li&gt;
 &lt;li&gt; Probabilistic information retrieval&lt;/li&gt;
-&lt;li&gt; Language models for information retrieval (Probabilistic, RNN, Transformers)&lt;/li&gt;
-&lt;li&gt; Retrieval-Augmented Generation (RAG) and Large Language Models&lt;/li&gt;
+&lt;li&gt; &lt;b&gt;Language models for information retrieval (Probabilistic, RNN, Transformers)&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt; &lt;b&gt;Retrieval-Augmented Generation (RAG) and Large Language Models&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt; Link analysis &amp;ndash; HITS, PageRank&lt;/li&gt;
 &lt;li&gt; Word Vectors&lt;/li&gt;
 &lt;li&gt; Learning to Rank&lt;/li&gt;
