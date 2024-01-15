@@ -79,7 +79,7 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
 
 &lt;p&gt;&lt;tr class=&#39;weekbegin&#39;&gt;
     &lt;td&gt;Week 1&lt;/td&gt;
-    &lt;td&gt;Mon. 09/01&lt;/td&gt;
+    &lt;td&gt;Mon. 09/01 &lt;br/&gt; &lt;/td&gt;
     &lt;!-- &lt;td&gt;Lecture (Pandu)&lt;/td&gt; --&gt;
     &lt;td&gt;&lt;b&gt;Introduction to the course&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
       &lt;ul&gt;
@@ -95,6 +95,26 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
         &lt;li&gt;MG section 3.2&lt;/li&gt;
         &lt;li&gt;MIR section 8.2&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;http://www.rhymezone.com/shakespeare/&#34;&gt;Shakespeare plays&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;tr&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tue &lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt; &lt;br/&gt;Mon &lt;sup&gt;15&lt;/sup&gt;&amp;frasl;&lt;sub&gt;01&lt;/sub&gt;&lt;/td&gt;
+    &lt;!-- &lt;td&gt;Lecture (Chris)&lt;/td&gt; --&gt;
+    &lt;td&gt;&lt;b&gt;Boolean Retrieval&lt;/b&gt;: Dictionary and postings lists, boolean querying
+    &lt;!--(&lt;a href=&#34;https://github.com/manning/MergeAlgorithms&#34;&gt;starter code&lt;/a&gt;)--&gt;
+    &lt;br/&gt;&lt;br/&gt;
+    &lt;ul&gt;
+    &lt;!-- &lt;li&gt; Videos: &lt;a href=&#34;complementary_video_slides/05-01-07-IR-SemistructuredData.pptx&#34;&gt;&#34;Semistructured Data&#34;&lt;/a&gt; &lt;/li&gt; --&gt;
+    &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp23/Lec2.pdf&#34;&gt;PDF&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;http://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
