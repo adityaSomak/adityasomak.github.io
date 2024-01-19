@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Logic | Somak Aditya</title>
+    <title>logic | Somak Aditya</title>
     <link>https://adityasomak.github.io/tags/logic/</link>
       <atom:link href="https://adityasomak.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
-    <description>Logic</description>
+    <description>logic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>Logic</title>
+      <title>logic</title>
       <link>https://adityasomak.github.io/tags/logic/</link>
     </image>
     
@@ -21,14 +21,19 @@
     </item>
     
     <item>
-      <title>Symbolic Mathematics</title>
+      <title>Mathematical Reasoning</title>
       <link>https://adityasomak.github.io/project/symbolicmath/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/project/symbolicmath/</guid>
-      <description>&lt;p&gt;In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explored Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h3&gt; Symbolic Mathematics &lt;/h3&gt;
+In a recent work (&lt;a href=&#34;https://mathai-iclr.github.io/papers/papers/MATHAI_6_paper.pdf&#34; target=&#34;_blank&#34;&gt;PolySimp ICLR 2021 MathAI Workshop&lt;/a&gt;) with Navin Goyal and Vishesh Agarwal, we explored Transformers&amp;rsquo; abilities to perform multiple-step reasoning in well-defined purely symbolic tasks such as step-wise polynomial simplification.  Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.e., in the normal form) polynomial. We propose a synthetic Polynomial dataset generation algorithm that generates polynomials with unique proof steps.&lt;/p&gt;
 
 &lt;p&gt;Through varying coefficient configurations, input representation, proof granularity, and extensive hyper-parameter tuning, we observe that Transformers consistently struggle with numeric multiplication. We explore two ways to mitigate this: Curriculum Learning and a Symbolic Calculator approach (where the numeric operations are offloaded to a calculator). Both approaches provide significant gains over the vanilla Transformers-based baseline.&lt;/p&gt;
 
+&lt;p&gt;&lt;h3&gt; Mathematical Word Problems &lt;/h3&gt;
+We have further moved on to both simple (graduate school level arithmetic) and harder mathematical problems.&lt;/p&gt;
+
+&lt;p&gt;With colleagues in SUTD (Pengfei Hong, Deepanway Ghoshal, Navonil Majumdar, Prof. Soujanya Poria) and Univ. of Michigan (Prof. Rada Mihalcea), we investigate robustness of LLMs&amp;rsquo; mathematical understanding abilities. While LLMs showcase striking results on existing math word problems, the true depth of their competencies and robustness, in mathematical reasoning tasks, remains an open question. In response, we develop (i) an ontology of perturbations of maths questions, (ii) a semi-automatic method of perturbation, and (iii) a dataset of perturbed maths questions to probe the limits of LLM capabilities in mathematical-reasoning tasks. Through careful perturbations of a simple dataset (GSM8k), we create a variant named MORE. We conducted comprehensive evaluation of both closed-source and open-source LLMs on &lt;span style=&#34;font-variant-caps: small-caps&#34;&gt;More&lt;/span&gt;. The results show a significant performance drop across all the models against the perturbed questions. This strongly suggests that current LLMs lack robust mathematical skills and a deep understanding of reasoning. The work is currently published as an &lt;a href=&#34;https://arxiv.org/pdf/2401.09395.pdf&#34; target=&#34;_blank&#34;&gt;ArXiv Preprint&lt;/a&gt;.
 &lt;!-- &lt;div&gt;
 &lt;div id=&#34;References&#34; align=&#34;left&#34; style=&#34;width: 100%; overflow-y: hidden;&#34; class=&#34;wcustomhtml&#34;&gt;&lt;h3 style=&#34;margin-bottom:0px;&#34;&gt;References&lt;/h3&gt;
 &lt;hr style=&#34;float: center&#34;&gt;&lt;/div&gt;
@@ -37,7 +42,7 @@
 &lt;li&gt;
 Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformers&#39; Polynomial Simplification Abilities. ICLR 2021 MathAI Workshop. 
 &lt;/li&gt;
-&lt;/ul&gt; --&gt;
+&lt;/ul&gt; --&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -50,6 +55,20 @@ Vishesh Agarwal, Somak Aditya, Navin Goyal. Analyzing the Nuances of Transformer
 
 &lt;p&gt;&lt;h4&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt; Reasoning in LLMs &lt;/h4&gt;
 Our group has invested significantly in advancing reasoning abilities of LLMs in a multi-hop setting. The following drafts are in progress: 1) DeSelect$^+$: Efficient Leaf Selection to Improve Entailment Tree Generation, 2) A comprehensive survey of Logical Reasoning abilities of Large Language Models alongwith a benchmark, and 3) Multi-step Logical Reasoning under Incomplete Knowledge.&lt;/p&gt;
+
+&lt;p&gt;References
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/2401.10065.pdf&#34; target=&#34;_blank&#34;&gt;Code Prompting Elicits Conditional Reasoning Abilities
+in Text+Code LLMs&lt;/a&gt;,  Haritz Puerto&lt;sup&gt;1&lt;/sup&gt;, Martin Tutek&lt;sup&gt;1&lt;/sup&gt;, Somak Aditya&lt;sup&gt;2&lt;/sup&gt;, Xiaodan Zhu&lt;sup&gt;1,3&lt;/sup&gt;, Iryna Gurevych&lt;sup&gt;1&lt;/sup&gt;
+&lt;sup&gt;1&lt;/sup&gt;Ubiquitous Knowledge Processing Lab (UKP Lab),TU Darmstadt and Hessian Center for AI (hessian.AI)
+&lt;sup&gt;2&lt;/sup&gt;IIT Kharagpur, &lt;sup&gt;2&lt;/sup&gt;Queen’s University, &lt;em&gt;ArXiv Jan 2024&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/2310.00836.pdf&#34; target=&#34;_blank&#34;&gt;Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing
+Logical Reasoning Capabilities of Language Models&lt;/a&gt;, Man Luo&lt;sup&gt;1,2&lt;em&gt;&lt;/sup&gt;,  Shrinidhi Kumbhar&lt;sup&gt;1&lt;/em&gt;&lt;/sup&gt;, Ming shen,&lt;sup&gt;1&lt;/sup&gt; Mihir Parmar&lt;sup&gt;1&lt;/sup&gt;, Neeraj Varshney&lt;sup&gt;1&lt;/sup&gt;, Pratyay Banerjee&lt;sup&gt;3&lt;/sup&gt;, Somak Aditya&lt;sup&gt;4&lt;/sup&gt;, Chitta Baral&lt;sup&gt;1&lt;/sup&gt;, &lt;sup&gt;1&lt;/sup&gt;Arizona State University, &lt;sup&gt;2&lt;/sup&gt;Mayo Clinic, &lt;sup&gt;3&lt;/sup&gt;Amazon Alexa AI, &lt;sup&gt;4&lt;/sup&gt;IIT KGP &lt;em&gt;ArXiv Nov 2023&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;a href=&#34;https://arxiv.org/abs/2208.14641&#34; target=&#34;_blank&#34;&gt;Generating Intermediate Steps for NLI with Next-Step Supervision&lt;/a&gt;, &lt;em&gt;AACL-IJCNLP 2023, Main&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Natural Language Inference &lt;/h3&gt;
 Large pre-trained language models show high performance in popular NLP benchmarks (GLUE, SuperGLUE), while failing poorly in datasets with targeted linguistic and logical phenomena. We consolidate the interesting reasoning phenomena
