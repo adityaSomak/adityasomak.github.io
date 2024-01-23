@@ -135,6 +135,23 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
+   &lt;tr class=&#34;weekbegin&#34;&gt;
+    &lt;td&gt;Week 3&lt;/td&gt;
+    &lt;td&gt;Tues. 23 / 01&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Skip Pointers, Phrase Queries and Positional Indexing&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp24/Lec4.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/02voc.pdf&#34;&gt;IIR chapter 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.524&#34;&gt;A skip list cookbook (Pugh 1990)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=1028102&#34;&gt;Fast phrase querying with combined indexes (Williams, Zobel, Bahle 2004)&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://portal.acm.org/citation.cfm?id=564415&#34;&gt;Efficient phrase querying with an auxiliary index (Bahle, Williams, Zobel 2002)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
