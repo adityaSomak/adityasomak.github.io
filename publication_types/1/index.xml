@@ -5,12 +5,67 @@
     <link>https://adityasomak.github.io/publication_types/1/</link>
       <atom:link href="https://adityasomak.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://adityasomak.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</title>
+      <link>https://adityasomak.github.io/publication/promptinj/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/promptinj/</guid>
+      <description>&lt;p&gt;Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.5, OPT, BLOOM, and FLAN-T5-xxl). We further propose a limited set of prompt guards and discuss their effectiveness against known attack types.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prover: Generating Intermediate Steps for NLI with Commonsense Knowledge Retrieval and Next-Step Prediction</title>
+      <link>https://adityasomak.github.io/publication/multihop/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/multihop/</guid>
+      <description>&lt;p&gt;The Natural Language Inference (NLI) task often requires reasoning over multiple steps to reach the conclusion. While the necessity of generating such intermediate steps (instead of a summary explanation) has gained popular support, it is unclear how to generate such steps without complete end-to-end supervision and how such generated steps can be further utilized. In this work, we train and enhance a sequence-to-sequence next-step prediction model with external commonsense knowledge and search to generate intermediate steps with limited next-step supervision. We show the correctness of such generated steps through human verification, on MNLI and MED datasets (and discuss the limitations through qualitative examples). We show that such generated steps can help improve end-to-end NLI task performance using simple data augmentation strategies. Using a CheckList dataset for NLI, we also explore the effect of augmentation on specific reasoning types.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SYNC: A Structurally guided Hard Negative Curricula for Efficient Neural Code Search</title>
+      <link>https://adityasomak.github.io/publication/sync/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/sync/</guid>
+      <description>&lt;p&gt;In neural code search, a Transformers-based pre-trained language model (such as CodeBERT) is used to embed both the query (NL) and the code snippet (PL) into a joint representation space; which is used to retrieve the relevant PLs satisfying the query. These models often make mistakes such as retrieving snippets with incorrect data types, and incorrect method names or signatures. The generalization ability beyond training data is also limited (as the code retrieval datasets vary in the ways NL-PL pairs are collected). In this work, we propose a novel contrastive learning technique (SYNC) that enables efficient finetuning of code LMs with soft and hard negatives, where the hard negatives are constructed using a set of structure-aware AST-based perturbations; targeted towards possible syntactic and semantic variations.
+Our method achieves significant improvements in retrieval performance for three code LMs (CodeBERT, GraphCodeBERT, UniXCoder) over four Python code retrieval datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Robust Information-Masking Approach for Domain Counterfactual Generation</title>
+      <link>https://adityasomak.github.io/publication/counterfactualda/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/counterfactualda/</guid>
+      <description>&lt;p&gt;Domain shift is a big challenge in NLP, thus, many approaches resort to learning domain-invariant features to mitigate the inference phase domain shift. Such methods, however, fail to leverage the domain-specific nuances relevant to the task at hand. To avoid such drawbacks, domain counterfactual generation aims to transform a text from the source domain to a given target domain. However, due to the limited availability of data, such frequency-based methods often miss and lead to some valid and spurious domain-token associations. Hence, we employ a three-step domain obfuscation approach that involves frequency and attention norm-based masking, to mask domain-specific cues, and unmasking to regain the domain generic context. Our experiments empirically show that the counterfactual samples sourced from our masked text lead to improved domain transfer on 10 out of 12 domain sentiment classification settings, with an average of 2% accuracy improvement over the state-of-the-art for unsupervised domain adaptation (UDA). Further our model outperforms the state-of-the-art by achieving 1.4% average accuracy improvement in the adversarial domain adaptation (ADA) setting. Moreover, our model also shows its domain adaptation efficacy on a large multi-domain intent classification dataset where it attains state-of-the-art results.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multilingual CheckList: Generation and Evaluation</title>
+      <link>https://adityasomak.github.io/publication/amcg/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/amcg/</guid>
+      <description>&lt;p&gt;The recently proposed CheckList (Riberio et al,. 2020) approach to evaluation of NLP systems has revealed high failure rates for basic capabilities for multiple state-of-the-art and commercial models. However, the CheckList creation process is manual which creates a bottleneck towards creation of multilingual CheckLists catering 100s of languages. In this work, we explore multiple approaches to generate and evaluate the quality of Multilingual CheckList. We device an algorithm &amp;ndash; Automated Multilingual Checklist Generation (AMCG) for automatically transferring a CheckList from a source to a target language that relies on a reasonable machine translation system. We then compare the CheckList generated by AMCG with CheckLists generated with different levels of human intervention. Through in-depth crosslingual experiments between English and Hindi, and broad multilingual experiments spanning 11 languages, we show that the automatic approach can provide accurate estimates of failure rates of a model across capabilities, as would a human-verified CheckList, and better than CheckLists generated by humans from scratch.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vector Space Interpolation for Query Expansion</title>
+      <link>https://adityasomak.github.io/publication/interpolation/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/interpolation/</guid>
+      <description>&lt;p&gt;Topic-sensitive query set expansion is an important area of research that aims to improve search results for information retrieval. It is particularly crucial for queries related to sensitive and emerging topics. In this work, we describe a method for query set expansion about emerging topics using vector space interpolation. We use a transformer model called OPTIMUS, which is suitable for vector space manipulation due to its variational autoencoder nature. One of our proposed methods – Dirichlet interpolation shows promising results for query expansion. Our methods effectively generate new queries about the sensitive topic by incorporating set-level diversity, which is not captured by traditional sentence-level augmentation methods such as paraphrasing or back-translation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>LITMUS Predictor: An AI Assistant for Building Reliable, High-Performing and Fair Multilingual NLP Systems</title>

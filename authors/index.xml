@@ -5,12 +5,84 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://adityasomak.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>https://adityasomak.github.io/authors/admin/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/admin/</guid>
+      <description>&lt;!-- &lt;div class=&#34;info&#34;&gt;
+I am looking for motivated full-time Ph.D students who are interested in pursuing &lt;b&gt;&lt;u&gt;their thesis&lt;/u&gt;&lt;/b&gt; in the exciting juncture of classical and statistical AI (often dubbed as neuro-symbolic methods). 
+&lt;/div&gt; --&gt;
+
+&lt;div id=&#34;tickr-box&#34;&gt;
+&lt;div class=&#34;tickr-title&#34;&gt;Latest News&lt;/div&gt;
+&lt;div id=&#34;tickr-scroll&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt; I am looking for motivated full-time Ph.D students who are interested in pursuing &lt;b&gt;&lt;u&gt;their thesis&lt;/u&gt;&lt;/b&gt; in the exciting juncture of classical and statistical AI (often dubbed as neuro-symbolic methods). &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;span style=&#34;color: red&#34;&gt;!!! Major Update: I have joined IIT Kharagpur CSE as an Assistant Professor on November 2021. I am looking for motivated Ph.D, MTech, and BTech students. !!!&lt;/span&gt; &lt;br/&gt; --&gt;
+
+&lt;p&gt;I am an Assistant Professor (Grade I) at IIT Kharagpur Department of CSE. I was a Postdoctoral Researcher at &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt; advised by Dr. Monojit Choudhury. Prior to joining MSR India, I spent 1.5 years in Adobe Research as a full-time Researcher. I completed by Ph.D from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; in June 2018, under the supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; and &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Prof. Yezhou Yang&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deployable AI systems should be able to reason with knowledge that is commonplace to humans. Thus, my research aims to &lt;b&gt;enhance, evaluate,&lt;/b&gt; and &lt;b&gt;explain&lt;/b&gt; different types of complex &lt;b&gt;reasoning abilities&lt;/b&gt; of AI systems. At MSRI, I explored &lt;em&gt;evaluation&lt;/em&gt; and &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of Transformers-based language models. Apart from end-to-end reasoning, I am paralley exploring multi-hop reasoning capabilities of neural methods in both &lt;a href=&#34;https://adityasomak.github.io/project/symbolicmath/&#34; target=&#34;_blank&#34;&gt;symbolic&lt;/a&gt; and &lt;a href=&#34;https://adityasomak.github.io/project/nlp/&#34; target=&#34;_blank&#34;&gt;natural language&lt;/a&gt; domains. During my Ph.D, I have explored &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of &lt;a href=&#34;https://adityasomak.github.io/project/pslvqa/&#34; target=&#34;_blank&#34;&gt;image understanding&lt;/a&gt; systems. Through a combination of Deep Learning, Knowledge Representation, and Probabilistic Logical Reasoning, I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering, Captioning, image puzzle solving and visual reasoning.&lt;/p&gt;
+
+&lt;!-- My past work has been driven by two fundamental hypotheses: 1) knowledge and reasoning is fundamental to machine understanding (irrespective of the input modality), and 2) different types of reasoning may require different types of methods (deviating from *one-model-to-rule-them-all*). Lastly, to build deployable AI systems, interpretability and human-AI (extrinsic) trust is essential. In future, I would also explore how knowledge and reasoning plays a role in interpretable trusted AI systems. --&gt;
+
+&lt;!-- my agenda in research is to devlop models that simultaneously learns from data, while being enriched by knowledge and capable of reasoning with such knowledge. 
+Developing such models require three central considerations: *knowledge acquisition*, *representation* and *reasoning*. 
+At MSRI and during my PhD, a fundamental observation was that, often an  equal measure of concentration is required for each application. --&gt;
+
+&lt;!-- I completed my Ph.D. in Computer Science from [CIDSE, Arizona State University](http://cidse.engineering.asu.edu/). During my doctoral studies, 
+Through a combination of Deep Learning, Knowledge Representation and Probabilistic Logical Reasoning; I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering (IJCAI, AAAI), Captioning (CVIU), image puzzle solving (UAI) and visual reasoning (WACV). --&gt;
+
+&lt;!-- I completed my Masters (ME) in Computer Science from the [Indian Institute of Science, Bangalore](http://www.csa.iisc.ernet.in/) in 2011 with a concentration in 
+Machine Learning under the supervision of [Prof. M Narasimha Murty](http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;hl=en) (Dean, Faculty of Engineering, IISc). 
+I have done my Bachelors in CS from Jadavpur University in 2009. Prior to joining PhD, I worked as a developer in the Next-Generation Sequencing (NGS) team at Strand Life Sciences 
+for nearly 2.5 years.  --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://adityasomak.github.io/authors/atharva/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/atharva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://adityasomak.github.io/authors/sachin/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/sachin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abhinav Rao</title>
+      <link>https://adityasomak.github.io/authors/abhinav-rao/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/abhinav-rao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monojit Choudhury</title>
+      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deepanway Ghoshal</title>
@@ -58,46 +130,6 @@
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/soujanya-poria/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adityasomak.github.io/authors/admin/</link>
-      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/admin/</guid>
-      <description>&lt;!-- &lt;div class=&#34;info&#34;&gt;
-I am looking for motivated full-time Ph.D students who are interested in pursuing &lt;b&gt;&lt;u&gt;their thesis&lt;/u&gt;&lt;/b&gt; in the exciting juncture of classical and statistical AI (often dubbed as neuro-symbolic methods). 
-&lt;/div&gt; --&gt;
-
-&lt;div id=&#34;tickr-box&#34;&gt;
-&lt;div class=&#34;tickr-title&#34;&gt;Latest News&lt;/div&gt;
-&lt;div id=&#34;tickr-scroll&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt; I am looking for motivated full-time Ph.D students who are interested in pursuing &lt;b&gt;&lt;u&gt;their thesis&lt;/u&gt;&lt;/b&gt; in the exciting juncture of classical and statistical AI (often dubbed as neuro-symbolic methods). &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- &lt;span style=&#34;color: red&#34;&gt;!!! Major Update: I have joined IIT Kharagpur CSE as an Assistant Professor on November 2021. I am looking for motivated Ph.D, MTech, and BTech students. !!!&lt;/span&gt; &lt;br/&gt; --&gt;
-
-&lt;p&gt;I am an Assistant Professor (Grade I) at IIT Kharagpur Department of CSE. I was a Postdoctoral Researcher at &lt;a href=&#34;https://www.microsoft.com/en-us/research/lab/microsoft-research-india/&#34; target=&#34;_blank&#34;&gt;Microsoft Research India&lt;/a&gt; advised by Dr. Monojit Choudhury. Prior to joining MSR India, I spent 1.5 years in Adobe Research as a full-time Researcher. I completed by Ph.D from &lt;a href=&#34;http://cidse.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;CIDSE, Arizona State University&lt;/a&gt; in June 2018, under the supervision of &lt;a href=&#34;http://www.public.asu.edu/~cbaral/&#34; target=&#34;_blank&#34;&gt;Prof. Chitta Baral&lt;/a&gt; and &lt;a href=&#34;http://yezhouyang.engineering.asu.edu/&#34; target=&#34;_blank&#34;&gt;Prof. Yezhou Yang&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Deployable AI systems should be able to reason with knowledge that is commonplace to humans. Thus, my research aims to &lt;b&gt;enhance, evaluate,&lt;/b&gt; and &lt;b&gt;explain&lt;/b&gt; different types of complex &lt;b&gt;reasoning abilities&lt;/b&gt; of AI systems. At MSRI, I explored &lt;em&gt;evaluation&lt;/em&gt; and &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of Transformers-based language models. Apart from end-to-end reasoning, I am paralley exploring multi-hop reasoning capabilities of neural methods in both &lt;a href=&#34;https://adityasomak.github.io/project/symbolicmath/&#34; target=&#34;_blank&#34;&gt;symbolic&lt;/a&gt; and &lt;a href=&#34;https://adityasomak.github.io/project/nlp/&#34; target=&#34;_blank&#34;&gt;natural language&lt;/a&gt; domains. During my Ph.D, I have explored &lt;em&gt;enhancement&lt;/em&gt; of reasoning capabilities of &lt;a href=&#34;https://adityasomak.github.io/project/pslvqa/&#34; target=&#34;_blank&#34;&gt;image understanding&lt;/a&gt; systems. Through a combination of Deep Learning, Knowledge Representation, and Probabilistic Logical Reasoning, I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering, Captioning, image puzzle solving and visual reasoning.&lt;/p&gt;
-
-&lt;!-- My past work has been driven by two fundamental hypotheses: 1) knowledge and reasoning is fundamental to machine understanding (irrespective of the input modality), and 2) different types of reasoning may require different types of methods (deviating from *one-model-to-rule-them-all*). Lastly, to build deployable AI systems, interpretability and human-AI (extrinsic) trust is essential. In future, I would also explore how knowledge and reasoning plays a role in interpretable trusted AI systems. --&gt;
-
-&lt;!-- my agenda in research is to devlop models that simultaneously learns from data, while being enriched by knowledge and capable of reasoning with such knowledge. 
-Developing such models require three central considerations: *knowledge acquisition*, *representation* and *reasoning*. 
-At MSRI and during my PhD, a fundamental observation was that, often an  equal measure of concentration is required for each application. --&gt;
-
-&lt;!-- I completed my Ph.D. in Computer Science from [CIDSE, Arizona State University](http://cidse.engineering.asu.edu/). During my doctoral studies, 
-Through a combination of Deep Learning, Knowledge Representation and Probabilistic Logical Reasoning; I demonstrated the benefits of using reasoning and knowledge in Visual Question-Answering (IJCAI, AAAI), Captioning (CVIU), image puzzle solving (UAI) and visual reasoning (WACV). --&gt;
-
-&lt;!-- I completed my Masters (ME) in Computer Science from the [Indian Institute of Science, Bangalore](http://www.csa.iisc.ernet.in/) in 2011 with a concentration in 
-Machine Learning under the supervision of [Prof. M Narasimha Murty](http://scholar.google.com/citations?user=VQZTmpcAAAAJ&amp;hl=en) (Dean, Faculty of Engineering, IISc). 
-I have done my Bachelors in CS from Jadavpur University in 2009. Prior to joining PhD, I worked as a developer in the Next-Generation Sequencing (NGS) team at Strand Life Sciences 
-for nearly 2.5 years.  --&gt;
-</description>
     </item>
     
     <item>
@@ -157,26 +189,10 @@ for nearly 2.5 years.  --&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>https://adityasomak.github.io/authors/atharva/</link>
-      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/atharva/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jyothi Vedurada</title>
       <link>https://adityasomak.github.io/authors/jyothi-vedurada/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/jyothi-vedurada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monojit Choudhury</title>
-      <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
-      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/monojit-choudhury/</guid>
       <description></description>
     </item>
     
@@ -193,22 +209,6 @@ for nearly 2.5 years.  --&gt;
       <link>https://adityasomak.github.io/authors/ishan-tarunesh/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/ishan-tarunesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://adityasomak.github.io/authors/sachin/</link>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/sachin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Abhinav Rao</title>
-      <link>https://adityasomak.github.io/authors/abhinav-rao/</link>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/abhinav-rao/</guid>
       <description></description>
     </item>
     

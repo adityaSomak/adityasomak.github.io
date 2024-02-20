@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
       <atom:link href="https://adityasomak.github.io/authors/monojit-choudhury/index.xml" rel="self" type="application/rss+xml" />
     <description>Monojit Choudhury</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Monojit Choudhury</title>
       <link>https://adityasomak.github.io/authors/monojit-choudhury/</link>
     </image>
+    
+    <item>
+      <title>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</title>
+      <link>https://adityasomak.github.io/publication/promptinj/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/promptinj/</guid>
+      <description>&lt;p&gt;Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.5, OPT, BLOOM, and FLAN-T5-xxl). We further propose a limited set of prompt guards and discuss their effectiveness against known attack types.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Prover: Generating Intermediate Steps for NLI with Commonsense Knowledge Retrieval and Next-Step Prediction</title>
@@ -27,15 +36,6 @@
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/lonli/</guid>
       <description>&lt;p&gt;Natural Language Inference (NLI) is considered a representative task to test natural language understanding (NLU).  In this work, we propose an extensible framework to collectively yet categorically test diverse Logical reasoning capabilities required for NLI (and by extension, NLU). Motivated by behavioral testing, we create a semi-synthetic large test-bench (363 templates, 363k examples) and an associated framework that offers following utilities: 1) individually test and analyze reasoning capabilities along 17 reasoning dimensions (including pragmatic reasoning), 2) design experiments to study cross-capability information content (leave one out or bring one in); and 3) the synthetic nature enable us to control for artifacts and biases. We extend a publicly available framework of automated test case instantiation from free-form natural language templates (CheckList), and a well-defined taxonomy of capabilities to cover a wide range of increasingly harder test cases while varying the complexity of natural language. Through our analysis of state-of-the-art NLI systems, we observe that our benchmark is indeed hard (and non-trivial even with training on additional resources). Some capabilities stand out as harder. Further fine-grained analysis and fine-tuning experiments reveal more insights about these capabilities and the models &amp;ndash; supporting and extending previous observations; thus showing the utility of the proposed testbench.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tricking LLMs into Disobedience: Understanding, Analyzing, and Preventing Jailbreaks</title>
-      <link>https://adityasomak.github.io/publication/promptinj/</link>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/promptinj/</guid>
-      <description>&lt;p&gt;Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.5, OPT, BLOOM, and FLAN-T5-xxl). We further propose a limited set of prompt guards and discuss their effectiveness against known attack types.&lt;/p&gt;
 </description>
     </item>
     
