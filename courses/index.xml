@@ -153,8 +153,8 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
     &lt;/td&gt;
   &lt;/tr&gt;
    &lt;tr class=&#39;warning&#39;&gt;
-    &lt;td&gt;&lt;/td&gt;
-    &lt;td&gt;Tues 24 / 01 &amp;amp; Mon 29 / 01&lt;/td&gt;
+    &lt;td&gt;Week 4&lt;/td&gt;
+    &lt;td&gt;Tues 23 / 01 &amp;amp; Mon 29 / 01&lt;/td&gt;
     &lt;td&gt;&lt;b&gt;Scoring, term weighting &amp;amp; the vector space model&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
     &lt;ul&gt;
          &lt;li&gt;Slides:
@@ -171,7 +171,7 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr class=&#39;weekbegin&#39;&gt;
-    &lt;td&gt;Week 4&lt;/td&gt;
+    &lt;td&gt;Week 5&lt;/td&gt;
     &lt;td&gt;Tue. 30/ 01 &amp;amp; Mon. 05 / 02&lt;/td&gt;
     &lt;td&gt;&lt;b&gt;Dictionaries and Tolerant Retieval&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
     &lt;ul&gt;
@@ -198,6 +198,48 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/08eval.pdf&#34;&gt;IIR chapter 8&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/what-is-average-precision-in-object-detection-localization-algorithms-and-how-to-calculate-it-3f330efe697b&#34;&gt;Average Precision&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 6&lt;/td&gt;
+    &lt;td&gt;Mon. &lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;02&lt;/sub&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Index Constructions&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec8.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/04const.pdf&#34;&gt;IIR chapter 4&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;warning&#39;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Mon. &lt;sup&gt;13&lt;/sup&gt;&amp;frasl;&lt;sub&gt;02&lt;/sub&gt; &lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Tutorial 1&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;To be Updated&lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/exercises.html&#34;&gt;IIR Exercises (From IIR book and Other Problem Sets)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;weekbegin&#39;&gt;
+    &lt;td&gt;Week 7&lt;/td&gt;
+    &lt;td&gt;Tue. 27/ 02&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Index Compression&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/Lec9.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/05comp.pdf&#34;&gt;IIR chapter 5&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
