@@ -5,12 +5,28 @@
     <link>https://adityasomak.github.io/authors/somak-aditya/</link>
       <atom:link href="https://adityasomak.github.io/authors/somak-aditya/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/authors/somak-aditya/</link>
     </image>
+    
+    <item>
+      <title>MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning</title>
+      <link>https://adityasomak.github.io/publication/mathsensei/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/mathsensei/</guid>
+      <description>&lt;p&gt;Tool-augmented Large Language Models (TALM) are known to enhance the skillset of
+large language models (LLM), thereby, leading to their improved reasoning abilities across
+many tasks. While, TALMs have been successfully employed in different question-answering
+benchmarks, their efficacy on complex mathematical reasoning benchmarks, and, the potential complimentary benefits offered by tools for knowledge retrieval and mathematical equation solving, are open research questions. In this work, we present MATHSENSEI, a toolaugmented large language model for mathematical reasoning. Augmented with tools for knowledge retrieval (Bing Web Search), program execution (Python), and symbolic equation solving (Wolfram-Alpha), we study the
+complimentary benefits of these tools through evaluations on mathematical reasoning datasets.
+We perform exhaustive ablations on MATH, a popular dataset for evaluating mathematical reasoning on diverse mathematical disciplines. We also conduct experiments involving well-known tool planners to study the impact of tool sequencing on the model performance. MATHSENSEI achieves 13.5% better accuracy over gpt-3.5-turbo with chain-ofthought on the MATH dataset. We further observe that TALMs are not as effective for simpler math word problems (in GSM-8k), and
+the benefit increases as the complexity and required knowledge increases (progressively
+over AQuA, MMLU-Math, and higher level complex questions in MATH). The code and data are available at &lt;a href=&#34;https://github.com/Debrup61/MathSensei&#34;&gt;MathSensei-Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>STUCK IN THE QUICKSAND OF NUMERACY, FAR FROM AGI SUMMIT: EVALUATING LLMS&#39; MATHEMATICAL COMPETENCY THROUGH ONTOLOGY-GUIDED PERTURBATIONS</title>
