@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/codeprompting/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/codeprompting/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/">
-  <meta property="og:title" content="Authors | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/codeprompting/">
+  <meta property="og:title" content="Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs | Somak Aditya">
+  <meta property="og:description" content="Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code."><meta property="og:image" content="https://adityasomak.github.io/publication/codeprompting/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/codeprompting/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-02-28T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2024-02-18T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-02-18T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/codeprompting/"
+  },
+  "headline": "Code Prompting Elicits Conditional Reasoning Abilities in Text+ Code LLMs",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/codeprompting/featured.png"
+  ],
+  
+  "datePublished": "2024-02-18T00:00:00Z",
+  "dateModified": "2024-02-18T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Haritz Puerto"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Authors | Somak Aditya</title>
+  <title>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,88 +488,347 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+
+
+<div class="article-container pt-3">
+  <h1>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs</h1>
 
   
 
   
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/haritz-puerto/">Haritz Puerto</a></span>, <span><a href="/authors/martin-tutek/">Martin Tutek</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/xiaodan-zhu/">Xiaodan Zhu</a></span>, <span><a href="/authors/iryna-gurevych/">Iryna Gurevych</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    February 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/codeprompting/&amp;text=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/codeprompting/&amp;t=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs&amp;body=https://adityasomak.github.io/publication/codeprompting/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/codeprompting/&amp;title=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs%20https://adityasomak.github.io/publication/codeprompting/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/codeprompting/&amp;title=Code%20Prompting%20Elicits%20Conditional%20Reasoning%20Abilities%20in%20Text&#43;%20Code%20LLMs" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2401.10065" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 321px;">
+  <div style="position: relative">
+    <img src="/publication/codeprompting/featured_hu7657e44e390fbe7322b74579efca506d_432717_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/iryna-gurevych/">Iryna Gurevych</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/martin-tutek/">Martin Tutek</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/xiaodan-zhu/">Xiaodan Zhu</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/deepanway-ghoshal/">Deepanway Ghoshal</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/navonil-majumdar/">Navonil Majumdar</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/pengfei-hong/">Pengfei Hong</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/rada-mihalcea/">Rada Mihalcea</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/soujanya-poria/">Soujanya Poria</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/chitta-baral/">Chitta Baral</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/man-luo/">Man Luo</a></li>
-    
-  </ul>
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/authors/">&laquo;</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/3/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In ICLR ME-FOMO Workshop</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. Our experiments find that code prompts exhibit a performance boost between 2.6 and 7.7 points on GPT 3.5 across multiple datasets requiring conditional reasoning. We then conduct experiments to discover how code prompts elicit conditional reasoning abilities and through which features. We observe that prompts need to contain natural language text accompanied by high-quality code that closely represents the semantics of the instance text. Furthermore, we show that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.</p>
 </div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/haritz-puerto/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
