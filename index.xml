@@ -305,7 +305,7 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
-  &lt;tr class=&#34;warning&#34;&gt;
+  &lt;tr class=&#34;weekbegin&#34;&gt;
     &lt;td&gt;Week 9&lt;/td&gt;
     &lt;td&gt;Mon. 11 / 03&lt;/td&gt;
     &lt;td&gt;&lt;b&gt;Probabilistic IR&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
@@ -318,6 +318,21 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;https://nlp.stanford.edu/IR-book/pdf/11prob.pdf&#34;&gt;IIR chapter 11&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;https://seeing-theory.brown.edu/compound-probability/index.html&#34;&gt;Basics of Probability Theory&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#39;warning&#39;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Mon. &lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt; &amp;amp; &lt;sup&gt;18&lt;/sup&gt;&amp;frasl;&lt;sub&gt;03&lt;/sub&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Language Models for IR&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp24/Lec12.pdf&#34;&gt;PDF&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/class/cs224n/&#34;&gt;Stanford Course CS224n&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
