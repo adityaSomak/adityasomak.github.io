@@ -38,14 +38,5 @@ schemas.&lt;/p&gt;
 </description>
     </item>
     
-    <item>
-      <title>Identifying various kinds of event mentions in k-parser output</title>
-      <link>https://adityasomak.github.io/publication/identifying/</link>
-      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/identifying/</guid>
-      <description>&lt;p&gt;In this paper we show how our semantic parser (Knowledge Parser or K-Parser) identifies various kinds of event mentions in the input text. The types include recursive (complex) and non recursive event mentions. K-Parser outputs each event mention in form of an acyclic graph with root nodes as the verbs that drive those events. The children nodes of the verbs represent the entities participating in the events, and their conceptual classes. The on-line demo of the system is available at &lt;a href=&#34;http://kparser.org&#34; target=&#34;_blank&#34;&gt;http://kparser.org&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

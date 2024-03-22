@@ -194,15 +194,6 @@ prove reasoning capabilities.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Recognizing social constructs from textual conversation</title>
-      <link>https://adityasomak.github.io/publication/social/</link>
-      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/social/</guid>
-      <description>&lt;p&gt;In this paper we present our work on recognizing high level social constructs such as Leadership and Status from textual conversation using an approach that makes use of the background knowledge about social hierarchy and integrates statistical methods and symbolic logic based methods. We use a stratified approach in which we first detect lower level language constructs such as politeness, command and agreement that help us to infer intermediate constructs such as deference, closeness and authority that are observed between the parties engaged in conversation. These intermediate constructs in turn are used to determine the social constructs Leadership and Status. We have implemented this system successfully in both English and Korean languages and achieved considerable accuracy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</title>
       <link>https://adityasomak.github.io/publication/kparser/</link>
       <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
@@ -225,15 +216,6 @@ In the process we develop a semantic parser
 (&lt;a href=&#34;www.kparser.org&#34; target=&#34;_blank&#34;&gt;www.kparser.org&lt;/a&gt;). We show that our approach
 works well with respect to a subset of Winograd
 schemas.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Identifying various kinds of event mentions in k-parser output</title>
-      <link>https://adityasomak.github.io/publication/identifying/</link>
-      <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/identifying/</guid>
-      <description>&lt;p&gt;In this paper we show how our semantic parser (Knowledge Parser or K-Parser) identifies various kinds of event mentions in the input text. The types include recursive (complex) and non recursive event mentions. K-Parser outputs each event mention in form of an acyclic graph with root nodes as the verbs that drive those events. The children nodes of the verbs represent the entities participating in the events, and their conceptual classes. The on-line demo of the system is available at &lt;a href=&#34;http://kparser.org&#34; target=&#34;_blank&#34;&gt;http://kparser.org&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
