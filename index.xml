@@ -367,6 +367,41 @@ Weightage: Class-Performance/Quiz (8-10%), Mid-Sem and End-Sem (60%), Term Proje
       &lt;/ul&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
+  &lt;tr class=&#34;warning&#34;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Mon 1 / 04&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Word2Vec (Part I and II)&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/w2vp1.pdf&#34;&gt;Part-1 PDF&lt;/a&gt;,
+              &lt;a href=&#34;https://adityasomak.github.io/files/IRSp22/w2vp2.pdf&#34;&gt;Part-2 PDF&lt;/a&gt;
+         &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;ul&gt;
+        &lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/1301.3781.pdf&#34;&gt;Efficient Estimation of Word Representations in Vector Space (original word2vec paper)&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf&#34;&gt;Distributed Representations of Words and Phrases and their Compositionality (negative sampling paper)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&#34;warning&#34;&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Tues 2 / 04&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;Learning to Rank&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+         &lt;li&gt;Slides:
+             &lt;a href=&#34;https://adityasomak.github.io/files/IRSp24/Lec16.pdf&#34;&gt;PDF&lt;/a&gt;
+         &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+    &lt;ul&gt;
+        &lt;!-- &lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/1301.3781.pdf&#34;&gt;Efficient Estimation of Word Representations in Vector Space (original word2vec paper)&lt;a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf&#34;&gt;Distributed Representations of Words and Phrases and their Compositionality (negative sampling paper)&lt;/a&gt;&lt;/li&gt; --&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt;Tentative Topics &lt;/h3&gt;
