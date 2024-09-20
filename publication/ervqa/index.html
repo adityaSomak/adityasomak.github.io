@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/ervqa/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/authors/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/ervqa/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/authors/">
-  <meta property="og:title" content="Authors | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/ervqa/">
+  <meta property="og:title" content="ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments | Somak Aditya">
+  <meta property="og:description" content="The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs."><meta property="og:image" content="https://adityasomak.github.io/publication/ervqa/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/ervqa/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-09-20T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2024-09-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-09-20T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/ervqa/"
+  },
+  "headline": "ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/ervqa/featured.png"
+  ],
+  
+  "datePublished": "2024-09-20T00:00:00Z",
+  "dateModified": "2024-09-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sourjyadip Ray"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Authors | Somak Aditya</title>
+  <title>ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,88 +488,348 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+
+
+<div class="article-container pt-3">
+  <h1>ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments</h1>
 
   
 
   
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/sourjyadip-ray/">Sourjyadip Ray</a></span>, <span><a href="/authors/kushal-gupta/">Kushal Gupta</a></span>, <span><a href="/authors/soumi-kundu/">Soumi Kundu</a></span>, <span><a href="/authors/dr-payal-arvind-kasat/">Dr Payal Arvind Kasat</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>, <span><a href="/authors/pawan-goyal/">Pawan Goyal</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/ervqa/&amp;text=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/ervqa/&amp;t=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments&amp;body=https://adityasomak.github.io/publication/ervqa/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/ervqa/&amp;title=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments%20https://adityasomak.github.io/publication/ervqa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/ervqa/&amp;title=ERVQA:%20A%20Dataset%20to%20Benchmark%20the%20Readiness%20of%20Large%20Vision%20Language%20Models%20in%20Hospital%20Environments" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=TfBbI5xicm" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 430px;">
+  <div style="position: relative">
+    <img src="/publication/ervqa/featured_huc73c535c70c0b876df05bee7e63aa4ea_925839_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/yiannis-aloimonos/">Yiannis Aloimonos</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/aaratis/">Aarati Shah</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/abhinandanm/">Abhinandan Mondal</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/abhinavm/">Abhinav Menon</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/adityab/">Soni Aditya Bharatbhai</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/aritrad/">Aritra Dutta</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/aryanb/">Aryan Bibhuti</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/ayushm/">Ayush Munot</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/daivik/">Daivik Agarwal</a></li>
-    
-      
-      <li><a href="https://adityasomak.github.io/authors/dakshv/">Swarup Padhi</a></li>
-    
-  </ul>
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/authors/page/6/">&laquo;</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/8/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In EMNLP 2024 Main</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 <image, question, answer> triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs. By developing a detailed error taxonomy and analyzing answer trends, we reveal the nuanced nature of the task. We benchmark state-of-the-art open-source and closed LVLMs using traditional and adapted VQA metrics: Entailment Score and CLIPScore Confidence. Analyzing errors across models, we infer trends based on properties like decoder type, model size, and in-context examples. Our findings suggest the ERVQA dataset presents a highly complex task, highlighting the need for specialized, domain-specific solutions.</p>
 </div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/sourjyadip-ray/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 

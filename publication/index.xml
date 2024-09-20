@@ -5,12 +5,30 @@
     <link>https://adityasomak.github.io/publication/</link>
       <atom:link href="https://adityasomak.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://adityasomak.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs</title>
+      <link>https://adityasomak.github.io/publication/codeprompting/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/codeprompting/</guid>
+      <description>&lt;p&gt;Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. Our experiments find that code prompts exhibit a performance boost between 2.6 and 7.7 points on GPT 3.5 across multiple datasets requiring conditional reasoning. We then conduct experiments to discover how code prompts elicit conditional reasoning abilities and through which features. We observe that prompts need to contain natural language text accompanied by high-quality code that closely represents the semantics of the instance text. Furthermore, we show that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments</title>
+      <link>https://adityasomak.github.io/publication/ervqa/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/ervqa/</guid>
+      <description>&lt;p&gt;The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 &lt;image, question, answer&gt; triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs. By developing a detailed error taxonomy and analyzing answer trends, we reveal the nuanced nature of the task. We benchmark state-of-the-art open-source and closed LVLMs using traditional and adapted VQA metrics: Entailment Score and CLIPScore Confidence. Analyzing errors across models, we infer trends based on properties like decoder type, model size, and in-context examples. Our findings suggest the ERVQA dataset presents a highly complex task, highlighting the need for specialized, domain-specific solutions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning</title>
@@ -34,15 +52,6 @@ over AQuA, MMLU-Math, and higher level complex questions in MATH). The code and 
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/promptinj/</guid>
       <description>&lt;p&gt;Recent explorations with commercial Large Language Models (LLMs) have shown that non-expert users can jailbreak LLMs by simply manipulating the prompts; resulting in degenerate output behavior, privacy and security breaches, offensive outputs, and violations of content regulator policies. Limited formal studies have been carried out to formalize and analyze these attacks and their mitigations. We bridge this gap by proposing a formalism and a taxonomy of known (and possible) jailbreaks. We perform a survey of existing jailbreak methods and their effectiveness on open-source and commercial LLMs (such as GPT 3.5, OPT, BLOOM, and FLAN-T5-xxl). We further propose a limited set of prompt guards and discuss their effectiveness against known attack types.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs</title>
-      <link>https://adityasomak.github.io/publication/codeprompting/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/codeprompting/</guid>
-      <description>&lt;p&gt;Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. Our experiments find that code prompts exhibit a performance boost between 2.6 and 7.7 points on GPT 3.5 across multiple datasets requiring conditional reasoning. We then conduct experiments to discover how code prompts elicit conditional reasoning abilities and through which features. We observe that prompts need to contain natural language text accompanied by high-quality code that closely represents the semantics of the instance text. Furthermore, we show that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.&lt;/p&gt;
 </description>
     </item>
     
