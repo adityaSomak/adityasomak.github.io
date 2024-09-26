@@ -31,6 +31,21 @@
     </item>
     
     <item>
+      <title>Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text</title>
+      <link>https://adityasomak.github.io/publication/text2afford/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/text2afford/</guid>
+      <description>&lt;p&gt;We investigate the knowledge of object affordances in pre-trained language models
+(LMs) and pre-trained Vision-Language models (VLMs). A growing body of literature
+shows that PTLMs fail inconsistently and nonintuitively, demonstrating a lack of reasoning
+and grounding. To take a first step toward quantifying the effect of grounding (or lack thereof),
+we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances. Experimental results reveal that PTLMs exhibit limited reasoning abilities when it comes to uncommon object affordances. We also observe that pretrained VLMs do not necessarily capture object affordances effectively. Through few-shot fine-tuning, we demonstrate improvement in affordance knowledge in PTLMs and VLMs.
+Our research contributes a novel dataset for language grounding tasks, and presents insights
+into LM capabilities, advancing the understanding of object affordances.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>STUCK IN THE QUICKSAND OF NUMERACY, FAR FROM AGI SUMMIT: EVALUATING LLMS&#39; MATHEMATICAL COMPETENCY THROUGH ONTOLOGY-GUIDED PERTURBATIONS</title>
       <link>https://adityasomak.github.io/publication/more24/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>

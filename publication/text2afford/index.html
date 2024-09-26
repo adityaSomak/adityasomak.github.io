@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="We investigate the knowledge of object affordances in pre-trained language models (LMs) and pre-trained Vision-Language models (VLMs). A growing body of literature shows that PTLMs fail inconsistently and nonintuitively, demonstrating a lack of reasoning and grounding. To take a first step toward quantifying the effect of grounding (or lack thereof), we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/text2afford/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/tags/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/text2afford/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/tags/">
-  <meta property="og:title" content="Tags | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/text2afford/">
+  <meta property="og:title" content="Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text | Somak Aditya">
+  <meta property="og:description" content="We investigate the knowledge of object affordances in pre-trained language models (LMs) and pre-trained Vision-Language models (VLMs). A growing body of literature shows that PTLMs fail inconsistently and nonintuitively, demonstrating a lack of reasoning and grounding. To take a first step toward quantifying the effect of grounding (or lack thereof), we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances."><meta property="og:image" content="https://adityasomak.github.io/publication/text2afford/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/text2afford/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-08-31T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2024-09-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-09-20T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/text2afford/"
+  },
+  "headline": "Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/text2afford/featured.png"
+  ],
+  
+  "datePublished": "2024-09-20T00:00:00Z",
+  "dateModified": "2024-09-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sayantan Adak"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "We investigate the knowledge of object affordances in pre-trained language models (LMs) and pre-trained Vision-Language models (VLMs). A growing body of literature shows that PTLMs fail inconsistently and nonintuitively, demonstrating a lack of reasoning and grounding. To take a first step toward quantifying the effect of grounding (or lack thereof), we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Tags | Somak Aditya</title>
+  <title>Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,124 +488,356 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text</h1>
+
+  
+
   
 
 
 
-
-
-
-
-
-
-
-
-
-  
+<div class="article-metadata">
 
   
   
   
+  
+  <div>
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
-
-  
-
-  
-</div>
 
 
 
-<div class="universal-wrapper">
+  
+  <span><a href="/authors/sayantan-adak/">Sayantan Adak</a></span>, <span><a href="/authors/daivik-agarwal/">Daivik Agarwal</a></span>, <span><a href="/authors/animesh-mukherjee/">Animesh Mukherjee</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>
+
+  </div>
+  
   
 
   
-  
-  <div>
-    <h2><a href="/tags/common-sense/">common-sense</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/deep-learning/">deep-learning</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/logic/">Logic</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/probabilistic-logic/">Probabilistic Logic</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/psl/">PSL</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/atp/">ATP</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/symbolic/">symbolic</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/transformers/">transformers</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/knowledge-acqusition/">Knowledge Acqusition</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/tags/nlp/">NLP</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
+  <span class="article-date">
     
     
-    <li class="page-item"><a class="page-link" href="/tags/page/2/">&raquo;</a></li>
+      
+    
+    September 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/text2afford/&amp;text=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/text2afford/&amp;t=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text&amp;body=https://adityasomak.github.io/publication/text2afford/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/text2afford/&amp;title=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text%20https://adityasomak.github.io/publication/text2afford/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/text2afford/&amp;title=Text2Afford:%20Probing%20Object%20Affordance%20Prediction%20abilities%20of%20Language%20Models%20solely%20from%20Text" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2402.12881" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+  
+  
+  
+  <a class="bx-tag-vision"  href="/project/vision/">
+    vision
+  </a>
+  
+
+
 
 
 </div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 590px; max-height: 472px;">
+  <div style="position: relative">
+    <img src="/publication/text2afford/featured.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In CONLL 2024 Main</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>We investigate the knowledge of object affordances in pre-trained language models
+(LMs) and pre-trained Vision-Language models (VLMs). A growing body of literature
+shows that PTLMs fail inconsistently and nonintuitively, demonstrating a lack of reasoning
+and grounding. To take a first step toward quantifying the effect of grounding (or lack thereof),
+we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances. Experimental results reveal that PTLMs exhibit limited reasoning abilities when it comes to uncommon object affordances. We also observe that pretrained VLMs do not necessarily capture object affordances effectively. Through few-shot fine-tuning, we demonstrate improvement in affordance knowledge in PTLMs and VLMs.
+Our research contributes a novel dataset for language grounding tasks, and presents insights
+into LM capabilities, advancing the understanding of object affordances.</p>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/sayantan-adak/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
