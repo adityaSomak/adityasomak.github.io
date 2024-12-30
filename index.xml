@@ -5,12 +5,20 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>CS60078 Complex Networks (Spring 2024)</title>
+      <link>https://adityasomak.github.io/courses/cnspring24/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/cnspring24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs</title>

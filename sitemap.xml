@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://adityasomak.github.io/courses/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/courses/cnspring24/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://adityasomak.github.io/publication_types/3/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
   </url>
@@ -74,11 +89,6 @@
   
   <url>
     <loc>https://adityasomak.github.io/authors/sayantan-adak/</loc>
-    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityasomak.github.io/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -190,11 +200,6 @@
   <url>
     <loc>https://adityasomak.github.io/publication/more24/</loc>
     <lastmod>2024-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adityasomak.github.io/courses/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -705,10 +710,6 @@
   </url>
   
   <url>
-    <loc>https://adityasomak.github.io/authors/dakshv/</loc>
-  </url>
-  
-  <url>
     <loc>https://adityasomak.github.io/authors/debrupd/</loc>
   </url>
   
@@ -734,6 +735,10 @@
   
   <url>
     <loc>https://adityasomak.github.io/authors/swapnanil/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adityasomak.github.io/authors/swarupp/</loc>
   </url>
   
   <url>

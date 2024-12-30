@@ -5,12 +5,20 @@
     <link>https://adityasomak.github.io/courses/</link>
       <atom:link href="https://adityasomak.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Courses</title>
       <link>https://adityasomak.github.io/courses/</link>
     </image>
+    
+    <item>
+      <title>CS60078 Complex Networks (Spring 2024)</title>
+      <link>https://adityasomak.github.io/courses/cnspring24/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/cnspring24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS60092 Information Retrieval (Spring 2024)</title>
