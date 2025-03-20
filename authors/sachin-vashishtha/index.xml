@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sachin Vashishtha | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/sachin-vashishtha/</link>
+      <atom:link href="https://adityasomak.github.io/authors/sachin-vashishtha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sachin Vashishtha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Sachin Vashishtha</title>
+      <link>https://adityasomak.github.io/authors/sachin-vashishtha/</link>
+    </image>
+    
+    <item>
+      <title>SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation</title>
+      <link>https://adityasomak.github.io/publication/smab/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/smab/</guid>
+      <description>&lt;p&gt;To understand the complexity of sequence classification tasks, Hahn et al. (2021) proposed sensitivity as the number of disjoint subsets of the input sequence that can each be individually changed to change the output. Though effective, calculating sensitivity at scale using this framework is costly because of exponential time complexity. Therefore, we introduce a Sensitivity-based Multi-Armed Bandit framework (SMAB), which provides a scalable approach for calculating word-level local (sentence-level) and global (aggregated) sensitivities concerning an underlying text classifier for any dataset. We establish the effectiveness of our approach through various applications. We perform a case study on CHECKLIST generated sentiment analysis dataset where we show that our algorithm indeed captures intuitively high and low-sensitive words. Through experiments on multiple tasks and languages, we show that sensitivity can serve as a proxy for accuracy in the absence of gold data. Lastly, we show that guiding perturbation prompts using sensitivity values in adversarial example generation improves attack success rate by 15.58%, whereas using sensitivity as an additional reward in adversarial paraphrase generation gives a 12.00% improvement over SOTA approaches. Warning: Contains potentially offensive content.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
