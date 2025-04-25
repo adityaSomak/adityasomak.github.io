@@ -1355,14 +1355,14 @@ Experimental analysis of the answers and the key evidential predicates generated
       <description>&lt;p&gt;Models that claim to understand language, should also be able to demonstrate its abilities to reason across various dimensions. My present goal is to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;enhance&lt;/em&gt; and &lt;em&gt;explain&lt;/em&gt; the reasoning capabilities of such systems (or language models).&lt;/p&gt;
 
 &lt;p&gt;&lt;h4&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt; Reasoning in LLMs &lt;/h4&gt;
-Our group has invested significantly in advancing reasoning abilities of LLMs in a multi-hop setting. The following drafts are in progress: 1) DeSelect$^+$: Efficient Leaf Selection to Improve Entailment Tree Generation, 2) A comprehensive survey of Logical Reasoning abilities of Large Language Models alongwith a benchmark, and 3) Multi-step Logical Reasoning under Incomplete Knowledge.&lt;/p&gt;
+Our group has invested significantly in advancing reasoning abilities of LLMs in a multi-hop setting. The following drafts are in progress: 1) RelSelect$^+$: Efficient Leaf Selection to Improve Entailment Tree Generation, 2) LogicPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization (under review COLM 2025), and 3) Multi-step Logical Reasoning under Incomplete Knowledge.&lt;/p&gt;
 
 &lt;p&gt;References
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/2401.10065.pdf&#34; target=&#34;_blank&#34;&gt;Code Prompting Elicits Conditional Reasoning Abilities
 in Text+Code LLMs&lt;/a&gt;,  Haritz Puerto&lt;sup&gt;1&lt;/sup&gt;, Martin Tutek&lt;sup&gt;1&lt;/sup&gt;, Somak Aditya&lt;sup&gt;2&lt;/sup&gt;, Xiaodan Zhu&lt;sup&gt;1,3&lt;/sup&gt;, Iryna Gurevych&lt;sup&gt;1&lt;/sup&gt;
 &lt;sup&gt;1&lt;/sup&gt;Ubiquitous Knowledge Processing Lab (UKP Lab),TU Darmstadt and Hessian Center for AI (hessian.AI)
-&lt;sup&gt;2&lt;/sup&gt;IIT Kharagpur, &lt;sup&gt;2&lt;/sup&gt;Queen’s University, &lt;em&gt;ArXiv Jan 2024&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
+&lt;sup&gt;2&lt;/sup&gt;IIT Kharagpur, &lt;sup&gt;2&lt;/sup&gt;Queen’s University, &lt;em&gt;EMNLP 2024 (Main)&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt; &lt;a href=&#34;https://arxiv.org/pdf/2310.00836.pdf&#34; target=&#34;_blank&#34;&gt;Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing
 Logical Reasoning Capabilities of Language Models&lt;/a&gt;, Man Luo&lt;sup&gt;1,2&lt;em&gt;&lt;/sup&gt;,  Shrinidhi Kumbhar&lt;sup&gt;1&lt;/em&gt;&lt;/sup&gt;, Ming shen,&lt;sup&gt;1&lt;/sup&gt; Mihir Parmar&lt;sup&gt;1&lt;/sup&gt;, Neeraj Varshney&lt;sup&gt;1&lt;/sup&gt;, Pratyay Banerjee&lt;sup&gt;3&lt;/sup&gt;, Somak Aditya&lt;sup&gt;4&lt;/sup&gt;, Chitta Baral&lt;sup&gt;1&lt;/sup&gt;, &lt;sup&gt;1&lt;/sup&gt;Arizona State University, &lt;sup&gt;2&lt;/sup&gt;Mayo Clinic, &lt;sup&gt;3&lt;/sup&gt;Amazon Alexa AI, &lt;sup&gt;4&lt;/sup&gt;IIT KGP &lt;em&gt;ArXiv Nov 2023&lt;/em&gt; &lt;span style=&#34;color:red&#34;&gt;!!NEW!!&lt;/span&gt;
