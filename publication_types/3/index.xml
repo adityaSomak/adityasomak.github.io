@@ -5,12 +5,24 @@
     <link>https://adityasomak.github.io/publication_types/3/</link>
       <atom:link href="https://adityasomak.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>3</title>
       <link>https://adityasomak.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>STUCK IN THE QUICKSAND OF NUMERACY, FAR FROM AGI SUMMIT: EVALUATING LLMS&#39; MATHEMATICAL COMPETENCY THROUGH ONTOLOGY-GUIDED PERTURBATIONS</title>
+      <link>https://adityasomak.github.io/publication/more24/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/more24/</guid>
+      <description>&lt;p&gt;Recent advancements in Large Language Models (LLMs) have showcased striking results on existing logical reasoning benchmarks, with some models even surpassing human performance. However, the true depth of their competencies and robustness, in mathematical reasoning tasks, remains an open question. In response, we develop (i) an ontology of perturbations of maths questions, (ii) a semi-automatic method of perturbation, and (iii) a dataset of perturbed maths questions
+to probe the limits of LLM capabilities in mathematical-reasoning tasks.
+These controlled perturbations span across multiple fine dimensions of the structural and representational aspects of maths questions. Using GPT-4, we generated the &lt;span style=&#34;font-variant-caps: small-caps&#34;&gt;More&lt;/span&gt; dataset by perturbing randomly selected five seed questions from GSM8K. This process was guided by our ontology and involved a thorough automatic and manual filtering process, yielding a set of 216 maths problems.
+We conducted comprehensive evaluation of both closed-source and open-source LLMs on &lt;span style=&#34;font-variant-caps: small-caps&#34;&gt;More&lt;/span&gt;. The results show a significant performance drop across all the models against the perturbed questions. This strongly suggests that current LLMs lack robust mathematical skills and a deep understanding of reasoning. This research not only identifies multiple gaps in the capabilities of current models, but also highlights multiple potential directions for future development. Our dataset will be made publicly available at &lt;a href=&#34;https://huggingface.co/datasets/declare-lab/GSM8k_MORE&#34;&gt;huggingface library&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation</title>
@@ -51,18 +63,6 @@ and grounding. To take a first step toward quantifying the effect of grounding (
 we curate a novel and comprehensive dataset of object affordances – TEXT2AFFORD, characterized by 15 affordance classes. Unlike affordance datasets collected in vision and language domains, we annotate in-the-wild sentences with objects and affordances. Experimental results reveal that PTLMs exhibit limited reasoning abilities when it comes to uncommon object affordances. We also observe that pretrained VLMs do not necessarily capture object affordances effectively. Through few-shot fine-tuning, we demonstrate improvement in affordance knowledge in PTLMs and VLMs.
 Our research contributes a novel dataset for language grounding tasks, and presents insights
 into LM capabilities, advancing the understanding of object affordances.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>STUCK IN THE QUICKSAND OF NUMERACY, FAR FROM AGI SUMMIT: EVALUATING LLMS&#39; MATHEMATICAL COMPETENCY THROUGH ONTOLOGY-GUIDED PERTURBATIONS</title>
-      <link>https://adityasomak.github.io/publication/more24/</link>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/more24/</guid>
-      <description>&lt;p&gt;Recent advancements in Large Language Models (LLMs) have showcased striking results on existing logical reasoning benchmarks, with some models even surpassing human performance. However, the true depth of their competencies and robustness, in mathematical reasoning tasks, remains an open question. In response, we develop (i) an ontology of perturbations of maths questions, (ii) a semi-automatic method of perturbation, and (iii) a dataset of perturbed maths questions
-to probe the limits of LLM capabilities in mathematical-reasoning tasks.
-These controlled perturbations span across multiple fine dimensions of the structural and representational aspects of maths questions. Using GPT-4, we generated the &lt;span style=&#34;font-variant-caps: small-caps&#34;&gt;More&lt;/span&gt; dataset by perturbing randomly selected five seed questions from GSM8K. This process was guided by our ontology and involved a thorough automatic and manual filtering process, yielding a set of 216 maths problems.
-We conducted comprehensive evaluation of both closed-source and open-source LLMs on &lt;span style=&#34;font-variant-caps: small-caps&#34;&gt;More&lt;/span&gt;. The results show a significant performance drop across all the models against the perturbed questions. This strongly suggests that current LLMs lack robust mathematical skills and a deep understanding of reasoning. This research not only identifies multiple gaps in the capabilities of current models, but also highlights multiple potential directions for future development. Our dataset will be made publicly available at &lt;a href=&#34;https://huggingface.co/datasets/declare-lab/GSM8k_MORE&#34;&gt;huggingface library&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

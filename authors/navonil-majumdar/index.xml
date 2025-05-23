@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/navonil-majumdar/</link>
       <atom:link href="https://adityasomak.github.io/authors/navonil-majumdar/index.xml" rel="self" type="application/rss+xml" />
     <description>Navonil Majumdar</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Navonil Majumdar</title>
@@ -15,7 +15,7 @@
     <item>
       <title>STUCK IN THE QUICKSAND OF NUMERACY, FAR FROM AGI SUMMIT: EVALUATING LLMS&#39; MATHEMATICAL COMPETENCY THROUGH ONTOLOGY-GUIDED PERTURBATIONS</title>
       <link>https://adityasomak.github.io/publication/more24/</link>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/more24/</guid>
       <description>&lt;p&gt;Recent advancements in Large Language Models (LLMs) have showcased striking results on existing logical reasoning benchmarks, with some models even surpassing human performance. However, the true depth of their competencies and robustness, in mathematical reasoning tasks, remains an open question. In response, we develop (i) an ontology of perturbations of maths questions, (ii) a semi-automatic method of perturbation, and (iii) a dataset of perturbed maths questions
 to probe the limits of LLM capabilities in mathematical-reasoning tasks.
