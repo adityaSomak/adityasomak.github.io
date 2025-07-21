@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Logical reasoning is a key task for artificial intelligence due to it’s role in major downstream tasks such as Question Answering, Summarization. Recent neurosymbolic methods in improving the reasoning ability of Large Language Models (LLM) fall short in correctly converting a natural language reasoning problem to an equivalent logical formulation, which hinders the framework’s overall ability to reason. Towards this, we propose to use finetuning on a preference optimization dataset to learn to translate a natural language reasoning problem in its entirety to a consistent logical program by 1) introducing a new supervised and preference optimization dataset (LOGICPO), and 2) adopting popular techniques such as Direct Preference Optimization (DPO), Kahneman-Tversky optimization (KTO) to finetune open-source LLMs.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://adityasomak.github.io/publication/logicpo25/">
 
   
 
@@ -106,49 +106,98 @@
 
 
   
-  <link rel="alternate" href="/publication_types/1/index.xml" type="application/rss+xml" title="Somak Aditya">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://adityasomak.github.io/publication_types/1/">
+  <link rel="canonical" href="https://adityasomak.github.io/publication/logicpo25/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Somak Aditya">
-  <meta property="og:url" content="https://adityasomak.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | Somak Aditya">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://adityasomak.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://adityasomak.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://adityasomak.github.io/publication/logicpo25/">
+  <meta property="og:title" content="LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization | Somak Aditya">
+  <meta property="og:description" content="Logical reasoning is a key task for artificial intelligence due to it’s role in major downstream tasks such as Question Answering, Summarization. Recent neurosymbolic methods in improving the reasoning ability of Large Language Models (LLM) fall short in correctly converting a natural language reasoning problem to an equivalent logical formulation, which hinders the framework’s overall ability to reason. Towards this, we propose to use finetuning on a preference optimization dataset to learn to translate a natural language reasoning problem in its entirety to a consistent logical program by 1) introducing a new supervised and preference optimization dataset (LOGICPO), and 2) adopting popular techniques such as Direct Preference Optimization (DPO), Kahneman-Tversky optimization (KTO) to finetune open-source LLMs."><meta property="og:image" content="https://adityasomak.github.io/publication/logicpo25/featured.png">
+  <meta property="twitter:image" content="https://adityasomak.github.io/publication/logicpo25/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2025-05-16T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2025-06-23T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2025-06-23T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adityasomak.github.io/publication/logicpo25/"
+  },
+  "headline": "LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization",
+  
+  "image": [
+    "https://adityasomak.github.io/publication/logicpo25/featured.png"
+  ],
+  
+  "datePublished": "2025-06-23T00:00:00Z",
+  "dateModified": "2025-06-23T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Koushik Viswanadha"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Somak Aditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adityasomak.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Logical reasoning is a key task for artificial intelligence due to it’s role in major downstream tasks such as Question Answering, Summarization. Recent neurosymbolic methods in improving the reasoning ability of Large Language Models (LLM) fall short in correctly converting a natural language reasoning problem to an equivalent logical formulation, which hinders the framework’s overall ability to reason. Towards this, we propose to use finetuning on a preference optimization dataset to learn to translate a natural language reasoning problem in its entirety to a consistent logical program by 1) introducing a new supervised and preference optimization dataset (LOGICPO), and 2) adopting popular techniques such as Direct Preference Optimization (DPO), Kahneman-Tversky optimization (KTO) to finetune open-source LLMs."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>1 | Somak Aditya</title>
+  <title>LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization | Somak Aditya</title>
 
 </head>
 
@@ -339,7 +388,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -439,135 +488,362 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
+
+
+<div class="article-container pt-3">
+  <h1>LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization</h1>
 
   
 
   
-</div>
 
 
 
-<div class="universal-wrapper">
-  
+<div class="article-metadata">
 
   
   
-  <div>
-    <h2><a href="/publication/crosslingual/">Analyzing the Effects of Reasoning Types on Cross-Lingual Transfer Performance</a></h2>
-    <div class="article-style">
-      
-      Multilingual language models achieve impressive zero-shot accuracies in many languages in complex tasks such as Natural Language Inference (NLI). Examples in NLI (and equivalent complex tasks) often pertain to various types of sub-tasks, requiring different kinds of reasoning. Certain types of reasoning have proven to be more difficult to learn in a monolingual context, and in the crosslingual context, similar observations may shed light on zero-shot transfer efficiency and few-shot sample selection.
-      
-    </div>
-  </div>
+  
   
   <div>
-    <h2><a href="/publication/polysimp/">Analyzing the Nuances of Transformers&#39; Polynomial Simplification Abilities</a></h2>
-    <div class="article-style">
-      
-      Symbolic Mathematical tasks such as integration often require multiple welldefined steps and understanding of sub-tasks to reach a solution. To understand Transformers’ abilities in such tasks in a fine-grained manner, we deviate from traditional end-to-end settings, and explore a step-wise polynomial simplification task. Polynomials can be written in a simple normal form as a sum of monomials which are ordered in a lexicographic order. For a polynomial which is not necessarily in this normal form, a sequence of simplification steps is applied to reach the fully simplified (i.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/taxinli/">TaxiNLI: Taking a Ride up the NLU Hill</a></h2>
-    <div class="article-style">
-      
-      Pre-trained Transformer-based neural architectures have consistently achieved state-of-the-art performance in the Natural Language Inference (NLI) task. Since NLI examples encompass a variety of linguistic, logical, and reasoning phenomena, it remains unclear as to which specific concepts are learnt by the trained systems and where they can achieve strong generalization. To investigate this question, we propose a taxonomic hierarchy of categories that are relevant for the NLI task. We introduce TAXINLI, a new dataset, that has 10k examples from the MNLI dataset (Williams et al.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/makrstarai/">Uncovering Relations for Marketing Knowledge Representation</a></h2>
-    <div class="article-style">
-      
-      Online behaviors of consumers and marketers generate massive marketing data, which ever more sophisticated models attempt to turn into insights and aid decisions by marketers. Yet, in making decisions human managers bring to bear marketing knowledge which reside outside of data and models. Thus, it behooves creation of an automated marketing knowledge base that can interact with data and models. Currently, marketing knowledge is dispersed in large corpora, but no definitive knowledge base for marketing exists.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/integratingsurvey/">Integrating Knowledge and Reasoning in Image Understanding</a></h2>
-    <div class="article-style">
-      
-      Deep learning based data-driven approaches have been successfully applied in various image under- standing applications ranging from object recognition, semantic segmentation to visual question an- swering. However, the lack of knowledge integration as well as higher-level reasoning capabilities with the methods still pose a hindrance. In this work, we present a brief survey of a few represen- tative reasoning mechanisms, knowledge integration methods and their corresponding image under- standing applications developed by various groups of researchers, approaching the problem from a va- riety of angles.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/spatialkd/">Spatial Knowledge Distillation to aid Visual Reasoning</a></h2>
-    <div class="article-style">
-      
-      For tasks involving language and vision, the current state-of-the-art methods do not leverage any additional information that might be present to gather privileged knowledge. Instead, such an ability is expected to be learnt during the training phase. One such task is Visual Question Answering, where large diagnostic datasets have been proposed to test a system’s capability of reasoning and answering questions about images. In this work, we take a step towards integrating this additional privileged information in the form of spatial knowledge to aid in visual reasoning.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/pslvqa/">Explicit Reasoning over End-to-End Neural Architectures</a></h2>
-    <div class="article-style">
-      
-      Many vision and language tasks require commonsense reasoning beyond data-driven image and natural language pro- cessing. Here we adopt Visual Question Answering (VQA) as an example task, where a system is expected to answer a question in natural language about an image. Current state-of-the-art systems attempted to solve the task using deep neural architectures and achieved promising performance. However, the resulting systems are generally opaque and they struggle in understanding questions for which extra knowledge is required.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/kparser/">Towards Addressing the Winograd Schema Challenge-Building and Using a Semantic Parser and a Knowledge Hunting Module.</a></h2>
-    <div class="article-style">
-      
-      Concerned about the Turing test’s ability to correctly evaluate if a system exhibits human-like intelligence, the Winograd Schema Challenge (WSC) has been proposed as an alternative. A Winograd Schema consists of a sentence and a question. The answers to the questions are intuitive for humans but are designed to be difficult for machines, as they require various forms of commonsense knowledge about the sentence. In this paper we demonstrate our progress towards addressing the WSC.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/common-sense/">Visual common-sense for scene understanding using perception, semantic parsing and reasoning.</a></h2>
-    <div class="article-style">
-      
-      In this paper we explore the use of visual commonsense knowledge and other kinds of knowledge (such as domain knowledge, background knowledge, linguistic knowledge) for scene understanding. In particular, we combine visual processing with techniques from natural language understanding (especially semantic parsing), common-sense reasoning and knowledge representation and reasoning to improve visual perception to reason about finer aspects of activities
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
-    <li class="page-item"><a class="page-link" href="/publication_types/1/">&laquo;</a></li>
+
+
+
+  
+  <span><a href="/authors/koushik-viswanadha/">Koushik Viswanadha</a></span>, <span><a href="/authors/deepanway-ghoshal/">Deepanway Ghoshal</a></span>, <span><a href="/authors/somak-aditya/">Somak Aditya</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
     
+    
+      
+    
+    June 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://adityasomak.github.io/publication/logicpo25/&amp;text=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://adityasomak.github.io/publication/logicpo25/&amp;t=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization&amp;body=https://adityasomak.github.io/publication/logicpo25/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://adityasomak.github.io/publication/logicpo25/&amp;title=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization%20https://adityasomak.github.io/publication/logicpo25/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://adityasomak.github.io/publication/logicpo25/&amp;title=LOGICPO:%20Efficient%20Translation%20of%20NL-based%20Logical%20Problems%20to%20FOL%20using%20LLMs%20and%20Preference%20Optimization" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2506.18383" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/goku80903/LogicPO" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  <a class="bx-tag-nlp"  href="/project/nlp/">
+    nlp
+  </a>
+  
+
+  
+  
+  
+  <a class="bx-tag-neurosymbolic"  href="/project/neurosymbolic/">
+    neurosymbolic
+  </a>
+  
+
+
 
 
 </div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 392px;">
+  <div style="position: relative">
+    <img src="/publication/logicpo25/featured_hu6ffc62ca6fad4d310bf9c6203d7e62c4_1076504_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>ArXiv</em> 2025</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>Logical reasoning is a key task for artificial intelligence due to it’s role in major downstream tasks such as Question Answering, Summarization. Recent neurosymbolic methods in improving the reasoning ability of Large Language Models (LLM) fall short in correctly converting a natural language reasoning problem to an equivalent logical formulation, which hinders the framework’s overall ability to reason. Towards this, we propose to use finetuning on a preference optimization dataset to learn to translate a natural language reasoning problem in its entirety to a consistent logical program by 1) introducing a new supervised and preference optimization dataset (LOGICPO), and 2) adopting popular techniques such as Direct Preference Optimization (DPO), Kahneman-Tversky optimization (KTO) to finetune open-source LLMs. Our best model with QWEN-2.5 (14B) consistently outperforms GPT-4’s (8-shot) by producing 6% more logically correct and with 8% less syntax errors. We show that translating problems as a whole significantly surpasses sentence-wise text to First order Logic (FOL) baselines. We further explicitly discuss the categories of errors that
+our framework addresses (and does not address), in the context of recent
+comparable Neurosymbolic provers.</p>
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/koushik-viswanadha/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 

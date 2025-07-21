@@ -5,12 +5,20 @@
     <link>https://adityasomak.github.io/courses/</link>
       <atom:link href="https://adityasomak.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Courses</title>
       <link>https://adityasomak.github.io/courses/</link>
     </image>
+    
+    <item>
+      <title>CS60050 Machine Learning (Autumn 2025)</title>
+      <link>https://adityasomak.github.io/courses/mlaut25/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/mlaut25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS60078 Complex Networks (Spring 2024)</title>

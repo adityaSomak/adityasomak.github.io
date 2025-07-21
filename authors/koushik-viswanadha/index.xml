@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koushik Viswanadha | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/koushik-viswanadha/</link>
+      <atom:link href="https://adityasomak.github.io/authors/koushik-viswanadha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Koushik Viswanadha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Koushik Viswanadha</title>
+      <link>https://adityasomak.github.io/authors/koushik-viswanadha/</link>
+    </image>
+    
+    <item>
+      <title>LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs and Preference Optimization</title>
+      <link>https://adityasomak.github.io/publication/logicpo25/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/logicpo25/</guid>
+      <description>&lt;p&gt;Logical reasoning is a key task for artificial intelligence due to it’s role in major downstream tasks such as Question Answering, Summarization. Recent neurosymbolic methods in improving the reasoning ability of Large Language Models (LLM) fall short in correctly converting a natural language reasoning problem to an equivalent logical formulation, which hinders the framework’s overall ability to reason. Towards this, we propose to use finetuning on a preference optimization dataset to learn to translate a natural language reasoning problem in its entirety to a consistent logical program by 1) introducing a new supervised and preference optimization dataset (LOGICPO), and 2) adopting popular techniques such as Direct Preference Optimization (DPO), Kahneman-Tversky optimization (KTO) to finetune open-source LLMs. Our best model with QWEN-2.5 (14B) consistently outperforms GPT-4’s (8-shot) by producing 6% more logically correct and with 8% less syntax errors. We show that translating problems as a whole significantly surpasses sentence-wise text to First order Logic (FOL) baselines. We further explicitly discuss the categories of errors that
+our framework addresses (and does not address), in the context of recent
+comparable Neurosymbolic provers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

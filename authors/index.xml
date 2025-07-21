@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,8 +15,24 @@
     <item>
       <title>Deepanway Ghoshal</title>
       <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koushik Viswanadha</title>
+      <link>https://adityasomak.github.io/authors/koushik-viswanadha/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/koushik-viswanadha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
@@ -41,14 +57,6 @@
       <link>https://adityasomak.github.io/authors/rada-mihalcea/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/rada-mihalcea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
