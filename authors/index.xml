@@ -5,7 +5,7 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,58 @@
     </image>
     
     <item>
+      <title>Aritra Dutta</title>
+      <link>https://adityasomak.github.io/authors/aritra-dutta/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/aritra-dutta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deepanway Ghoshal</title>
       <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swapnanil Mukherjee</title>
+      <link>https://adityasomak.github.io/authors/swapnanil-mukherjee/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/swapnanil-mukherjee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pawan Goyal</title>
+      <link>https://adityasomak.github.io/authors/pawan-goyal/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/pawan-goyal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shubham Sharma</title>
+      <link>https://adityasomak.github.io/authors/shubham-sharma/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/shubham-sharma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sourjyadip Ray</title>
+      <link>https://adityasomak.github.io/authors/sourjyadip-ray/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/sourjyadip-ray/</guid>
       <description></description>
     </item>
     
@@ -25,14 +73,6 @@
       <link>https://adityasomak.github.io/authors/koushik-viswanadha/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/koushik-viswanadha/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
@@ -149,14 +189,6 @@
     </item>
     
     <item>
-      <title>Pawan Goyal</title>
-      <link>https://adityasomak.github.io/authors/pawan-goyal/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/pawan-goyal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sayantan Adak</title>
       <link>https://adityasomak.github.io/authors/sayantan-adak/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
@@ -169,14 +201,6 @@
       <link>https://adityasomak.github.io/authors/soumi-kundu/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/soumi-kundu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sourjyadip Ray</title>
-      <link>https://adityasomak.github.io/authors/sourjyadip-ray/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/sourjyadip-ray/</guid>
       <description></description>
     </item>
     

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sourjyadip Ray | Somak Aditya</title>
-    <link>https://adityasomak.github.io/authors/sourjyadip-ray/</link>
-      <atom:link href="https://adityasomak.github.io/authors/sourjyadip-ray/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sourjyadip Ray</description>
+    <title>Shubham Sharma | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/shubham-sharma/</link>
+      <atom:link href="https://adityasomak.github.io/authors/shubham-sharma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shubham Sharma</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>Sourjyadip Ray</title>
-      <link>https://adityasomak.github.io/authors/sourjyadip-ray/</link>
+      <title>Shubham Sharma</title>
+      <link>https://adityasomak.github.io/authors/shubham-sharma/</link>
     </image>
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/eduvidqa/</guid>
       <description>&lt;p&gt;As digital platforms redefine educational paradigms, ensuring interactivity remains vital for effective learning. This paper explores using Multimodal Large Language Models (MLLMs) to automatically respond to student questions from online lectures - a novel question answering task of real world significance. We introduce the EduVidQA Dataset with 5252 question-answer pairs (both synthetic and real-world) from 296 computer science videos covering diverse topics and difficulty levels. To understand the needs of the dataset and task evaluation, we empirically study the qualitative preferences of students, which we provide as an important contribution to this line of work. Our benchmarking experiments consist of 6 state-of-the-art MLLMs, through which we study the effectiveness of our synthetic data for finetuning, as well as showing the challenging nature of the task. We evaluate the models using both text-based and qualitative metrics, thus showing a nuanced perspective of the models&amp;rsquo; performance, which is paramount to future work. This work not only sets a benchmark for this important problem, but also opens exciting avenues for future research in the field of Natural Language Processing for Education.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments</title>
-      <link>https://adityasomak.github.io/publication/ervqa/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/ervqa/</guid>
-      <description>&lt;p&gt;The global shortage of healthcare workers has demanded the development of smart healthcare assistants, which can help monitor and alert healthcare workers when necessary. We examine the healthcare knowledge of existing Large Vision Language Models (LVLMs) via the Visual Question Answering (VQA) task in hospital settings through expert annotated open-ended questions. We introduce the Emergency Room Visual Question Answering (ERVQA) dataset, consisting of 790 &lt;image, question, answer&gt; triplets covering diverse emergency room scenarios, a seminal benchmark for LVLMs. By developing a detailed error taxonomy and analyzing answer trends, we reveal the nuanced nature of the task. We benchmark state-of-the-art open-source and closed LVLMs using traditional and adapted VQA metrics: Entailment Score and CLIPScore Confidence. Analyzing errors across models, we infer trends based on properties like decoder type, model size, and in-context examples. Our findings suggest the ERVQA dataset presents a highly complex task, highlighting the need for specialized, domain-specific solutions.&lt;/p&gt;
 </description>
     </item>
     

@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/authors/pawan-goyal/</link>
       <atom:link href="https://adityasomak.github.io/authors/pawan-goyal/index.xml" rel="self" type="application/rss+xml" />
     <description>Pawan Goyal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Pawan Goyal</title>
       <link>https://adityasomak.github.io/authors/pawan-goyal/</link>
     </image>
+    
+    <item>
+      <title>EduVidQA: Generating and Evaluating Long-form Answers to Student Questions based on Lecture Videos</title>
+      <link>https://adityasomak.github.io/publication/eduvidqa/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/eduvidqa/</guid>
+      <description>&lt;p&gt;As digital platforms redefine educational paradigms, ensuring interactivity remains vital for effective learning. This paper explores using Multimodal Large Language Models (MLLMs) to automatically respond to student questions from online lectures - a novel question answering task of real world significance. We introduce the EduVidQA Dataset with 5252 question-answer pairs (both synthetic and real-world) from 296 computer science videos covering diverse topics and difficulty levels. To understand the needs of the dataset and task evaluation, we empirically study the qualitative preferences of students, which we provide as an important contribution to this line of work. Our benchmarking experiments consist of 6 state-of-the-art MLLMs, through which we study the effectiveness of our synthetic data for finetuning, as well as showing the challenging nature of the task. We evaluate the models using both text-based and qualitative metrics, thus showing a nuanced perspective of the models&amp;rsquo; performance, which is paramount to future work. This work not only sets a benchmark for this important problem, but also opens exciting avenues for future research in the field of Natural Language Processing for Education.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ERVQA: A Dataset to Benchmark the Readiness of Large Vision Language Models in Hospital Environments</title>

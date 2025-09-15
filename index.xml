@@ -5,12 +5,36 @@
     <link>https://adityasomak.github.io/</link>
       <atom:link href="https://adityasomak.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Somak Aditya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Somak Aditya</title>
       <link>https://adityasomak.github.io/</link>
     </image>
+    
+    <item>
+      <title>NLKI: A lightweight Natural Language Knowledge Integration Framework for improving small VLMs in Commonsense VQA tasks</title>
+      <link>https://adityasomak.github.io/publication/nlki/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/nlki/</guid>
+      <description>&lt;p&gt;Commonsense visual–question answering often hinges on knowledge that is missing from
+the image or the question. Small visionlanguage models (sVLMs) such as ViLT, VisualBERT and FLAVA therefore lag behind their larger generative counterparts. To study the effect of careful commonsense knowledge integration on sVLMs, we present an end-to-end framework (NLKI) that (i) retrieves natural language facts, (ii) prompts an LLM to craft natural language explanations, and (iii) feeds both signals to sVLMs respectively across two commonsense VQA datasets (CRIC, AOKVQA)
+and a visual-entailment dataset (e-SNLI-VE). Facts retrieved using a fine-tuned ColBERTv2
+and an object information-enriched prompt yield explanations that largely cut down hallucinations, while lifting the end-to-end answer accuracy by up to 7% (across 3 datasets), making FLAVA and other models in NLKI match or exceed medium-sized VLMs such as Qwen-2VL-2B and SmolVLM-2.5B. As these benchmarks contain 10–25% label noise, additional finetuning using noise-robust losses (such as symmetric cross entropy and generalised cross entropy) adds another 2.5% in CRIC, and 5.5%
+in AOKVQA. Our findings expose when LLMbased commonsense knowledge beats retrieval
+from commonsense knowledge bases, how noise-aware training stabilises small models
+in the context of external knowledge augmentation, and why parameter-efficient commonsense reasoning is now within reach for 250M models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EduVidQA: Generating and Evaluating Long-form Answers to Student Questions based on Lecture Videos</title>
+      <link>https://adityasomak.github.io/publication/eduvidqa/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/eduvidqa/</guid>
+      <description>&lt;p&gt;As digital platforms redefine educational paradigms, ensuring interactivity remains vital for effective learning. This paper explores using Multimodal Large Language Models (MLLMs) to automatically respond to student questions from online lectures - a novel question answering task of real world significance. We introduce the EduVidQA Dataset with 5252 question-answer pairs (both synthetic and real-world) from 296 computer science videos covering diverse topics and difficulty levels. To understand the needs of the dataset and task evaluation, we empirically study the qualitative preferences of students, which we provide as an important contribution to this line of work. Our benchmarking experiments consist of 6 state-of-the-art MLLMs, through which we study the effectiveness of our synthetic data for finetuning, as well as showing the challenging nature of the task. We evaluate the models using both text-based and qualitative metrics, thus showing a nuanced perspective of the models&amp;rsquo; performance, which is paramount to future work. This work not only sets a benchmark for this important problem, but also opens exciting avenues for future research in the field of Natural Language Processing for Education.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CS60050 Machine Learning (Autumn 2025)</title>
