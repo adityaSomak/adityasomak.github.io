@@ -5,12 +5,21 @@
     <link>https://adityasomak.github.io/authors/animesh-mukherjee/</link>
       <atom:link href="https://adityasomak.github.io/authors/animesh-mukherjee/index.xml" rel="self" type="application/rss+xml" />
     <description>Animesh Mukherjee</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Animesh Mukherjee</title>
       <link>https://adityasomak.github.io/authors/animesh-mukherjee/</link>
     </image>
+    
+    <item>
+      <title>AURA: Affordance-Understanding and Risk-aware Alignment Technique for Large Language Models</title>
+      <link>https://adityasomak.github.io/publication/aura/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/aura/</guid>
+      <description>&lt;p&gt;Present day LLMs face the challenge of managing affordance-based safety risks—situations where outputs inadvertently facilitate harmful actions due to overlooked logical implications. Traditional safety solutions, such as scalar outcome-based reward models, parameter tuning, or heuristic decoding strategies, lack the granularity and proactive nature needed to reliably detect and intervene during subtle yet crucial reasoning steps. Addressing this fundamental gap, we introduce AURA, an innovative, multi-layered framework centered around Process Reward Models (PRMs), providing comprehensive, step level evaluations across logical coherence and safety-awareness. Our framework seamlessly combines introspective self-critique, fine-grained PRM assessments, and adaptive safety-aware decoding to dynamically and proactively guide models toward safer reasoning trajectories. Empirical evidence clearly demonstrates that this approach significantly surpasses existing methods, significantly improving the logical integrity and affordance-sensitive safety of model outputs. This research represents a pivotal step toward safer, more responsible, and contextually aware AI, setting a new benchmark for alignment-sensitive applications.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Text2Afford: Probing Object Affordance Prediction abilities of Language Models solely from Text</title>

@@ -5,12 +5,92 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://adityasomak.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Aryan Bibhuti</title>
+      <link>https://adityasomak.github.io/authors/aryan-bibhuti/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/aryan-bibhuti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atharva Naik</title>
+      <link>https://adityasomak.github.io/authors/atharva-naik/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/atharva-naik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Tutek</title>
+      <link>https://adityasomak.github.io/authors/martin-tutek/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/martin-tutek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sachin Vashistha</title>
+      <link>https://adityasomak.github.io/authors/sachin-vashistha/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/sachin-vashistha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animesh Mukherjee</title>
+      <link>https://adityasomak.github.io/authors/animesh-mukherjee/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/animesh-mukherjee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pratyush Chatterjee</title>
+      <link>https://adityasomak.github.io/authors/pratyush-chatterjee/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/pratyush-chatterjee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rima Hazra</title>
+      <link>https://adityasomak.github.io/authors/rima-hazra/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/rima-hazra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sayantan Adak</title>
+      <link>https://adityasomak.github.io/authors/sayantan-adak/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/sayantan-adak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somnath Banerjee</title>
+      <link>https://adityasomak.github.io/authors/somnath-banerjee/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somnath-banerjee/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aritra Dutta</title>
@@ -25,14 +105,6 @@
       <link>https://adityasomak.github.io/authors/deepanway-ghoshal/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/deepanway-ghoshal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
@@ -133,14 +205,6 @@
     </item>
     
     <item>
-      <title>Animesh Mukherjee</title>
-      <link>https://adityasomak.github.io/authors/animesh-mukherjee/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/animesh-mukherjee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Daivik Agarwal</title>
       <link>https://adityasomak.github.io/authors/daivik-agarwal/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
@@ -177,22 +241,6 @@
       <link>https://adityasomak.github.io/authors/kushal-gupta/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/kushal-gupta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Martin Tutek</title>
-      <link>https://adityasomak.github.io/authors/martin-tutek/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/martin-tutek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sayantan Adak</title>
-      <link>https://adityasomak.github.io/authors/sayantan-adak/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/sayantan-adak/</guid>
       <description></description>
     </item>
     

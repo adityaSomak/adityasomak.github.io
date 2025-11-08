@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Martin Tutek | Somak Aditya</title>
-    <link>https://adityasomak.github.io/authors/martin-tutek/</link>
-      <atom:link href="https://adityasomak.github.io/authors/martin-tutek/index.xml" rel="self" type="application/rss+xml" />
-    <description>Martin Tutek</description>
+    <title>Aryan Bibhuti | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/aryan-bibhuti/</link>
+      <atom:link href="https://adityasomak.github.io/authors/aryan-bibhuti/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aryan Bibhuti</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
-      <title>Martin Tutek</title>
-      <link>https://adityasomak.github.io/authors/martin-tutek/</link>
+      <title>Aryan Bibhuti</title>
+      <link>https://adityasomak.github.io/authors/aryan-bibhuti/</link>
     </image>
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/publication/pragworld/</guid>
       <description>&lt;p&gt;Real-world conversations are rich with pragmatic elements, such as entity mentions, references, and implicatures. Understanding such nuances is a requirement for successful natural communication, and often requires building a local world model which encodes such elements and captures the dynamics of their evolving states. However, it is not well-understood whether language models (LMs) construct or maintain a robust implicit representation of conversations. In this work, we evaluate the ability of LMs to encode and update their internal world model in dyadic conversations and test their malleability under linguistic alterations. To facilitate this, we apply seven minimal linguistic alterations to conversations sourced from popular datasets and construct two benchmarks comprising yes-no questions. We evaluate a wide range of open and closed source LMs and observe that they struggle to maintain robust accuracy. Our analysis unveils that LMs struggle to memorize crucial details, such as tracking entities under linguistic alterations to conversations. We then propose a dual-perspective interpretability framework which identifies transformer layers that are useful or harmful and highlights linguistic alterations most influenced by harmful layers, typically due to encoding spurious signals or relying on shortcuts. Inspired by these insights, we propose two layer-regularization based fine-tuning strategies that suppress the effect of the harmful layers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Code Prompting Elicits Conditional Reasoning Abilities in Text&#43; Code LLMs</title>
-      <link>https://adityasomak.github.io/publication/codeprompting/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/publication/codeprompting/</guid>
-      <description>&lt;p&gt;Reasoning is a fundamental component for achieving language understanding. Among the multiple types of reasoning, conditional reasoning, the ability to draw different conclusions depending on some condition, has been understudied in large language models (LLMs). Recent prompting methods, such as chain of thought, have significantly improved LLMs on reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs. We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. Our experiments find that code prompts exhibit a performance boost between 2.6 and 7.7 points on GPT 3.5 across multiple datasets requiring conditional reasoning. We then conduct experiments to discover how code prompts elicit conditional reasoning abilities and through which features. We observe that prompts need to contain natural language text accompanied by high-quality code that closely represents the semantics of the instance text. Furthermore, we show that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.&lt;/p&gt;
 </description>
     </item>
     
