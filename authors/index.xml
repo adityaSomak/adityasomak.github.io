@@ -5,12 +5,44 @@
     <link>https://adityasomak.github.io/authors/</link>
       <atom:link href="https://adityasomak.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://adityasomak.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Ishan Sahu</title>
+      <link>https://adityasomak.github.io/authors/ishan-sahu/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/ishan-sahu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somak Aditya</title>
+      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somnath Hazra</title>
+      <link>https://adityasomak.github.io/authors/somnath-hazra/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/somnath-hazra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soumyajit Dey</title>
+      <link>https://adityasomak.github.io/authors/soumyajit-dey/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/authors/soumyajit-dey/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aryan Bibhuti</title>
@@ -41,14 +73,6 @@
       <link>https://adityasomak.github.io/authors/sachin-vashistha/</link>
       <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://adityasomak.github.io/authors/sachin-vashistha/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Somak Aditya</title>
-      <link>https://adityasomak.github.io/authors/somak-aditya/</link>
-      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://adityasomak.github.io/authors/somak-aditya/</guid>
       <description></description>
     </item>
     
