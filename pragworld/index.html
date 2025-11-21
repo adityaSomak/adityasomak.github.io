@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PRAGWORLD: Evaluating LLMs' Local World Model</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PRAGWORLD: A Benchmark Evaluating LLMs' Local World Model" />
+  <meta property="og:description" content="Benchmarking LLMs' ability to encode and update internal world models under minimal linguistic alterations." />
+  <meta property="og:type" content="website" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg fixed-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#top"><i class="bi bi-chat-dots"></i> PRAGWORLD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#abstract">Abstract</a></li>
+          <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a></li>
+          <li class="nav-item"><a class="nav-link" href="#analysis">Analysis</a></li>
+          <li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bibtex">BibTeX</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7" data-aos="fade-up">
+          <h1 class="display-5 fw-bold lh-tight mb-3">PRAGWORLD: A Benchmark Evaluating LLMs' Local World Model under Minimal Linguistic Alterations</h1>
+          <p class="lead text-muted mb-4">
+            Do Large Language Models maintain a robust implicit representation of conversations? We test their malleability under linguistic alterations and conversational dynamics.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <a class="badge-link" href="https://arxiv.org/abs/2511.13021" target="_blank"><span class="badge rounded-pill text-bg-danger py-2 px-3"><i class="bi bi-file-pdf me-1"></i> Paper (arXiv)</span></a>
+            <a class="badge-link" href="https://github.com/SachinVashisth/PRAGWORLD" target="_blank"><span class="badge rounded-pill text-bg-dark py-2 px-3"><i class="bi bi-github me-1"></i> Code & Data</span></a>
+            <!-- Placeholder for AAAI/Conference link if applicable later -->
+             <span class="badge rounded-pill text-bg-primary py-2 px-3"><i class="bi bi-award me-1"></i> AAAI 2026</span>
+          </div>
+
+          <div class="author small">
+            <div class="mb-2">
+                <span class="me-3"><a href="#">Sachin Vashistha</a><sup>1</sup></span>
+                <span class="me-3"><a href="#">Aryan Bibhuti</a><sup>1</sup></span>
+                <span class="me-3"><a href="#">Atharva Naik</a></span>
+            </div>
+            <div>
+                <span class="me-3"><a href="#">Martin Tutek</a><sup>3</sup></span>
+                <span class="me-3"><a href="#">Somak Aditya</a><sup>1</sup></span>
+            </div>
+            <div class="text-muted mt-3 fst-italic">
+                1. IIT Kharagpur &nbsp;&bull;&nbsp; 2. LTI, Carnegie Mellon University &nbsp;&bull;&nbsp; 3. University of Zagreb
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="teaser p-2 bg-white shadow-sm rounded" data-aos="zoom-in" data-aos-delay="100">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/fig-1.webp">
+              <img src="assets/fig-1.webp" alt="Figure 1: Example alteration" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Abstract -->
+  <section id="abstract" class="section-spacer" data-aos="fade-up">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="h3 mb-4 text-center">Abstract</h2>
+            <p class="fs-6 text-secondary text-justify" style="line-height: 1.8;">
+                Real-world conversations are rich with pragmatic elements, such as entity mentions, references, and implicatures. Understanding such nuances is a requirement for successful natural communication and often requires building a local world model which encodes such elements and captures the dynamics of their evolving states. However, it is not well-understood whether language models (LMs) construct or maintain a robust implicit representation of conversations. In this work, we evaluate the ability of LMs to encode and update their internal world model in dyadic conversations and test their malleability under linguistic alterations. To facilitate this, we apply <strong>seven minimal linguistic alterations</strong> to conversations sourced from popular conversational QA datasets and construct a benchmark with two variants (i.e., Manual and Synthetic) comprising yes-no questions. We evaluate nine open and one closed source LMs and observe that they struggle to maintain robust accuracy. Our analysis unveils that LMs struggle to memorize crucial details, such as tracking entities under linguistic alterations. We then propose a dual-perspective interpretability framework which identifies transformer layers that are useful or harmful and highlights linguistic alterations most influenced by harmful layers. Inspired by these insights, we propose two layer-regularization based fine-tuning strategies (<strong>ULA & HLS</strong>) that suppress the effect of the harmful layers.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section id="highlights" class="section-spacer" data-aos="fade-up">
+    <div class="container">
+      <h2 class="h3 mb-5 text-center">Key Contributions</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="mini-card h-100 text-center">
+            <i class="bi bi-globe-americas highlight-icon"></i>
+            <div class="fw-bold mb-2">Malleability Benchmark</div>
+            <div class="text-muted small">Evaluating the ability of LMs to encode and update their internal world models in dynamic, dyadic conversations.</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="mini-card h-100 text-center">
+            <i class="bi bi-pencil-square highlight-icon"></i>
+            <div class="fw-bold mb-2">Minimal Alterations</div>
+            <div class="text-muted small">7 minimal linguistic alterations (e.g., Negation, Variable Swap, Quantity Change) to test robustness.</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="mini-card h-100 text-center">
+            <i class="bi bi-search highlight-icon"></i>
+            <div class="fw-bold mb-2">Interpretability</div>
+            <div class="text-muted small">Dual-perspective framework using Direct Effect Patching and MLP zero-out ablation to find harmful/useful layers.</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="mini-card h-100 text-center">
+            <i class="bi bi-sliders highlight-icon"></i>
+            <div class="fw-bold mb-2">Regularization</div>
+            <div class="text-muted small">Proposed Useful Layer Amplification (ULA) and Harmful Layer Suppression (HLS) to improve robustness.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis / Methodology -->
+  <section id="analysis" class="section-spacer">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h2 class="h3 mb-3">Dual-Perspective Interpretability</h2>
+          <p>To understand where LMs fail, we designed a framework using <strong>Direct Effect Patching</strong> and <strong>MLP Zero-out Ablation</strong>. This allowed us to trace performance issues to fragility in entity state tracking by identifying specific transformer layers that encode useful or harmful reasoning patterns.</p>
+          <ul class="list-unstyled mt-4">
+            <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Useful Layers:</strong> Encoding valid state updates.</li>
+            <li class="mb-3"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Harmful Layers:</strong> Encoding spurious signals or shortcuts.</li>
+            <li class="mb-3"><i class="bi bi-arrow-right-circle-fill text-primary me-2"></i> <strong>Insight:</strong> LMs often struggle to track entities under alterations, relying on shallow heuristics.</li>
+          </ul>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="mini-card">
+            <div class="row g-2 align-items-center">
+                <div class="col-6">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/fig-3-a.webp">
+                      <img src="assets/fig-3-a.webp" alt="Figure 3a: Direct Effect Probing" class="img-fluid rounded">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/fig-3-b.webp">
+                      <img src="assets/fig-3-b.webp" alt="Figure 3b: MLP Zero-out Ablation" class="img-fluid rounded">
+                    </a>
+                </div>
+            </div>
+            <div class="text-center small text-muted mt-2">Direct Effect Patching (left) and MLP Zero-out (right) reveals confidence shifts. (Figure 3)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center mt-5">
+         <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+            <h2 class="h3 mb-3">Regularization Strategies</h2>
+            <p>Based on our interpretability insights, we propose two novel fine-tuning strategies:</p>
+            <ol>
+                <li><strong>Useful Layer Amplification (ULA):</strong> Attaches a classification head to useful layers to reinforce their signals.</li>
+                <li><strong>Harmful Layer Suppression (HLS):</strong> Applies an L2 penalty to the MLP output of harmful layers to dampen spurious correlations.</li>
+            </ol>
+            <p class="text-muted small">These strategies significantly improve robustness towards the proposed linguistic alterations.</p>
+         </div>
+         <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+            <div class="mini-card">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/fig-5.webp">
+                  <img src="assets/fig-5.webp" alt="Figure 5: Effect of HLS and ULA on Accuracy" class="img-fluid rounded">
+                </a>
+               <div class="text-center small text-muted mt-2">Regularization helps suppress the effect of harmful layers. (Figure 5)</div>
+             </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Data Distribution / Figure 2 -->
+    <section id="distribution" class="section-spacer bg-white" data-aos="fade-up">
+        <div class="container">
+            <h2 class="h3 mb-4 text-center">Dataset Distribution</h2>
+            <p class="text-center text-muted mb-5">We constructed the PRAGWORLD benchmark by applying 7 types of minimal linguistic alterations to seed conversations.</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="teaser p-3">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/fig-2.webp">
+                          <img src="assets/fig-2.webp" alt="Figure 2: Dataset Distribution" class="img-fluid rounded">
+                        </a>
+                        <div class="text-center small text-muted mt-2">Distribution of the 7 linguistic alterations in the PRAGWORLD benchmark. (Figure 2)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Results -->
+  <section id="results" class="section-spacer">
+    <div class="container">
+      <h2 class="h3 mb-4">Experimental Results</h2>
+      <div class="row g-4">
+        <!-- Result Card 1 -->
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="mini-card">
+            <h5 class="fw-bold mb-3">Model Performance (Robust Accuracy)</h5>
+            <div class="placeholder-img mb-3" style="min-height: 200px; background: #fff; border: none;">
+                 <!-- Table 1 Placeholder -->
+                 <div class="table-responsive w-100">
+                    <table class="table table-sm table-hover small text-start">
+                        <thead class="table-light">
+                            <tr><th>Model</th><th>Robust Acc</th><th>Yes Acc</th><th>No Acc</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>GPT-3.5</td><td>42.86</td><td>52.71</td><td>93.72</td></tr>
+                            <tr><td>DeepSeek-Inst</td><td>46.94</td><td>77.26</td><td>70.85</td></tr>
+                            <tr><td>Phi-3.5-mini</td><td>48.98</td><td>66.06</td><td>86.10</td></tr>
+                            <tr><td>Llama-3.1-8B</td><td>48.98</td><td>54.87</td><td>94.62</td></tr>
+                            <tr><td>Qwen2.5-7B</td><td>37.76</td><td>47.65</td><td>95.96</td></tr>
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+            <div class="small text-muted">Subset of results from <strong>Table 1</strong> (Manual Split). Models struggle to maintain robust accuracy across alterations.</div>
+          </div>
+        </div>
+
+        <!-- Result Card 2 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="mini-card">
+            <h5 class="fw-bold mb-3">Effect of Fine-Tuning</h5>
+             <!-- Table 2 Placeholder logic/image -->
+            <div class="placeholder-img mb-3" style="min-height: 200px; background: #fff; border: none;">
+                <div class="table-responsive w-100">
+                    <table class="table table-sm table-hover small text-start">
+                        <thead class="table-light">
+                            <tr><th>Model</th><th>Base Robust</th><th>Finetuned Robust</th><th>Gain</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Phi-3.5-mini</td><td>48.98</td><td>52.04</td><td>+3.06%</td></tr>
+                            <tr><td>Llama-3.1-8B</td><td>48.98</td><td>59.18</td><td>+10.2%</td></tr>
+                            <tr><td>Qwen2.5-1.5B</td><td>22.45</td><td>47.96</td><td>+25.51%</td></tr>
+                            <tr><td>Qwen2.5-7B</td><td>37.76</td><td>55.10</td><td>+17.34%</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="small text-muted">Subset of results from <strong>Table 2</strong>. Fine-tuning on the synthetic split significantly improves robustness.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Datasets -->
+  <section id="resources" class="section-spacer" data-aos="fade-up">
+    <div class="container">
+      <h2 class="h3 mb-3">The Benchmark</h2>
+      <p class="text-muted mb-4">We introduce PRAGWORLD, comprising two variants sourced from GRICE and CICERO datasets.</p>
+      <div class="table-responsive">
+        <table class="table align-middle table-bordered bg-white">
+          <thead class="table-light">
+            <tr>
+              <th>Dataset Variant</th>
+              <th>Source</th>
+              <th>Total Conversations</th>
+              <th>Features</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>PRAGWORLD (Manual)</strong></td>
+              <td>GRICE & CICERO</td>
+              <td>500</td>
+              <td>Manually annotated & reviewed. High quality alterations.</td>
+            </tr>
+            <tr>
+              <td><strong>PRAGWORLD (Synthetic)</strong></td>
+              <td>GRICE & CICERO</td>
+              <td>2114</td>
+              <td>Generated via GPT-4 semi-automatic pipeline + deterministic alterations.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="row g-3 mt-4">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="mini-card d-flex align-items-center justify-content-between">
+            <div>
+              <div class="fw-bold"><i class="bi bi-file-earmark-text me-1"></i> Paper</div>
+              <div class="small text-muted">Read the full paper on arXiv.</div>
+            </div>
+            <a class="btn btn-sm btn-primary" href="https://arxiv.org/abs/2511.13021" target="_blank">View PDF</a>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="mini-card d-flex align-items-center justify-content-between">
+            <div>
+              <div class="fw-bold"><i class="bi bi-github me-1"></i> Code & Data</div>
+              <div class="small text-muted">Access the benchmark and scripts.</div>
+            </div>
+            <a class="btn btn-sm btn-dark" href="https://github.com/SachinVashisth/PRAGWORLD" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BibTeX -->
+  <section id="bibtex" class="section-spacer" data-aos="fade-up">
+    <div class="container">
+      <h2 class="h3 mb-3">Citation</h2>
+        <pre class="code"><code>@article{vashistha2025pragworld,
+    title={PRAGWORLD: A Benchmark Evaluating LLMs' Local World Model under Minimal Linguistic Alterations and Conversational Dynamics},
+    author={Vashistha, Sachin and Bibhuti, Aryan and Naik, Atharva and Tutek, Martin and Aditya, Somak},
+    journal={arXiv preprint arXiv:2511.13021},
+    year={2025}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section-spacer">
+    <div class="container">
+      <h2 class="h3 mb-5" data-aos="fade-up">The Team</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="mini-card text-center">
+            <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center bg-light text-secondary" style="width:80px;height:80px;font-size: 1.5rem;">
+                SV
+            </div>
+            <div class="fw-bold">Sachin Vashistha</div>
+            <div class="text-muted small mb-2">IIT Kharagpur</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="mini-card text-center">
+            <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center bg-light text-secondary" style="width:80px;height:80px;font-size: 1.5rem;">
+                AB
+            </div>
+            <div class="fw-bold">Aryan Bibhuti</div>
+            <div class="text-muted small mb-2">IIT Kharagpur</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="mini-card text-center">
+            <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center bg-light text-secondary" style="width:80px;height:80px;font-size: 1.5rem;">
+                AN
+            </div>
+            <div class="fw-bold">Atharva Naik</div>
+            <div class="text-muted small mb-2">Researcher</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="mini-card text-center">
+              <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center bg-light text-secondary" style="width:80px;height:80px;font-size: 1.5rem;">
+                  MT
+              </div>
+              <div class="fw-bold">Martin Tutek</div>
+              <div class="text-muted small mb-2">University of Zagreb</div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="mini-card text-center">
+              <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center bg-light text-secondary" style="width:80px;height:80px;font-size: 1.5rem;">
+                  SA
+              </div>
+              <div class="fw-bold">Somak Aditya</div>
+              <div class="text-muted small mb-2">IIT Kharagpur</div>
+              <a class="small text-decoration-none" href="https://adityasomak.github.io/" target="_blank"><i class="bi bi-link-45deg me-1"></i>Homepage</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="row mt-5" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-lg-8 mx-auto text-center">
+            <p class="small text-muted mb-0">If you use our code or ideas, please cite the paper above. Thanks!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md">
+          <div class="small">© <span id="year"></span> PRAGWORLD Authors.</div>
+        </div>
+        <div class="col-md text-md-end small">
+          <a href="#top" class="me-3"><i class="bi bi-arrow-up-circle me-1"></i> Back to top</a>
+          <a href="https://arxiv.org/abs/2511.13021" target="_blank" class="me-3"><i class="bi bi-file-earmark-text me-1"></i> Paper</a>
+          <a href="https://github.com/SachinVashisth/PRAGWORLD" target="_blank"><i class="bi bi-github me-1"></i> Code</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta">
+    <a class="btn btn-primary rounded-pill shadow" href="https://github.com/SachinVashisth/PRAGWORLD" target="_blank"><i class="bi bi-github me-2"></i>Get Data</a>
+  </div>
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body p-0 text-center">
+          <img id="modalImage" src="" class="img-fluid" alt="Enlarged view">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>
