@@ -5,12 +5,28 @@
     <link>https://adityasomak.github.io/courses/</link>
       <atom:link href="https://adityasomak.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>Courses</title>
       <link>https://adityasomak.github.io/courses/</link>
     </image>
+    
+    <item>
+      <title>CS60078 Complex Networks (Spring 2025-26)</title>
+      <link>https://adityasomak.github.io/courses/cnspring2526/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/cnspring2526/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS60218 Foundations of AI Reasoning (Spring 2025-26)</title>
+      <link>https://adityasomak.github.io/courses/fairspring26/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/courses/fairspring26/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS60050 Machine Learning (Autumn 2025)</title>
