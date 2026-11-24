@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>MuCRASP: Multimodal Chain-of-thought Reasoning aware Structured Pruning</title>
+      <link>https://adityasomak.github.io/publication/mucrasp/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/mucrasp/</guid>
+      <description>&lt;p&gt;Vision-language models (VLMs) increasingly rely on chain-of-thought (CoT) reasoning to solve complex multimodal tasks, but their large parameter sizes make deployment expensive. Structured pruning offers a natural solution; however, existing methods fail to preserve CoT reasoning accuracy in VLMs. We identify two key reasons: (1) CoT consistency depends on sparse transition points (pivot tokens) in the generation trajectory, while existing pruning methods are CoT-agnostic; and (2) pruning methods designed for unimodal LLMs do not account for activation-distribution differences across visual and textual modalities. Motivated by these observations, we propose MuCRASP, a structured pruning framework that targets reasoning-critical components while preserving cross-modal alignment and accounting for layer-wise sensitivity under a global parameter budget. Experiments on four VLMs across three reasoning benchmarks show that MuCRASP consistently preserves reasoning quality under increasing compression. At 30% pruning on Qwen2.5-VL-7B, MuCRASP achieves an LLM-as-a-Judge score of 8.87 versus 7.32 for the strongest baseline on physical reasoning tasks. Furthermore, MuCRASP maintains high reasoning consistency up to 50% pruning, significantly outperforming prior pruning approaches while exhibiting lower perplexity degradation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AFGNN: API misuse detection using graph neural networks and clustering</title>
+      <link>https://adityasomak.github.io/publication/afgnn/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/afgnn/</guid>
+      <description>&lt;p&gt;Application Programming Interfaces (APIs) are crucial to software development, enabling integration of existing systems with new applications by reusing tried and tested code, saving development time and increasing software safety. In particular, the Java standard library APIs, along with numerous third-party APIs, are extensively utilized in the development of enterprise application software. However, their misuse remains a significant source of bugs and vulnerabilities. Furthermore, due to the limited examples in the official API documentation, developers often rely on online portals and generative AI models to learn unfamiliar APIs, but using such examples may introduce unintentional errors in the software. In this paper, we present AFGNN, a novel Graph Neural Network (GNN)-based framework for efficiently detecting API misuses in Java code. AFGNN uses a novel API Flow Graph (AFG) representation that captures the API execution sequence, data, and control flow information present in the code to model the API usage patterns. AFGNN uses self-supervised pre-training with AFG representation to effectively compute the embeddings for unknown API usage examples and cluster them to identify different usage patterns. Experiments on popular API usage datasets show that AFGNN significantly outperforms state-of-the-art small language models and API misuse detectors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CS60078 Complex Networks (Spring 2025-26)</title>
       <link>https://adityasomak.github.io/courses/cnspring2526/</link>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>

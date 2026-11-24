@@ -5,12 +5,30 @@
     <link>https://adityasomak.github.io/publication_types/1/</link>
       <atom:link href="https://adityasomak.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://adityasomak.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://adityasomak.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>AFGNN: API misuse detection using graph neural networks and clustering</title>
+      <link>https://adityasomak.github.io/publication/afgnn/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/afgnn/</guid>
+      <description>&lt;p&gt;Application Programming Interfaces (APIs) are crucial to software development, enabling integration of existing systems with new applications by reusing tried and tested code, saving development time and increasing software safety. In particular, the Java standard library APIs, along with numerous third-party APIs, are extensively utilized in the development of enterprise application software. However, their misuse remains a significant source of bugs and vulnerabilities. Furthermore, due to the limited examples in the official API documentation, developers often rely on online portals and generative AI models to learn unfamiliar APIs, but using such examples may introduce unintentional errors in the software. In this paper, we present AFGNN, a novel Graph Neural Network (GNN)-based framework for efficiently detecting API misuses in Java code. AFGNN uses a novel API Flow Graph (AFG) representation that captures the API execution sequence, data, and control flow information present in the code to model the API usage patterns. AFGNN uses self-supervised pre-training with AFG representation to effectively compute the embeddings for unknown API usage examples and cluster them to identify different usage patterns. Experiments on popular API usage datasets show that AFGNN significantly outperforms state-of-the-art small language models and API misuse detectors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AD$^2$: Analysis and Detection of Adversarial Threats in Visual Perception for End-to-End Autonomous Driving Systems</title>
+      <link>https://adityasomak.github.io/publication/ad2ishan/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/ad2ishan/</guid>
+      <description>&lt;p&gt;End-to-end autonomous driving systems have achieved significant progress, yet their adversarial robustness remains largely underexplored. In this work, we conduct a closed-loop evaluation of state-of-the-art autonomous driving agents under black-box adversarial threat models in CARLA. Specifically, we consider three representative attack vectors on the visual perception pipeline: (i) a physics-based blur attack induced by acoustic waves, (ii) an electromagnetic interference attack that distorts captured images, and (iii) a digital attack that adds ghost objects as carefully crafted bounded perturbations on images. Our experiments on two advanced agents, Transfuser and Interfuser, reveal severe vulnerabilities to such attacks, with driving scores dropping by up to 99% in the worst case, raising valid safety concerns. To help mitigate such threats, we further propose a lightweight Attack Detection model for Autonomous Driving systems (AD$^2$) based on attention mechanisms that capture spatial–temporal consistency. Comprehensive experiments across multi-camera inputs on CARLA show that our detector achieves superior detection capability and computational efficiency compared to existing approaches.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PRAGWORLD: A Benchmark Evaluating LLMs&#39; Local World Model under Minimal Linguistic Alterations and Conversational Dynamics</title>

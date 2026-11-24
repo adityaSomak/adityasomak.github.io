@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ponnampalam Pirapuraj | Somak Aditya</title>
+    <link>https://adityasomak.github.io/authors/ponnampalam-pirapuraj/</link>
+      <atom:link href="https://adityasomak.github.io/authors/ponnampalam-pirapuraj/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ponnampalam Pirapuraj</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://adityasomak.github.io/img/icon-192.png</url>
+      <title>Ponnampalam Pirapuraj</title>
+      <link>https://adityasomak.github.io/authors/ponnampalam-pirapuraj/</link>
+    </image>
+    
+    <item>
+      <title>AFGNN: API misuse detection using graph neural networks and clustering</title>
+      <link>https://adityasomak.github.io/publication/afgnn/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://adityasomak.github.io/publication/afgnn/</guid>
+      <description>&lt;p&gt;Application Programming Interfaces (APIs) are crucial to software development, enabling integration of existing systems with new applications by reusing tried and tested code, saving development time and increasing software safety. In particular, the Java standard library APIs, along with numerous third-party APIs, are extensively utilized in the development of enterprise application software. However, their misuse remains a significant source of bugs and vulnerabilities. Furthermore, due to the limited examples in the official API documentation, developers often rely on online portals and generative AI models to learn unfamiliar APIs, but using such examples may introduce unintentional errors in the software. In this paper, we present AFGNN, a novel Graph Neural Network (GNN)-based framework for efficiently detecting API misuses in Java code. AFGNN uses a novel API Flow Graph (AFG) representation that captures the API execution sequence, data, and control flow information present in the code to model the API usage patterns. AFGNN uses self-supervised pre-training with AFG representation to effectively compute the embeddings for unknown API usage examples and cluster them to identify different usage patterns. Experiments on popular API usage datasets show that AFGNN significantly outperforms state-of-the-art small language models and API misuse detectors.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
